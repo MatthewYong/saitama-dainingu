@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
 /*----------------------------------Colors*/
+body{
+    background-color: #2A2A2A;
+    color: #fde3a7;
+}
 
-
+.navbar .nav-colour a{
+    color: #fde3a7;
+}
 
 
 
