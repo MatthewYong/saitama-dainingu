@@ -1,19 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
 /*----------------------------------Colors*/
 body{
     background-color: #2A2A2A;
     color: #fde3a7;
+    font-family:'Noto Serif JP', serif;
+    font-size: 22px;
 }
 
-.navbar .nav-colour a{
+.bg-nav-color{
+    background-color: #191919;
+}
+
+
+
+
+
+/*----------------------------------General spacing, padding & margins*/
+.container{
+    text-align: center;
+}
+
+
+
+/*----------------------------------Navigation menu*/
+#logo{
+    color: #fde3a7;
+    font-family: 'Kaushan Script', cursive, sans-serif;
+    font-size: 36px;    
+}
+#main-menu a{
+    text-transform: uppercase;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
     color: #fde3a7;
 }
 
+#main-menu a:hover{
+    color: #f8b751;
+}
 
+#main-menu li{
+    padding-left: 10px;
+}
 
-
-
+.mx-auto{
+    width: 50%;
 
 
 
