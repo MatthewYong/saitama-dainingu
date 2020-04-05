@@ -11,16 +11,14 @@ body{
     background-color: #191919;
 }
 
-
-
-
-
 /*----------------------------------General spacing, padding & margins*/
 .container{
     text-align: center;
 }
 
-
+.container-fluid{
+    text-align: center;
+}
 
 /*----------------------------------Navigation menu*/
 #main-menu-box{
@@ -54,7 +52,6 @@ body{
     }
 }
 
-
 /*----------------------------------Heading*/
 .carousel-image{
     height: 600px;
@@ -62,8 +59,7 @@ body{
 
 
 
-
-/*----------------------------------Background story*/
+/*----------------------------------Background story owner*/
 .background-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
@@ -81,7 +77,6 @@ h1{
     padding-top: 50px;
 }
    
-
 .background-owner{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
@@ -89,15 +84,22 @@ h1{
     padding-top: 50px;
 }
 
-
-
-
+#owner-image{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 
 
 
 
 /*----------------------------------Restaurant information*/
+.reservation-info{
+    color: #f5b745;
+    font-family:'Noto Serif JP', serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
 
 
 
