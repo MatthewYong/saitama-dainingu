@@ -64,7 +64,7 @@ body{
 
 
 /*----------------------------------Background story*/
-.background{
+.background-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
@@ -72,15 +72,25 @@ body{
 
 h1{
     text-transform: uppercase;
-    padding: 75px 0px 25px 0px;
+    padding: 100px 0px 25px 0px;
     border-bottom: 5px solid;
  
 }
 
-.background p{
+.background-heading p{
     padding-top: 50px;
 }
    
+
+.background-owner{
+    color: #f5b745;
+    font-family:'Noto Serif JP', serif;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+
+
 
 
 
