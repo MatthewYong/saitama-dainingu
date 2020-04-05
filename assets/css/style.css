@@ -5,9 +5,6 @@
 /*----------------------------------Colors*/
 body{
     background-color: #2A2A2A;
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif;
-    font-size: 22px;
 }
 
 .bg-nav-color{
@@ -26,23 +23,28 @@ body{
 
 
 /*----------------------------------Navigation menu*/
+#main-menu-box{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 #logo{
     color: #fde3a7;
     font-family: 'Kaushan Script', cursive, sans-serif;
     font-size: 36px;    
 }
-#main-menu a{
+#main-menu-text a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     color: #fde3a7;
 }
 
-#main-menu a:hover{
-    color: #f8b751;
+#main-menu-text a:hover{
+    color: #f5b745;
 }
 
-#main-menu li{
+#main-menu-text li{
     padding-left: 10px;
 }
 
@@ -53,27 +55,32 @@ body{
 }
 
 
-
-
-
 /*----------------------------------Heading*/
 .carousel-image{
     height: 600px;
-
 }
 
 
 
 
+/*----------------------------------Background story*/
+.background{
+    color: #f5b745;
+    font-family:'Noto Serif JP', serif;
+    font-size: 20px;
+}
 
+h1{
+    text-transform: uppercase;
+    padding: 75px 0px 25px 0px;
+    border-bottom: 5px solid;
+ 
+}
 
-
-/*----------------------------------Saitama story*/
-/*#saitama-image{
-    width: 200px;
-    height: 200px;
-}*/
-
+.background p{
+    padding-top: 50px;
+}
+   
 
 
 
