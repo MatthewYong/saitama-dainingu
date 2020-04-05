@@ -84,12 +84,24 @@ h1{
     padding-top: 50px;
 }
 
+.background-text{
+    padding: 50px;
+}
+
+.background-text h2{
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    border-bottom: 3px solid;
+}
+
+.background-text p{
+    padding-top: 25px;
+}
+
 #owner-image{
     padding-left: 0px;
     padding-right: 0px;
 }
-
-
 
 
 
@@ -98,9 +110,27 @@ h1{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
+.reservation-text{
+    padding: 50px;
+}
+
+.reservation-text h2{
+    text-transform: uppercase;
+    padding-bottom: 25px;
+    border-bottom: 3px solid;
+}
+
+.reservation-text p{
+    padding-top: 25px;
+}
+
+#setmenu-image{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 
 
 
