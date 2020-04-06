@@ -12,13 +12,7 @@ body{
 }
 
 /*----------------------------------General spacing, padding & margins*/
-.container{
-    text-align:;
-}
 
-.container-fluid{
-    text-align:;
-}
 
 /*----------------------------------Navigation menu*/
 #main-menu-box{
@@ -60,40 +54,42 @@ body{
 
 
 /*----------------------------------Background story owner*/
-.background-heading{
-    color: #f5b745;
-    font-family:'Noto Serif JP', serif;
-    font-size: 20px;
-}
-
 h1{
     text-transform: uppercase;
     padding: 80px 0px 25px 0px;
     border-bottom: 5px solid;
  }
 
-.background-heading p{
+.owner-info-heading{
+    color: #f5b745;
+    font-family:'Noto Serif JP', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.owner-info-heading p{
     padding-top: 50px;
 }
    
-.background-owner{
+.owner-info{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     padding-top: 160px;
 }
 
-.background-text{
+.owner-info-story{
     padding: 50px;
 }
 
-.background-text h2{
+.owner-info-story h2{
+    text-align: center;
     text-transform: uppercase;
     padding-bottom: 25px;
     border-bottom: 3px solid;
 }
 
-.background-text p{
+.owner-info-story p{
     padding-top: 25px;
 }
 
@@ -103,26 +99,26 @@ h1{
 }
 
 
-
 /*----------------------------------Reservation information*/
-.reservation-info{
+.reservation-info-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     padding-top: 0px;
 }
 
-.reservation-text{
+.reservation-info{
     padding: 50px;
 }
 
-.reservation-text h2{
+.reservation-info h2{
+    text-align: center;
     text-transform: uppercase;
     padding-bottom: 25px;
     border-bottom: 3px solid;
 }
 
-.reservation-text p{
+.reservation-info p{
     padding-top: 25px;
 }
 
@@ -137,7 +133,7 @@ h1{
     background-color: #202020;
     border-color: #bd8d32;
     font-family:'Noto Serif JP', serif;
-    font-size: 16px;
+    font-size: 16px;    
     padding:3px 25px 3px 25px;
 }
 
@@ -146,6 +142,11 @@ h1{
     border-color: #f5b745;
     color: #f5b745;
 }
+
+#menu-button{
+    text-align: center;
+}
+
 
 /*----------------------------------Contact form*/
 .contact-section{
