@@ -133,6 +133,26 @@ h1{
 }
 
 
+#reservation-menu-button{
+    color: #bd8d32;
+    background-color: #202020;
+    border-color: #bd8d32;
+    font-family:'Noto Serif JP', serif;
+    font-size: 16px;
+    padding:3px 25px 3px 25px;
+}
+
+#reservation-menu-button:hover{
+    background-color: #191919;
+    border-color: #fde3a7;
+    color: #fde3a7;
+
+
+
+}
+
+
+
 
 
 
