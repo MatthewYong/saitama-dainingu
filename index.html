@@ -73,18 +73,22 @@
 	<!--End Bootstrap carousel html code-->
 
 	<!--Start background story owner-->
-	<section class="container">
-		<div class="row">
-			<div class="col-12 background-heading">
-				<h1>
-					A Private Dining Experience
-				</h1>
-				<p>
-					With so many commercial Japanese restaurants over the world, it is hard to find a quiet place where
-					you can enjoy the authentic taste of Japan. At Saitama Dainingu you can close your eyes, hear the
-					sound of cooking, and smell the scent of the best ingredients being prepared for you by a highly
-					skilled chef.
-				</p>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 background-heading">
+					<h1>
+						A Private Dining Experience
+					</h1>
+					<p>
+						With so many commercial Japanese restaurants over the world, it is hard to find a quiet place
+						where
+						you can enjoy the authentic taste of Japan. At Saitama Dainingu you can close your eyes, hear
+						the
+						sound of cooking, and smell the scent of the best ingredients being prepared for you by a highly
+						skilled chef.
+					</p>
+				</div>
 			</div>
 		</div>
 	</section>
@@ -100,9 +104,8 @@
 						</h2>
 						<p>Saitama Genos, born 22 August 1970, is a Japanese MasterChef who worked and owned a
 							restaurant in Tokyo for more than 20 years. His creativity with food and strive for
-							perfection has earned him recognition in the culinary industry. In 2018 he sold his
+							perfection has earned him many awards and recognition in the culinary industry. <br>In 2018 he sold his
 							restaurant in Tokyo and moved to London to be closer to his family.
-							<br>
 								A year later he started
 								a new business in London to continue to share his passion and love for food with his
 								customers, this time by hosting private dining experience at his
@@ -151,16 +154,42 @@
 	</section>
 	<!--End reservation information and link to menu-->
 
+<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-12 contact-heading">
+					<h1>
+						Contact us
+					</h1>					
+				</div>
+			</div>
+		</div>
+	</section>
+
 
 	<section>
-		<div class="container-fluid contact-form">
+		<div class="container-fluid contact-info">
 			<div class="row">
-				<div class="col-md-6 col-xs-6 contact-text">
-					<h2>
-						Enquiry form
-					</h2>
-
+				<div class="col-md-6 col-xs-6 contact-form">					
+					<form action="https://google.com" method="post" class="contact-text">
+						<label for="fname">First Name</label>
+						<input class="text-input" type="text" name="first_name" id="fname" required>
+						<label for="lname">Last Name</label>
+						<input class="text-input" type="text" name="last_name" id="lname" required>
+						<label for="email">Email Address</label>
+						<input class="text-input" type="email" name="email_address" id="email" required>
+						<label for="message">Message</label>
+						<input class="text-input" type="text" name="message" id="message" required>
+						<label for="reservation">Reservation</label>
+						<input id="reservation" type="radio" name="running_preference" value="reservation" required/>
+						<label for="question">General question</label>
+						<input type="radio" value="question" name="running_preference" id="question">
+						<input class="join-button" type="submit" value="Send">
+				    </form>
 				</div>
+
+
+
 
 
 

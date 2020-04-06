@@ -143,39 +143,58 @@ h1{
 
 #reservation-menu-button:hover{
     background-color: #191919;
-    border-color: #fde3a7;
-    color: #fde3a7;
+    border-color: #f5b745;
+    color: #f5b745;
 }
 
 /*----------------------------------Contact form*/
-.contact-form{
+.contact-heading{
+    color: #f5b745;
+    font-family:'Noto Serif JP', serif;
+    font-size: 20px;
+}
+
+.contact-info{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     padding-top: 200px;
 }
 
-.contact-text{
+.contact-form{
     padding: 50px;
 }
 
-.contact-text h2{
+.contact-form h2{
     text-transform: uppercase;
     padding-bottom: 25px;
     border-bottom: 3px solid;
 }
+
+.text-input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;     
+    border-radius: 4px;
+    
+}
+
+
+
+
+
 
 
 
 /*----------------------------------Map*/
 
 #map{
-    width: 750px;
+    width:750px;
     height: 500px;
 }
 
 #map-padding{
-    padding-top: 200px;
+    padding-top: 100px;
     
 }
 
