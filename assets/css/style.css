@@ -47,8 +47,9 @@ body{
 }
 
 /*----------------------------------Heading*/
-.carousel-image{
-    height: 100%;
+.carousel-image img{
+    max-height: 90vh;
+    
 }
 
 
@@ -190,15 +191,11 @@ h1{
 
 
 
-
-
-
-
 /*----------------------------------Map*/
 
 #map{
-    width:750px;
-    height: 500px;
+    width:345px;
+    height:345px;
 }
 
 #map-padding{
