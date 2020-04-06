@@ -13,11 +13,11 @@ body{
 
 /*----------------------------------General spacing, padding & margins*/
 .container{
-    text-align: center;
+    text-align:;
 }
 
 .container-fluid{
-    text-align: center;
+    text-align:;
 }
 
 /*----------------------------------Navigation menu*/
@@ -148,14 +148,16 @@ h1{
 }
 
 /*----------------------------------Contact form*/
-.contact-section
+.contact-section{
+    padding-bottom: 50px;
+}
 
 
 .contact-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .contact-info{
@@ -207,3 +209,34 @@ h1{
 
 
 /*----------------------------------Footer*/
+.footer{
+    text-transform: uppercase;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    color: #fde3a7;
+    background-color: #191919;
+    padding-top: 12px;
+}
+    
+.footer a{
+    color: #fde3a7;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
