@@ -48,7 +48,7 @@ body{
 
 /*----------------------------------Heading*/
 .carousel-image{
-    height: 700px;
+    height: 100%;
 }
 
 
@@ -159,6 +159,7 @@ h1{
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     padding-top: 50px;
+    text-align: center;
 }
 
 .contact-info{
