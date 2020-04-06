@@ -137,35 +137,52 @@
 						<br>To find more about our menu, please click the link below.
 					</p>
 						<div>
-                            <a href="gallery.html" target="_blank">
-							<button type="button" class="btn btn-outline-light" id="reservation-menu-button">Menu
+							<a href="gallery.html" target="_blank">
+								<button type="button" class="btn btn-outline-light" id="reservation-menu-button">Menu
                             </button>
-                            </a>
+							</a>
 						</div>
 				</div>
 				<div class="col-md-6 col-xs-6" id="setmenu-image">
-					<img src="assets/images/image-setmenu.jpg" height="100%" width="100%" alt="menu"></div>
+					<img src="assets/images/image-setmenu.jpg" height="100%" width="100%" alt="menu">
+                </div>
 				</div>
 			</div>
 	</section>
 	<!--End reservation information and link to menu-->
 
 
-	<section id="contact-link">
-		contact us
-		<!--Start Google maps html and JS code-->
-		<div id="map"></div>
-		<script>
-			var map;
-      function initMap() {
-        map = new google.maps.Map(document.getElementById('map'), {
-          center: {lat: 51.508189, lng: -0.146514},
-          zoom: 13
-        });
-      }
-		</script>
-		<!--End Google maps html and JS code-->
+	<section>
+		<div class="container-fluid contact-form">
+			<div class="row">
+				<div class="col-md-6 col-xs-6 contact-text">
+					<h2>
+						Enquiry form
+					</h2>
 
+				</div>
+
+
+
+
+
+				<!--Start Google maps html and JS code-->
+				<div class="col-md-6 col-xs-6" id="map-padding">
+					<div id="map" class="mx-auto">
+						<script>
+							var map;
+                        function initMap() {
+                     map = new google.maps.Map(document.getElementById('map'), {
+                      center: {lat: 51.508189, lng: -0.146514},
+                      zoom: 13
+                          });
+                      }
+						</script>
+					</div>
+				</div>
+				<!--End Google maps html and JS code-->
+			</div>
+		</div>
 	</section>
 
 
