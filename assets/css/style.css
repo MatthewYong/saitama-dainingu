@@ -54,7 +54,7 @@ body{
 
 /*----------------------------------Heading*/
 .carousel-image{
-    height: 600px;
+    height: 700px;
 }
 
 
@@ -148,17 +148,21 @@ h1{
 }
 
 /*----------------------------------Contact form*/
+.contact-section
+
+
 .contact-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
+    padding-top: 100px;
 }
 
 .contact-info{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
-    padding-top: 200px;
+    padding-top: 50px;
 }
 
 .contact-form{

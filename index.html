@@ -49,7 +49,7 @@
 	<!--Start Bootstrap carousel html code-->
 	<section class="container-fluid">
 		<div id="carousel-header" class="row carousel slide carousel-fade" data-ride="carousel">
-			<div class="carousel-inner col-lg-8 carousel-image">
+			<div class="carousel-inner col-lg-12 carousel-image">
 				<div class="carousel-item active" data-interval="3000">
 					<img src="assets/images/image-hero-1.jpg" class="d-block w-100" alt="sashimi">
                 </div>
@@ -154,23 +154,21 @@
 	</section>
 	<!--End reservation information and link to menu-->
 
-<section>
+
+	<!--Start contact us and location-->
+	<section class="contact-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 contact-heading">
 					<h1>
 						Contact us
-					</h1>					
+					</h1>
 				</div>
 			</div>
 		</div>
-	</section>
-
-
-	<section>
 		<div class="container-fluid contact-info">
 			<div class="row">
-				<div class="col-md-6 col-xs-6 contact-form">					
+				<div class="col-md-6 col-xs-6 contact-form">
 					<form action="https://google.com" method="post" class="contact-text">
 						<label for="fname">First Name</label>
 						<input class="text-input" type="text" name="first_name" id="fname" required>
@@ -181,16 +179,12 @@
 						<label for="message">Message</label>
 						<input class="text-input" type="text" name="message" id="message" required>
 						<label for="reservation">Reservation</label>
-						<input id="reservation" type="radio" name="running_preference" value="reservation" required/>
+						<input id="reservation" type="radio" name="reservation_preference" value="reservation" required/>
 						<label for="question">General question</label>
-						<input type="radio" value="question" name="running_preference" id="question">
+						<input type="radio" value="question" name="reservation_preference" id="question">
 						<input class="join-button" type="submit" value="Send">
 				    </form>
 				</div>
-
-
-
-
 
 
 
@@ -213,8 +207,10 @@
 			</div>
 		</div>
 	</section>
+	<!--End contact us and location-->
 
 
+	<!--Start footer-->
 	<footer>
 		<div class="container-fluid">
 			<div class="row">
@@ -237,6 +233,8 @@
 			</div>
 		</div>
 	</footer>
+	<!--End footer-->
+
 
 	<!-- Bootstrap JavaScript files -->
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
