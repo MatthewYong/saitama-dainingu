@@ -48,9 +48,10 @@ body{
 
 /*----------------------------------Heading*/
 .carousel-image img{
-    max-height: 90vh;
+    height: 100%;
     
 }
+
 
 
 
