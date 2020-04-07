@@ -220,6 +220,18 @@ h1{
 .footer a{
     color: #fde3a7;
 }
+
+
+@media screen and (max-width: 992px){
+.copyright{    
+    text-align: center;
+    }
+}
+
+.social-media{
+    padding: 0px;
+    text-align: center;
+}
     
 
 
