@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/*----------------------------------Colors*/
+/*----------------------------------General spacing, padding, margins & colors*/
 body{
     background-color: #2A2A2A;
 }
@@ -10,8 +10,6 @@ body{
 .bg-nav-color{
     background-color: #191919;
 }
-
-/*----------------------------------General spacing, padding & margins*/
 
 
 /*----------------------------------Navigation menu*/
@@ -47,9 +45,14 @@ body{
 }
 
 /*----------------------------------Heading*/
+
 .carousel-image img{
-    height: 100%;
-    
+    height: 80vh;   
+}
+
+
+section{
+    height: 100vh;
 }
 
 

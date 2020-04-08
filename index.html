@@ -19,8 +19,8 @@
 
 <body>
 	<!--Start bootstrap navbar-->
-	<header>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-nav-color" id="main-menu-box">
+	<section>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-nav-color nav-section" id="main-menu-box">
 			<a class="navbar-brand" id="logo" href="#">Saitama Dainingu</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,37 +42,59 @@
 				</ul>
 			</div>
 		</nav>
-	</header>
-	<!--End bootstrap navbar-->
+		<!--End bootstrap navbar-->
 
-	<!--Start Bootstrap carousel html code-->
-	<section class="container-fluid">
-		<div id="carousel-header" class="row carousel slide carousel-fade" data-ride="carousel">
-			<div class="carousel-inner col-lg-12 carousel-image">
-				<div class="carousel-item active " data-interval="3000">
-					<img src="assets/images/image-hero-1.jpg" class="d-block w-100" alt="sashimi">
+		<!--Start Bootstrap carousel html code-->
+		<div class="container-fluid">
+			<div id="carousel-header" class="row carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner col-lg-12 carousel-image">
+					<div class="carousel-item active " data-interval="3000">
+						<img src="assets/images/image-hero-1.jpg" class="d-block w-100" alt="sashimi">
                 </div>
-					<div class="carousel-item" data-interval="3000">
-						<img src="assets/images/image-hero-2.jpg" class="d-block w-100" alt="tuna">
-                    </div>
 						<div class="carousel-item" data-interval="3000">
-							<img src="assets/images/image-hero-3.jpg" class="d-block w-100" alt="smoke">
+							<img src="assets/images/image-hero-2.jpg" class="d-block w-100" alt="tuna">
+                    </div>
+							<div class="carousel-item" data-interval="3000">
+								<img src="assets/images/image-hero-3.jpg" class="d-block w-100" alt="smoke">
                         </div>
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleFade" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleFade" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
 						</div>
-						<a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
-							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-							<span class="sr-only">Previous</span>
-						</a>
-						<a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
-							<span class="carousel-control-next-icon" aria-hidden="true"></span>
-							<span class="sr-only">Next</span>
-						</a>
 					</div>
+					<div class="container container-align">
+						<div class="row">
+							<div class="col-12 owner-info-heading">
+								<h1>
+									A Private Dining Experience
+								</h1>
+								<p>
+									With so many commercial Japanese restaurants over the world, it is hard to find a
+									quiet place
+									where
+									you can enjoy the authentic taste of Japan. At Saitama Dainingu you can close your
+									eyes, hear
+									the
+									sound of cooking, and smell the scent of the best ingredients being prepared for you
+									by a highly
+									skilled chef.
+								</p>
+							</div>
+						</div>
+					</div>
+
 	</section>
 	<!--End Bootstrap carousel html code-->
 
-
-	<!--Start background story owner-->
+	<!--Start address & opening time-->
 	<section>
 		<div class="container container-align">
 			<div class="row">
@@ -92,68 +114,7 @@
 			</div>
 		</div>
 	</section>
-	<section>
-		<div class="container owner-info">
-			<div class="row">
-				<div class="col-xl-6 col-12" id="owner-image">
-					<img src="assets/images/image-saitama.jpg" height="100%" width="100%" alt="chef">
-                </div>
-					<div class="col-xl-6 col-12 owner-info-story">
-						<h2>
-							Saitama Genos
-						</h2>
-						<p>Saitama Genos, born 22 August 1970, is a Japanese MasterChef who worked and owned a
-							restaurant in Tokyo for more than 20 years. His creativity with food and strive for
-							perfection has earned him many awards and recognition in the culinary industry. <br>In 2018 he sold his
-							restaurant in Tokyo and moved to London to be closer to his family.
-								A year later he started
-								a new business in London to continue to share his passion and love for food with his
-								customers, this time by hosting private dining experience at his
-								restaurant.
-						</p>
-					</div>
-				</div>
-			</div>
-	</section>
-	<!--End background story owner-->
-
-	<!--Start reservation information and link to menu-->
-	<section>
-		<div class="container reservation-info-heading">
-			<div class="row">
-				<div class="col-xl-6 col-12 reservation-info">
-					<h2>
-						Dine with us
-					</h2>
-					<p>
-						To ensure the maximum taste experience of each customer the restaurant has only
-						has ten seats available. Customers will only be served
-						by reservation, please use the contact form to make a reservation. Please note that a
-						reservation
-						can take up to
-						three months.
-						<br>The taste menu is chosen by Saitama and
-							will change every month depending on the season and the availability of the ingredients on
-							the
-							market. If you have any allergies, please include this on the contactform and Saitama will
-							ensure you will have the same taste experience.
-						<br>To find more about our menu, please click the link below.
-					</p>
-						<div id="menu-button">
-							<a href="gallery.html" target="_blank">
-								<button type="button" class="btn btn-outline-light" id="reservation-menu-button">Menu
-                            </button>
-							</a>
-						</div>
-				</div>
-				<div class="col-xl-6 col-12" id="setmenu-image">
-					<img src="assets/images/image-setmenu.jpg" height="100%" width="100%" alt="menu">
-                </div>
-				</div>
-			</div>
-	</section>
-	<!--End reservation information and link to menu-->
-
+	<!--End address & opening time-->
 
 	<!--Start contact us and location-->
 	<section class="contact-section">
@@ -200,41 +161,42 @@
 				<!--End Google maps html and JS code-->
 			</div>
 		</div>
-	</section>
-	<!--End contact us and location-->
+
+		<!--End contact us and location-->
 
 
-	<!--Start footer-->
-	<footer>
-		<div class="container-fluid footer">
-			<div class="row">
-				<div class="col-md-8 col-12 copyright">
-					<p>© 2020 Saitama Dainingu All Rights Reserved</p>
-				</div>
-				<div class="col-md-1 col-3 social-media">
-					<a href="https://twitter.com" target="_blank">
-						<h2><i class="fab fa-twitter-square"></i></h2>
-					</a>
-				</div>
-				<div class="col-md-1 col-3 social-media">
-					<a href="https://youtube.com" target="_blank">
-						<h2><i class="fab fa-youtube-square"></i></h2>
-					</a>
-				</div>
-				<div class="col-md-1 col-3 social-media">
-					<a href="https://facebook.com" target="_blank">
-						<h2><i class="fab fa-facebook-square"></i></h2>
-					</a>
-				</div>
-				<div class="col-md-1 col-3 social-media">
-					<a href="https://instagram.com" target="_blank">
-						<h2><i class="fab fa-instagram-square"></i></h2>
-					</a>
-				</div>
+		<!--Start footer-->
+		<footer>
+			<div class="container-fluid footer">
+				<div class="row">
+					<div class="col-md-8 col-12 copyright">
+						<p>© 2020 Saitama Dainingu All Rights Reserved</p>
+					</div>
+					<div class="col-md-1 col-3 social-media">
+						<a href="https://twitter.com" target="_blank">
+							<h2><i class="fab fa-twitter-square"></i></h2>
+						</a>
+					</div>
+					<div class="col-md-1 col-3 social-media">
+						<a href="https://youtube.com" target="_blank">
+							<h2><i class="fab fa-youtube-square"></i></h2>
+						</a>
+					</div>
+					<div class="col-md-1 col-3 social-media">
+						<a href="https://facebook.com" target="_blank">
+							<h2><i class="fab fa-facebook-square"></i></h2>
+						</a>
+					</div>
+					<div class="col-md-1 col-3 social-media">
+						<a href="https://instagram.com" target="_blank">
+							<h2><i class="fab fa-instagram-square"></i></h2>
+						</a>
+					</div>
 
+				</div>
 			</div>
-		</div>
-	</footer>
+		</footer>
+	</section>
 	<!--End footer-->
 
 
