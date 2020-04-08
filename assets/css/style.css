@@ -82,6 +82,7 @@ h1{
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     text-align: center;
+    display: flex;
 }
 
 .restaurant-info-image{
@@ -109,7 +110,11 @@ h1{
     color: #f5b745;    
     }
 
-
+#restauraunt-info-container{
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
 
 
 
@@ -204,7 +209,7 @@ h1{
 
 /*----------------------------------Contact form*/
 .contact-heading{
-    color: #f5b745;
+    color: #fde3a7;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     padding-top: 50px;
