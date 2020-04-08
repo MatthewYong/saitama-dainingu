@@ -47,9 +47,9 @@
 
 	<!--Start Bootstrap carousel html code-->
 	<section>
-		<div class="container-fluid">
+		<div class="container-fluid p-0">
 			<div id="carousel-header" class="row carousel slide carousel-fade" data-ride="carousel">
-				<div class="carousel-inner col-lg-12">
+				<div class="carousel-inner col-lg-12 ">
 					<div class="carousel-item active image-hero1" data-interval="3000">
 						<div class="hero-cover">
 							<a href="#contact-link" class="hero-cover-text">
@@ -97,129 +97,128 @@
 				</a>
 			</div>
 		</div>
-		<!--End Bootstrap carousel html code-->
+	</section>
+	<!--End Bootstrap carousel html code-->
 
-
-		<!--Start Restaurant information-->
-		<section>
-			<div class="container container-align">
-				<div class="row">
-					<div class="col-12 restaurant-info-heading">
-						<h2>
-							Location and opening times
-						</h2>
-						<p>
-							20 Bury Street, St. James's
-                            <br>SW1Y 6AL
-                            <br>London
-							<br>020 7839 3512
-							<p>Dinner
-								<br>17:00pm | 19:00pm | 21:00pm
+	<!--Start Restaurant information-->
+	<section>
+		<div class="container container-align">
+			<div class="row">
+				<div class="col-12 restaurant-info-heading">
+					<h2>
+						Location and opening times
+					</h2>
+					<p>
+						20 Bury Street, St. James's
+						<br>SW1Y 6AL
+						<br>London
+						<br>020 7839 3512
+						<p>Dinner
+							<br>17:00pm | 19:00pm | 21:00pm
                             </p>
-							</p>
-					</div>
+						</p>
 				</div>
 			</div>
-		</section>
-		<!--End address & opening time-->
+		</div>
+	</section>
+	<!--End address & opening time-->
 
-		<!--Start contact us and location-->
-		<section class="contact-section" id="contact-link">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 contact-heading">
-						<h2>
-							Contact us
-						</h2>
-					</div>
+	<!--Start contact us and location-->
+	<section id="contact-link">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 contact-heading">
+					<h2>
+						Contact us
+					</h2>
 				</div>
 			</div>
-			<div class="container-fluid contact-info">
-				<div class="row">
-					<div class="col-lg-6 col-sm-12 contact-form">
-						<form action="https://google.com" method="post" class="contact-text">
-							<label for="fname">First Name</label>
-							<input class="text-input" type="text" name="first_name" id="fname" required>
-							<label for="lname">Last Name</label>
-							<input class="text-input" type="text" name="last_name" id="lname" required>
-							<label for="email">Email Address</label>
-							<input class="text-input" type="email" name="email_address" id="email" required>
-							<label for="message">Message</label>
-							<input class="text-input" type="text" name="message" id="message" required>
-							<input class="join-button" type="submit" value="Send">
+		</div>
+		<div class="container-fluid contact-info">
+			<div class="row">
+				<div class="col-lg-6 col-sm-12 contact-form">
+					<form action="https://google.com" method="post" class="contact-text">
+						<label for="fname">First Name</label>
+						<input class="text-input" type="text" name="first_name" id="fname" required>
+						<label for="lname">Last Name</label>
+						<input class="text-input" type="text" name="last_name" id="lname" required>
+						<label for="email">Email Address</label>
+						<input class="text-input" type="email" name="email_address" id="email" required>
+						<label for="message">Message</label>
+						<input class="text-input" type="text" name="message" id="message" required>
+						<input class="join-button" type="submit" value="Send">
 				    </form>
-					</div>
+				</div>
 
 
-					<!--Start Google maps html and JS code-->
-					<div class="col-lg-6 col-sm-12" id="map-padding">
-						<div id="map" class="mx-auto">
-							<script>
-								var map;
+				<!--Start Google maps html and JS code-->
+				<div class="col-lg-6 col-sm-12" id="map-padding">
+					<div id="map" class="mx-auto">
+						<script>
+							var map;
                         function initMap() {
                      map = new google.maps.Map(document.getElementById('map'), {
                       center: {lat: 51.508189, lng: -0.146514},
                       zoom: 13
                           });
                       }
-							</script>
-						</div>
+						</script>
 					</div>
-					<!--End Google maps html and JS code-->
 				</div>
+				<!--End Google maps html and JS code-->
 			</div>
-		</section>
-		<!--End contact us and location-->
+		</div>
+	</section>
+	<!--End contact us and location-->
 
 
-		<!--Start footer-->
-		<footer>
-			<div class="container-fluid footer">
-				<div class="row">
-					<div class="col-md-8 col-12 copyright">
-						<p>© 2020 Saitama Dainingu All Rights Reserved</p>
-					</div>
-					<div class="col-md-1 col-3 social-media">
-						<a href="https://twitter.com" target="_blank">
-							<h3><i class="fab fa-twitter-square"></i></h3>
-						</a>
-					</div>
-					<div class="col-md-1 col-3 social-media">
-						<a href="https://youtube.com" target="_blank">
-							<h3><i class="fab fa-youtube-square"></i></h3>
-						</a>
-					</div>
-					<div class="col-md-1 col-3 social-media">
-						<a href="https://facebook.com" target="_blank">
-							<h3><i class="fab fa-facebook-square"></i></h3>
-						</a>
-					</div>
-					<div class="col-md-1 col-3 social-media">
-						<a href="https://instagram.com" target="_blank">
-							<h3><i class="fab fa-instagram-square"></i></h3>
-						</a>
-					</div>
-
+	<!--Start footer-->
+	<footer>
+		<div class="container-fluid footer">
+			<div class="row">
+				<div class="col-md-8 col-12 copyright">
+					<p>© 2020 Saitama Dainingu All Rights Reserved</p>
 				</div>
+				<div class="col-md-1 col-3 social-media">
+					<a href="https://twitter.com" target="_blank">
+						<h3><i class="fab fa-twitter-square"></i></h3>
+					</a>
+				</div>
+				<div class="col-md-1 col-3 social-media">
+					<a href="https://youtube.com" target="_blank">
+						<h3><i class="fab fa-youtube-square"></i></h3>
+					</a>
+				</div>
+				<div class="col-md-1 col-3 social-media">
+					<a href="https://facebook.com" target="_blank">
+						<h3><i class="fab fa-facebook-square"></i></h3>
+					</a>
+				</div>
+				<div class="col-md-1 col-3 social-media">
+					<a href="https://instagram.com" target="_blank">
+						<h3><i class="fab fa-instagram-square"></i></h3>
+					</a>
+				</div>
+
 			</div>
-		</footer>
+		</div>
+	</footer>
 
-		<!--End footer-->
+	<!--End footer-->
 
 
-		<!-- Bootstrap JavaScript files -->
-		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-		</script>
+	<!-- Bootstrap JavaScript files -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+	</script>
 
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-		</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 
-		<!-- Google Maps JavaScript files -->
-		<script
-			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBYVMpD9S8IujkIIycVOs9VzB0J93fkzs&callback=initMap"
-			async defer></script>
+	<!-- Google Maps JavaScript files -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBYVMpD9S8IujkIIycVOs9VzB0J93fkzs&callback=initMap"
+		async defer></script>
 
 </body>
 

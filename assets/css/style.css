@@ -7,12 +7,16 @@ body{
     background-color: #2A2A2A;
 }
 
+h1{
+    text-transform: uppercase;
+    padding: 80px 0px 25px 0px;
+    border-bottom: 5px solid;
+ }
+
+/*----------------------------------Navigation menu*/
 .bg-nav-color{
     background-color: #191919;
 }
-
-
-/*----------------------------------Navigation menu*/
 #main-menu-box{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -44,8 +48,7 @@ body{
     }
 }
 
-/*----------------------------------Heading*/
-
+/*index.html----------------------------------Heading*/
 .image-hero1{
     background: url("../images/image-hero-1.jpg");
     background-position: center;
@@ -108,12 +111,12 @@ body{
 
 
 
-/*----------------------------------Restaurant Information*/
-h2{
+/*index.html----------------------------------Restaurant Information*/
+.restaurant-info-heading h2{
     text-transform: uppercase;
     border-bottom: 3px solid;
     display: inline-block;
-    padding: 50px 0px 105px 0px;
+    padding: 50px 0px 10px 0px;
  }
 
 .restaurant-info-heading{
@@ -131,13 +134,7 @@ h2{
 
 
 
-/*----------------------------------Background story owner*/
-h1{
-    text-transform: uppercase;
-    padding: 80px 0px 25px 0px;
-    border-bottom: 5px solid;
- }
-
+/*about.html----------------------------------Background story owner*/
 .owner-info-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
@@ -177,7 +174,7 @@ h1{
 }
 
 
-/*----------------------------------Reservation information*/
+/*about.html----------------------------------Reservation information*/
 .reservation-info-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
@@ -227,11 +224,6 @@ h1{
 
 
 /*----------------------------------Contact form*/
-.contact-section{
-    padding-bottom: 50px;
-}
-
-
 .contact-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
@@ -239,6 +231,14 @@ h1{
     padding-top: 50px;
     text-align: center;
 }
+
+.contact-heading h2{
+    text-transform: uppercase;
+    border-bottom: 3px solid;
+    display: inline-block;
+    padding: 50px 0px 10px 0px;
+ }
+
 
 .contact-info{
     color: #f5b745;
