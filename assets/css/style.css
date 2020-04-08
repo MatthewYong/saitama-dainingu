@@ -54,31 +54,6 @@ body{
     height: 80vh;
 }
 
-.hero-cover{
-    width: 750px;
-    height: 300px;
-    padding: 10px 25px 25px 25px;
-    margin: auto;
-    margin-top: 200px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-}
-
-.hero-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;    
-    color: #fde3a7;    
-}
-
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-}
-
 .image-hero2{
     background: url("../images/image-hero-2.jpg");
     background-position: center;
@@ -95,6 +70,39 @@ body{
     height: 80vh;
 }
 
+@media only screen and (min-width: 769px){
+.hero-cover{
+    width: 750px;
+    height: 300px;
+    padding: 10px 25px 25px 25px;
+    margin: auto;
+    margin-top: 200px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }
+
+.hero-cover-text{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;    
+    color: #fde3a7;    
+    }
+
+.hero-cover-text:hover{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;    
+    color: #f5b745a7;
+    text-decoration: none;    
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero-cover-text{
+        display: none;
+    }
+
+}
 
 
 
@@ -103,8 +111,9 @@ body{
 /*----------------------------------Restaurant Information*/
 h2{
     text-transform: uppercase;
-    padding: 80px 0px 25px 0px;
-    border-bottom: 5px solid;
+    border-bottom: 3px solid;
+    display: inline-block;
+    padding: 50px 0px 105px 0px;
  }
 
 .restaurant-info-heading{
