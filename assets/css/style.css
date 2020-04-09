@@ -71,50 +71,86 @@ h1{
 
 
 /*index.html----------------------------------Restaurant Information*/
-.restaurant-info-heading h2{
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 75px 0px 40px 0px;
- }
-
 .restaurant-info-heading{
     color: #f5b745;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     text-align: center;
-    display: flex;
 }
 
+.restaurant-info-heading h2{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 50px;
+ }
+
+
+#restaurant-info-cover-text{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase; 
+    color: #f5b745;  
+    }
+
+
+@media only screen and (min-width: 576px){
 .restaurant-info-image{
     background: url("../images/image-japan-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 90vh;
-}
-
-#restaurant-info-cover{
-    width: 450px;
-    height: 450px;
-    padding: 0px 25px 25px 25px;
-    margin: auto;
-    margin-top:100px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    }
-
-#restaurant-info-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase; 
-    color: #f5b745;    
+    width: 100%;
     }
 
 #restauraunt-info-container{
     padding-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#restaurant-info-cover{
+    width: 500px;
+    padding: 50px 25px 50px 25px;
+    margin:auto;
+    margin-top:100px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }
 }
+
+@media only screen and (max-width: 576px){
+.restaurant-info-image{
+    background: url("../images/image-japan-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    }
+
+#restauraunt-info-container{
+    margin-top: 0px;
+    }
+
+#restaurant-info-cover{
+    padding: 50px 25px 50px 25px;
+    margin: auto;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }   
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -286,7 +322,7 @@ h1{
 
 
 /*----------------------------------Media screen*/
-@media screen and (max-width: 992px){
+@media only screen and (max-width: 992px){
 .copyright{    
     text-align: center;
     }
