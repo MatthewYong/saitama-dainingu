@@ -98,77 +98,6 @@ body{
     }
 
 
-@media only screen and (min-width: 576px){
-.restaurant-info-image{
-    background: url("../images/image-japan-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 95vh;
-    width: 100%;
-    position: relative;
-    }
-
-#restauraunt-info-container{
-    padding-top: 150px;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-#restaurant-info-cover{
-    width: 500px;
-    padding: 50px 25px 50px 25px;
-    margin:auto;
-    margin-top:100px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    }
-
-/*
-.restaurant-info-image-zoom{
-     transition: transform 15s;     
-}
-
-.restaurant-info-image-zoom:hover{
-    transform: scale(1.5);
-    }
-*/
-
-
-
-
-
-}
-
-@media only screen and (max-width: 576px){
-.restaurant-info-image{
-    background: url("../images/image-japan-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 100%;
-    }
-
-#restauraunt-info-container{
-    margin-top: 0px;
-    }
-
-#restaurant-info-cover{
-    padding: 50px 0px 50px 0px;
-    margin: auto;
-    margin-top:10px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    }   
-}
-
-
-
-
-
-
 
 
 
@@ -467,6 +396,88 @@ body{
 }
 
 
+
+/*----------------------------------Media screen restaurant-info-section*/
+@media only screen and (min-width: 576px){
+.restaurant-info-image{
+    background: url("../images/image-japan-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    position: relative;
+    }
+
+#restauraunt-info-container{
+    padding-top: 150px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+#restaurant-info-cover{
+    width: 500px;
+    padding: 50px 25px 50px 25px;
+    margin:auto;
+    margin-top:100px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }
+
+/*
+.restaurant-info-image-zoom{
+     transition: transform 15s;     
+}
+
+.restaurant-info-image-zoom:hover{
+    transform: scale(1.5);
+    }
+*/
+}
+
+
+@media only screen and (max-width: 576px){
+.restaurant-info-image{
+    background: url("../images/image-japan-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    }
+
+#restauraunt-info-container{
+    margin-top: 0px;
+    }
+
+#restaurant-info-cover{
+    padding: 50px 0px 50px 0px;
+    margin: auto;
+    margin-top:10px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }   
+}
+
+
+
+/* Start scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+
+.parent{
+    overflow: scroll;
+    height: 100vh;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+  position: relative;
+}
+
+/* End scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
 
 
 
