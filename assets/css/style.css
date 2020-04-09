@@ -7,12 +7,6 @@ body{
     background-color: #2A2A2A;
 }
 
-h1{
-    text-transform: uppercase;
-    padding: 80px 0px 25px 0px;
-    border-bottom: 5px solid;
- }
-
 /*----------------------------------Navigation menu*/
 .bg-nav-color{
     background-color: #191919;
@@ -22,6 +16,7 @@ h1{
     padding-bottom: 0px;
     position: fixed;
     top: 0px;
+    height: 65px;
     width: 100%;
     z-index: 9;
 }
@@ -74,6 +69,9 @@ h1{
     height: 95vh;
 }
 
+.carousel-margin{
+    margin-top: 65px;
+}
 
 /*index.html----------------------------------Restaurant Information*/
 .restaurant-info-heading{
@@ -341,7 +339,7 @@ h1{
 
 
 
-/*----------------------------------Media screen*/
+/*----------------------------------Media screen footer*/
 @media only screen and (max-width: 992px){
 .copyright{    
     text-align: center;
@@ -352,15 +350,26 @@ h1{
     }
 }
 
-@media only screen and (min-width: 769px){
+/*----------------------------------Media screen hero-section*/
+@media only screen and (min-width: 768px){
+.hero-slogan{
+    text-transform: uppercase;
+    padding: 75px 0px 25px 0px;
+    border-bottom: 5px solid;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 36px;
+    color: #fde3a7;    
+ }
+
 .hero-cover{
-    width: 750px;
-    height: 300px;
+    width: 750px;    
+    height: 300px;    
     padding: 25px 25px 25px 25px;
     margin: auto;
-    margin-top: 300px;
+    margin-top: 250px;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
+    position: relative;
     }
 
 .hero-cover-text{   
@@ -379,12 +388,73 @@ h1{
     }
 }
 
-@media only screen and (max-width: 768px){
-    .hero-cover-text{
-        display: none;
+@media only screen and (max-width: 767px){
+ .hero-slogan{
+    text-transform: uppercase;
+    padding: 50px 0px 25px 0px;
+    border-bottom: 5px solid;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 24px;
+    color: #fde3a7;    
+ }
+
+ .hero-cover{
+    width: 100%;   
+    height: 150px;    
+    padding: 25px 25px 25px 25px;
+    margin: auto;
+    margin-top: 0px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    position: relative;
     }
 
+.hero-cover-text{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;    
+    color: #fde3a7;    
+    }
+
+.hero-cover-text:hover{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;    
+    color: #f5b745a7;
+    text-decoration: none;    
+    }
 }
+
+
+@media only screen and (min-width: 768px){
+.image-hero1{
+    height: 95vh;
+    }
+
+.image-hero2{
+    height: 95vh;
+    }
+
+.image-hero3{
+    height: 95vh;
+    }
+}
+
+@media only screen and (max-width: 768px){
+.image-hero1{
+    height: 50vh;
+    }
+
+.image-hero2{
+    height: 50vh;
+    }
+
+.image-hero3{
+    height: 50vh;
+    }
+}
+
+
 
 
 
