@@ -20,6 +20,10 @@ h1{
 #main-menu-box{
     padding-top: 0px;
     padding-bottom: 0px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 9;
 }
 
 #logo{
@@ -27,20 +31,21 @@ h1{
     font-family: 'Kaushan Script', cursive, sans-serif;
     font-size: 36px;    
 }
-#main-menu-text a{
+#main-menu a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     color: #fde3a7;
 }
 
-#main-menu-text a:hover{
+#main-menu a:hover{
     color: #f5b745;
 }
 
-#main-menu-text li{
+#main-menu li{
     padding-left: 10px;
 }
+
 
 
 
