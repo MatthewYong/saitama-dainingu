@@ -351,7 +351,7 @@ body{
 }
 
 /*----------------------------------Media screen hero-section*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 769px){
 .hero-slogan{
     text-transform: uppercase;
     padding: 75px 0px 25px 0px;
@@ -386,47 +386,7 @@ body{
     color: #f5b745a7;
     text-decoration: none;    
     }
-}
 
-@media only screen and (max-width: 767px){
- .hero-slogan{
-    text-transform: uppercase;
-    padding: 50px 0px 25px 0px;
-    border-bottom: 5px solid;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 24px;
-    color: #fde3a7;    
- }
-
- .hero-cover{
-    width: 100%;   
-    height: 150px;    
-    padding: 25px 25px 25px 25px;
-    margin: auto;
-    margin-top: 0px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    position: relative;
-    }
-
-.hero-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;    
-    color: #fde3a7;    
-    }
-
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
-}
-
-
-@media only screen and (min-width: 768px){
 .image-hero1{
     height: 95vh;
     }
@@ -441,6 +401,40 @@ body{
 }
 
 @media only screen and (max-width: 768px){
+ .hero-slogan{
+    text-transform: uppercase;
+    padding: 25px 0px 10px 0px;
+    border-bottom: 3px solid;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 24px;
+    color: #fde3a7;    
+ }
+
+ .hero-cover{
+    width: 80%;      
+    padding: 0px 10px 10px 10px;
+    margin: auto;
+    margin-top: 25%;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    position: relative;
+    }
+
+.hero-cover-text{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;    
+    color: #fde3a7;    
+    }
+
+.hero-cover-text:hover{   
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;    
+    color: #f5b745a7;
+    text-decoration: none;    
+    }
+
 .image-hero1{
     height: 50vh;
     }
@@ -453,6 +447,8 @@ body{
     height: 50vh;
     }
 }
+
+
 
 
 
