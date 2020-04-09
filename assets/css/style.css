@@ -84,7 +84,9 @@ body{
 .restaurant-info-heading h2{
     text-transform: uppercase;
     display: inline-block;
-    padding-bottom: 50px;
+    border-bottom: 3px solid;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
  }
 
 
@@ -102,8 +104,8 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 90vh;
-    width: 95%;
+    height: 95vh;
+    width: 100%;
     position: relative;
     }
 
