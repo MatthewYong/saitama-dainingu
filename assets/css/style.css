@@ -264,9 +264,11 @@ body{
 
 
 
-/*----------------------------------Media screen footer*/
+/*----------------------------------Media screen max-width 992px*/
+
+/*----------------------------------footer-section*/
 @media only screen and (max-width: 992px){
-.copyright{    
+.copyright{   
     text-align: center;
     }
 .social-media{
@@ -301,7 +303,7 @@ body{
     height: 300px;    
     padding: 25px 25px 25px 25px;
     margin: auto;
-    margin-top: 10%;
+    margin-top: 35vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
@@ -346,15 +348,56 @@ section{
     scroll-snap-align: start;
     position: relative;
     }
-}
+
 /* End scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+
+
+/*----------------------------------Media screen restaurant-info-section*/
+
+.restaurant-info-image{
+    background: url("../images/image-japan-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    }
+
+#restauraunt-info-container{
+    padding-top: 150px;
+    margin: auto;
+    }
+
+#restaurant-info-cover{
+    width: 500px;
+    padding: 50px 25px 50px 25px;
+    margin:auto;
+    margin-top:100px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    }
+
+/*
+.restaurant-info-image-zoom{
+     transition: transform 15s;     
+}
+
+.restaurant-info-image-zoom:hover{
+    transform: scale(1.5);
+    }
+*/
+}
+
+
 
 
 
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 768px){
-/*----------------------------------navbar*/
+/*----------------------------------navbar-section*/
 #main-menu li{
     text-align: center;
     }
@@ -425,57 +468,8 @@ section{
     height: 50vh;
     overflow: hidden;
     }
-}
-
-
-/*----------------------------------Media screen min-width 576px*/
 
 /*----------------------------------Media screen restaurant-info-section*/
-@media only screen and (min-width: 576px){
-.restaurant-info-image{
-    background: url("../images/image-japan-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    }
-
-#restauraunt-info-container{
-    padding-top: 150px;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    }
-
-#restaurant-info-cover{
-    width: 500px;
-    padding: 50px 25px 50px 25px;
-    margin:auto;
-    margin-top:100px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    }
-
-/*
-.restaurant-info-image-zoom{
-     transition: transform 15s;     
-}
-
-.restaurant-info-image-zoom:hover{
-    transform: scale(1.5);
-    }
-*/
-}
-
-
-/*----------------------------------Media screen max-width 576px*/
-
-/*----------------------------------Media screen restaurant-info-section*/
-
-@media only screen and (max-width: 576px){
 .restaurant-info-image{
     background: url("../images/image-japan-3.jpg");
     background-position: center;
