@@ -24,7 +24,8 @@ body{
 #logo{
     color: #fde3a7;
     font-family: 'Kaushan Script', cursive, sans-serif;
-    font-size: 36px;    
+    font-size: 36px;
+    padding-right: 10px;
 }
 #main-menu a{
     text-transform: uppercase;
@@ -51,6 +52,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
+    overflow: hidden;
 }
 
 .image-hero2{
@@ -59,6 +61,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
+    overflow: hidden;
 }
 
 .image-hero3{
@@ -67,6 +70,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 95vh;
+    overflow: hidden;
 }
 
 .carousel-margin{
@@ -96,7 +100,6 @@ body{
     text-transform: uppercase; 
     color: #f5b745;  
     }
-
 
 
 
@@ -234,9 +237,6 @@ body{
     
 }
 
-
-
-
 /*----------------------------------Map*/
 
 #map{
@@ -281,7 +281,9 @@ body{
     }
 }
 
-/*----------------------------------Media screen hero-section*/
+/*----------------------------------Media screen min-width 769px*/
+
+/*----------------------------------hero-section*/
 @media only screen and (min-width: 769px){
 .hero-slogan{
     text-transform: uppercase;
@@ -337,8 +339,27 @@ body{
 .image-hero3{
     height: 95vh;
     }
-}
 
+/*Landing page: Start scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+.parent{
+    overflow: scroll;
+    height: 100vh;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+    }
+
+section{
+    scroll-snap-align: start;
+    position: relative;
+    }
+}
+/* End scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+
+
+
+/*----------------------------------Media screen max-width 768px*/
+
+/*----------------------------------hero-section*/
 @media only screen and (max-width: 768px){
  .hero-slogan{
     text-transform: uppercase;
@@ -396,6 +417,7 @@ body{
 }
 
 
+/*----------------------------------Media screen min-width 576px*/
 
 /*----------------------------------Media screen restaurant-info-section*/
 @media only screen and (min-width: 576px){
@@ -437,6 +459,10 @@ body{
 }
 
 
+/*----------------------------------Media screen max-width 576px*/
+
+/*----------------------------------Media screen restaurant-info-section*/
+
 @media only screen and (max-width: 576px){
 .restaurant-info-image{
     background: url("../images/image-japan-3.jpg");
@@ -461,23 +487,6 @@ body{
 }
 
 
-
-/* Start scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
-
-.parent{
-    overflow: scroll;
-    height: 100vh;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
-
-section{
-    height: 100vh;
-    scroll-snap-align: start;
-  position: relative;
-}
-
-/* End scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
 
 
 
