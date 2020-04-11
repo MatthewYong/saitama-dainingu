@@ -38,11 +38,6 @@ body{
     color: #f5b745;
 }
 
-#main-menu li{
-    padding-left: 10px;
-}
-
-
 
 
 /*index.html----------------------------------Heading*/
@@ -76,7 +71,7 @@ body{
 
 /*index.html----------------------------------Restaurant Information*/
 .restaurant-info-heading{
-    color: #f5b745;
+    color: #fde3a7;
     font-family:'Noto Serif JP', serif;
     font-size: 20px;
     text-align: center;
@@ -90,12 +85,11 @@ body{
     margin-bottom: 25px;
  }
 
-
 #restaurant-info-cover-text{   
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-transform: uppercase; 
-    color: #f5b745;  
+    color: #fde3a7;  
     }
 
 
@@ -356,8 +350,15 @@ section{
 
 /*----------------------------------Media screen max-width 768px*/
 
-/*----------------------------------hero-section*/
+
 @media only screen and (max-width: 768px){
+/*----------------------------------navbar*/
+#main-menu li{
+    background-color: #191919;
+    }
+
+
+/*----------------------------------hero-section*/
  .hero-slogan{
     text-transform: uppercase;
     padding: 25px 0px 10px 0px;
@@ -402,14 +403,17 @@ section{
 
 .image-hero1{
     height: 50vh;
+    overflow: hidden;
     }
 
 .image-hero2{
     height: 50vh;
+    overflow: hidden;
     }
 
 .image-hero3{
     height: 50vh;
+    overflow: hidden;
     }
 }
 
@@ -423,14 +427,15 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
     }
 
 #restauraunt-info-container{
     padding-top: 150px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
     }
@@ -466,18 +471,18 @@ section{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     height: 100%;
     width: 100%;
     }
 
 #restauraunt-info-container{
-    margin-top: 0px;
+    margin-top: 10px;
     }
 
 #restaurant-info-cover{
     padding: 50px 0px 50px 0px;
     margin: auto;
-    margin-top:10px;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     }   
