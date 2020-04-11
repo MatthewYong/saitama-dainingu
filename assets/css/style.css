@@ -190,6 +190,9 @@ body{
 
 
 /*----------------------------------Contact form*/
+.contact-bg{
+    background-color: #2A2A2A;
+}
 .contact-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif;
@@ -336,7 +339,7 @@ body{
     height: 100vh;
     }
 
-/*Landing page: Start scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+/*Landing page: Scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
 .parent{
     overflow: scroll;
     height: 100vh;
@@ -349,45 +352,50 @@ section{
     position: relative;
     }
 
-/* End scroll snap type code from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
-
 
 /*----------------------------------Media screen restaurant-info-section*/
 
 .restaurant-info-image{
+    transition: all 10s ease-in-out;
+    height: 100vh;
+    width: 100%;
+    position: relative;    
+    }
+
+/*----------------------------------CSS code 'zoom-image'partially used from stackoverflow.com/questions/44690752/zoom-background-image-only*/
+
+.restaurant-info-image:before{
+    content: '';
     background: url("../images/image-japan-3.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
     height: 100vh;
     width: 100%;
-    position: relative;
-    overflow: hidden;
+    left:0px;
+    position: absolute;
     }
 
-#restauraunt-info-container{
-    padding-top: 150px;
-    margin: auto;
+.restaurant-info-image:hover:before{
+    transform: scale(1.2);
+    transition: all 10s ease-in-out;    
     }
 
 #restaurant-info-cover{
     width: 500px;
     padding: 50px 25px 50px 25px;
-    margin:auto;
-    margin-top:100px;
+
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
+    position: absolute;
+    margin: auto;
+    top: 300px;
+    left: 0px;
+    right: 0px;
+    bottom: 250px;
     }
 
-/*
-.restaurant-info-image-zoom{
-     transition: transform 15s;     
-}
-
-.restaurant-info-image-zoom:hover{
-    transform: scale(1.5);
-    }
-*/
 }
 
 
