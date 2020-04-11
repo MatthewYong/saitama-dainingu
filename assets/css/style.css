@@ -356,12 +356,16 @@ section{
 @media only screen and (max-width: 768px){
 /*----------------------------------navbar*/
 #main-menu li{
-    margin: auto;
+    text-align: center;
     }
 
 #main-menu{
     background-color: #2a2a2a;
     }
+
+#main-menu-box{
+    padding-right: 5%;
+}
 
 
 /*----------------------------------hero-section*/
