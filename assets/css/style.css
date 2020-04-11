@@ -25,7 +25,6 @@ body{
     color: #fde3a7;
     font-family: 'Kaushan Script', cursive, sans-serif;
     font-size: 36px;
-    padding-right: 10px;
 }
 #main-menu a{
     text-transform: uppercase;
@@ -409,11 +408,6 @@ section{
 #main-menu{
     background-color: #2a2a2a;
     }
-
-#main-menu-box{
-    padding-right: 5%;
-}
-
 
 /*----------------------------------hero-section*/
  .hero-slogan{
