@@ -71,7 +71,7 @@ body{
 /*index.html----------------------------------Restaurant Information*/
 .restaurant-info-heading{
     color: #fde3a7;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -100,7 +100,7 @@ body{
 /*about.html----------------------------------Background story owner*/
 .owner-info-heading{
     color: #f5b745;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-align: center;
 }
@@ -111,7 +111,7 @@ body{
    
 .owner-info{
     color: #f5b745;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 160px;
 }
@@ -142,7 +142,7 @@ body{
 /*about.html----------------------------------Reservation information*/
 .reservation-info-heading{
     color: #f5b745;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 0px;
 }
@@ -172,7 +172,7 @@ body{
     color: #bd8d32;
     background-color: #202020;
     border-color: #bd8d32;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 16px;    
     padding:3px 25px 3px 25px;
 }
@@ -194,7 +194,7 @@ body{
 }
 .contact-heading{
     color: #fde3a7;
-    font-family:'Noto Serif JP', serif;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 50px;
     text-align: center;
@@ -209,14 +209,15 @@ body{
 
 
 .contact-info{
-    color: #f5b745;
-    font-family:'Noto Serif JP', serif;
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 50px;
 }
 
 .contact-form{
     padding: 50px;
+    text-transform: uppercase;
 }
 
 .contact-heading h2{
@@ -229,8 +230,7 @@ body{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;     
-    border-radius: 4px;
-    
+    border-radius: 4px;    
 }
 
 /*----------------------------------Map*/
