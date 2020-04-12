@@ -455,7 +455,7 @@ section{
     width: 80%;      
     padding: 0px 10px 10px 10px;
     margin: auto;
-    margin-top: 25%;
+    margin-top: 40vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
@@ -494,6 +494,7 @@ section{
 #restaurant-info-cover{
     padding: 50px 0px 50px 0px;
     margin: auto;
+    margin-top: 35vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     }   
