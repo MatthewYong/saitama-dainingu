@@ -47,8 +47,7 @@
 		<!--Start Bootstrap carousel-->
 		<section>
 			<div class="container-fluid p-0">
-				<div id="carousel-header" class="row carousel slide carousel-fade no-gutters"
-					data-ride="carousel">
+				<div id="carousel-header" class="row carousel slide carousel-fade no-gutters" data-ride="carousel">
 					<div class="carousel-inner col-lg-12">
 						<div class="carousel-item active image-hero1" data-interval="3000">
 							<div class="hero-cover">
@@ -132,40 +131,51 @@
 					</div>
 				</div>
 			</div>
-			<div class="container-fluid contact-info">
+			<div class="container-fluid contact-cover">
 				<div class="row">
-					<div class="col-lg-6 col-sm-12 contact-form">
+					<div class="col-md-1">
+					</div>
+					<div class="col-md-5 col-sm-12 contact-info">
 						<form action="https://google.com" method="post">
 							<label for="fname">First Name</label>
-							<input class="text-input" type="text" name="first_name" id="fname" required>
-							<label for="lname">Last Name</label>
-							<input class="text-input" type="text" name="last_name" id="lname" required>
-							<label for="email">Email Address</label>
-							<input class="text-input" type="email" name="email_address" id="email" required>
-							<label for="message">Message</label>
-							<input class="text-input" type="text" name="message" id="message" required>
-							<input class="send-button" type="submit" value="Send">
-				    </form>
-					</div>
+							<div>
+								<input class="text-input" type="text" name="first_name" id="fname" required>
+                            </div>
+								<label for="lname">Last Name</label>
+								<div>
+									<input class="text-input" type="text" name="last_name" id="lname" required>
+                            </div>
+									<label for="email">Email Address</label>
+									<div>
+										<input class="text-input" type="email" name="email_address" id="email" required>
+                                    </div>
+										<label for="message">Message</label>
+										<div>
+											<input class="text-input" type="text" name="message" id="message" required>
+                                    </div>
 
-
-					<!--Start Google maps html and JS code-->
-					<div class="col-lg-6 col-sm-12" id="map-padding">
-						<div id="map" class="mx-auto">
-							<script>
-								var map;
+											<input class="send-button" type="submit" value="Send">
+				        </form>
+										</div>
+										<!--Start Google maps html and JS code-->
+										<div class="col-md-5 col-sm-12" id="map-padding">
+											<div id="map" class="mx-auto">
+												<script>
+													var map;
                         function initMap() {
                      map = new google.maps.Map(document.getElementById('map'), {
                       center: {lat: 51.507537, lng: -0.139120},
                       zoom: 13
                           });
                       }
-							</script>
-						</div>
-					</div>
-					<!--End Google maps html and JS code-->
-				</div>
-			</div>
+												</script>
+											</div>
+										</div>
+										<div class="col-md-1">
+										</div>
+										<!--End Google maps html and JS code-->
+									</div>
+								</div>
 		</section>
 		<!--End contact us and location-->
 

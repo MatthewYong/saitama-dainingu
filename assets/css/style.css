@@ -178,7 +178,7 @@ body{
 
 /*----------------------------------Contact form*/
 .contact-info-image{
-    background: url("../images/image-sushi-chef.jpg");
+    background: url("../images/image-gallery-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -209,33 +209,34 @@ body{
     padding-top: 50px;
 }
 
-.contact-form{
+.contact-cover{
     text-transform: uppercase;
     text-align: center;
     position: relative;
     background-color: rgba(25, 25, 25, 0.5); 
-    padding: 25px 25px 25px 25px;
+    padding: 0px 25px 25px 25px;
     margin: auto;
-    margin-top: 10px;   
+    margin-top: 35px;   
 }
 
 .text-input{
-    text-transform: uppercase;
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     background-color: rgba(25, 25, 25, 0.5);
     height: 10px;
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin-bottom: 20px;
     display: inline-block;    
 }
 
 #message{
-    height: 200px;
-    width: 100%;    
+    height: 100px;
 }
+
+
+
 
 .send-button{
     text-transform: uppercase;
@@ -417,6 +418,11 @@ section{
     bottom: 250px;
     }
 
+.contact-info-image{    
+    height: 90vh;
+    width: 100%;
+    }
+
 }
 
 /*----------------------------------Media screen max-width 768px*/
@@ -507,12 +513,12 @@ section{
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     }   
-}
 
 /*----------------------------------Media screen contact-section*/
 .contact-info-image{    
-    height: 90vh;
+    height: 100%;
     width: 100%;
+    }
 }
 
 
