@@ -203,8 +203,9 @@ body{
 
 .contact-info{
     color: #fde3a7;
+    font-size: 16px;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
+    letter-spacing: 2px;    
     padding-top: 50px;
 }
 
@@ -219,18 +220,41 @@ body{
 }
 
 .text-input{
-    height;
+    text-transform: uppercase;
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    background-color: rgba(25, 25, 25, 0.5);
+    height: 10px;
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    color: #fde3a7;    
-    border-bottom: 3px solid;
-    display: inline-block;  
+    display: inline-block;    
 }
 
 #message{
-    height: 500px;
+    height: 200px;
+    width: 100%;    
 }
+
+.send-button{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #fde3a7;
+    background-color: #2a2a2a;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    border-color: #bd8d32;
+    margin-top: 10px;    
+}
+
+.send-button:hover{
+    color: #fde3a7;
+    background-color: #191919;    
+}
+
+
 
 /*----------------------------------Map*/
 
