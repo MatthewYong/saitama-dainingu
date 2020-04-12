@@ -189,6 +189,14 @@ body{
 
 
 /*----------------------------------Contact form*/
+.contact-info-image{
+    background: url("../images/image-sushi-chef.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 .contact-bg{
     background-color: #2A2A2A;
 }
@@ -362,7 +370,7 @@ section{
 
 .restaurant-info-image:before{
     content: '';
-    background: url("../images/image-japan-3.jpg");
+    background: url("../images/image-japan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -471,7 +479,7 @@ section{
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info-image{
-    background: url("../images/image-japan-3.jpg");
+    background: url("../images/image-japan.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
