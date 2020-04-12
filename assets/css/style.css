@@ -220,7 +220,7 @@ body{
 }
 
 .text-input{
-    color: #fde3a7;
+    color: #f5b745;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 16px;
     background-color: rgba(25, 25, 25, 0.5);
@@ -230,17 +230,18 @@ body{
     margin-bottom: 20px;
     display: inline-block;  
     text-align: center;
-    text-transform: uppercase;
+    border: 1px solid;
+}
+
+.text-input:hover{
+    background-color: rgba(25, 25, 25, 0.8);  
 }
 
 #message{
     height: 100px;
-    
+    text-align: left;
    
 }
-
-
-
 
 .send-button{
     text-transform: uppercase;
@@ -411,7 +412,7 @@ section{
 
 #restaurant-info-cover{
     width: 500px;
-    padding: 25px 25px 50px 25px;
+    padding: 50px 25px 50px 25px;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: absolute;
