@@ -228,11 +228,15 @@ body{
     width: 100%;
     padding: 12px 20px;
     margin-bottom: 20px;
-    display: inline-block;    
+    display: inline-block;  
+    text-align: center;
+    text-transform: uppercase;
 }
 
 #message{
     height: 100px;
+    
+   
 }
 
 
