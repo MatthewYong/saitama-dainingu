@@ -37,8 +37,6 @@ body{
     color: #f5b745;
 }
 
-
-
 /*index.html----------------------------------Heading*/
 .image-hero1{
     background: url("../images/image-hero-1.jpg");
@@ -64,11 +62,7 @@ body{
     overflow: hidden;
 }
 
-.carousel-margin{
-    margin-top: 65px;
-}
-
-/*index.html----------------------------------Restaurant Information*/
+/*index.html----------------------------------Location and opening times*/
 .restaurant-info-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -90,12 +84,6 @@ body{
     text-transform: uppercase; 
     color: #fde3a7;  
     }
-
-
-
-
-
-
 
 /*about.html----------------------------------Background story owner*/
 .owner-info-heading{
@@ -198,24 +186,20 @@ body{
     width: 100%;
 }
 
-.contact-bg{
-    background-color: #2A2A2A;
-}
 .contact-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 50px;
     text-align: center;
+    text-transform: uppercase;    
 }
 
 .contact-heading h2{
-    text-transform: uppercase;
     border-bottom: 3px solid;
     display: inline-block;
-    padding: 50px 0px 10px 0px;
+    padding: 50px 0px 10px 0px; 
  }
-
 
 .contact-info{
     color: #fde3a7;
@@ -225,34 +209,28 @@ body{
 }
 
 .contact-form{
-    padding: 50px;
     text-transform: uppercase;
-}
-
-.contact-heading h2{
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    border-bottom: 3px solid;
+    text-align: center;
+    position: relative;
+    background-color: rgba(25, 25, 25, 0.5); 
+    padding: 25px 25px 25px 25px;
+    margin: auto;
+    margin-top: 10px;   
 }
 
 .text-input{
+    height;
     width: 100%;
     padding: 12px 20px;
-    margin: 8px 0;     
-    border-radius: 4px;    
+    margin: 8px 0;
+    color: #fde3a7;    
+    border-bottom: 3px solid;
+    display: inline-block;  
 }
 
-.contact-cover{
-    width: 750px;    
-    height: 300px;    
-    padding: 25px 25px 25px 25px;
-    margin: auto;
-    margin-top: 10px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    position: relative;
-    }
-
+#message{
+    height: 500px;
+}
 
 /*----------------------------------Map*/
 
@@ -265,10 +243,6 @@ body{
     padding-top: 100px;
     
 }
-
-
-
-
 
 /*----------------------------------Footer*/
 footer{
