@@ -195,6 +195,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    width: 100%;
 }
 
 .contact-bg{
@@ -241,6 +242,18 @@ body{
     border-radius: 4px;    
 }
 
+.contact-cover{
+    width: 750px;    
+    height: 300px;    
+    padding: 25px 25px 25px 25px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);
+    position: relative;
+    }
+
+
 /*----------------------------------Map*/
 
 #map{
@@ -258,7 +271,7 @@ body{
 
 
 /*----------------------------------Footer*/
-.footer{
+footer{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 16px;
@@ -267,11 +280,9 @@ body{
     padding-top: 12px;
 }
     
-.footer a{
+footer a{
     color: #fde3a7;
 }
-
-
 
 
 /*----------------------------------Media screen max-width 992px*/
@@ -500,8 +511,11 @@ section{
     }   
 }
 
-
-
+/*----------------------------------Media screen contact-section*/
+.contact-info-image{    
+    height: 90vh;
+    width: 100%;
+}
 
 
 
