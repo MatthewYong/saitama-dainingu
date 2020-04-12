@@ -371,11 +371,20 @@ section{
     width: 100%;
     left:0px;
     position: absolute;
+    transition: all 5s ease-out;
+    -webkit-transition: all 5s ease-out;
+    -moz-transition: all 5s ease-out;
+    -o-transition: all 5s ease-out;
+    -ms-transition: all 5s ease-out;
     }
 
 .restaurant-info-image:hover:before{
     transform: scale(1.2);
-    transition: all 10s ease-in-out;    
+    transition: all 5s ease-in;
+    -webkit-transition: all 5s ease-in;
+    -moz-transition: all 5s ease-in;
+    -o-transition: all 5s ease-in;
+    -ms-transition: all 5s ease-in;
     }
 
 #restaurant-info-cover{
@@ -392,10 +401,6 @@ section{
     }
 
 }
-
-
-
-
 
 /*----------------------------------Media screen max-width 768px*/
 
