@@ -115,18 +115,17 @@ body{
     background-color: rgba(25, 25, 25, 0.8);
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;   
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 50px;
     text-align: center;
-    text-transform: uppercase;
-    width: 500px; 
-    margin: auto;  
+    text-transform: uppercase; 
+    margin-top: 100px;  
 }
 
 #owner-info-heading h1{
     border-bottom: 3px solid;
     display: inline-block;
     padding-bottom: 10px; 
-    margin-bottom: 100px;
  }
    
 .owner-info{
