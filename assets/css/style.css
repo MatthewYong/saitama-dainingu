@@ -100,7 +100,7 @@ body{
 
 /*about.html----------------------------------Background*/
 .bg-about-image{
-    background: url("../images/image-sushi-chef.jpg");
+    background: url("../images/image-japan-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -336,6 +336,10 @@ footer{
     
 footer a{
     color: #fde3a7;
+}
+
+.social-media a:hover{
+    color: #f5b745;
 }
 
 
