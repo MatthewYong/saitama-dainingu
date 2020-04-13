@@ -125,19 +125,22 @@ body{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
-    padding-top: 160px;
+    width: 100%;    
+    text-align: center;
+    background-color: rgba(25, 25, 25, 0.5);    
 }
 
 .owner-info-story{
     padding: 50px;
 }
 
+/*
 .owner-info-story h2{
     text-align: center;
     text-transform: uppercase;
     padding-bottom: 25px;
     border-bottom: 3px solid;
-}
+}*/
 
 .owner-info-story p{
     padding-top: 25px;
@@ -341,7 +344,6 @@ footer a{
 .social-media a:hover{
     color: #f5b745;
 }
-
 
 /*----------------------------------Media screen max-width 992px*/
 
