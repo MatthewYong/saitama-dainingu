@@ -132,10 +132,10 @@
 				</div>
 			</div>
 			<div class="container-fluid contact-cover">
-				<div class="row">
-					<div class="col-md-1">
+				<div class="row justify-content-md-center">
+					<div class="col-xl-1">
 					</div>
-					<div class="col-md-5 col-sm-12 contact-info">
+					<div class="col-xl-4 col-md-4 col-sm-12 contact-info">
 						<form action="https://google.com" method="post">
 							<label for="fname">First Name*</label>
 							<div>
@@ -150,32 +150,34 @@
 										<input class="text-input" type="email" name="email_address" id="email" required>
                                     </div>
 										<label for="message">Message</label>
-										<div>									
-                                            <textarea class="text-input" name="message" rows="10" cols="5" id="message" required></textarea>
-                                    </div>
-
-											<input class="send-button" type="submit" value="Send">
-				        </form>
+										<div>
+											<textarea class="text-input" name="message" rows="10" cols="5" id="message" required></textarea>
 										</div>
-										<!--Start Google maps html and JS code-->
-										<div class="col-md-5 col-sm-12" id="map-padding">
-											<div id="map" class="mx-auto">
-												<script>
-													var map;
+
+										<input class="send-button" type="submit" value="Send">
+				        </form>
+									</div>
+									<div class="col-xl-2 col-md-auto">
+									</div>
+									<!--Start Google maps html and JS code-->
+									<div class="col-xl-4 col-md-4 col-sm-12" id="map-padding">
+										<div id="map" class="mx-auto map-size">
+											<script>
+												var map;
                         function initMap() {
                      map = new google.maps.Map(document.getElementById('map'), {
                       center: {lat: 51.507537, lng: -0.139120},
                       zoom: 14
                           });
                       }
-												</script>
-											</div>
+											</script>
 										</div>
-										<div class="col-md-1">
-										</div>
-										<!--End Google maps html and JS code-->
 									</div>
+									<div class="col-xl-1">
+									</div>
+									<!--End Google maps html and JS code-->
 								</div>
+							</div>
 		</section>
 		<!--End contact us and location-->
 
