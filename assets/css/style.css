@@ -142,14 +142,6 @@ body{
     padding: 50px;
 }
 
-/*
-.owner-info-story h2{
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    border-bottom: 3px solid;
-}*/
-
 .owner-info-story p{
     padding-top: 50px;
 }
@@ -365,7 +357,7 @@ footer a{
 
 button:focus{
     outline-color: #f5b745;
-}
+    }
 
 
 /*----------------------------------Media screen footer-section*/
