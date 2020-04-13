@@ -46,7 +46,6 @@ body{
     color: #f5b745;
 }
 
-
 /*index.html----------------------------------Heading*/
 .image-hero1{
     background: url("../images/image-hero-1.jpg");
@@ -308,6 +307,7 @@ footer a{
 @media only screen and (max-width: 992px){
 /*----------------------------------Media screen navbar-section*/
 #main-menu{
+    background-color: rgba(25, 25, 25, 0.8);
     position: absolute;
     width: 100%;
     top: 65px;
@@ -318,13 +318,10 @@ footer a{
     text-align: center;
     }
 
-#main-menu{
-    background-color: rgba(25, 25, 25, 0.8);
-    }
-
-#main-menu:hover{
-    color: #f5b745;
+button:focus{
+    outline-color: #f5b745;
 }
+
 
 /*----------------------------------Media screen footer-section*/
 .copyright{   
