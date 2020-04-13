@@ -25,7 +25,10 @@ body{
     color: #fde3a7;
     font-family: 'Kaushan Script', cursive, sans-serif;
     font-size: 36px;
+    position: absolute;
+    top: 0;
 }
+
 #main-menu a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -36,6 +39,7 @@ body{
 #main-menu a:hover{
     color: #f5b745;
 }
+
 
 /*index.html----------------------------------Heading*/
 .image-hero1{
