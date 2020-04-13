@@ -127,7 +127,7 @@ body{
     font-size: 20px;
     width: 100%;    
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);    
+    background-color: rgba(25, 25, 25, 0.8);    
 }
 
 .owner-info-story{
@@ -153,16 +153,15 @@ body{
 
 
 /*about.html----------------------------------Reservation information*/
-.reservation-info-heading{
+.reservation-info{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
-    padding-top: 0px;
+    padding: 150px 150px 100px 150px;
+    width: 100%;  
+    background-color: rgba(25, 25, 25, 0.8); 
 }
 
-.reservation-info{
-    padding: 50px;
-}
 
 .reservation-info h2{
     text-align: center;
@@ -171,15 +170,11 @@ body{
     border-bottom: 3px solid;
 }
 
-.reservation-info p{
-    padding-top: 25px;
-}
 
 #setmenu-image{
     padding-left: 0px;
     padding-right: 0px;
 }
-
 
 #reservation-menu-button{
     color: #fde3a7;
@@ -199,6 +194,7 @@ body{
 }
 
 #menu-button{
+    margin-top: 50px;
     text-align: center;
 }
 
