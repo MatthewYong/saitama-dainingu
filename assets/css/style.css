@@ -98,10 +98,20 @@ body{
     margin-bottom: 35px;
 }
 
+/*about.html----------------------------------Background*/
+.bg-about-image{
+    background: url("../images/image-sushi-chef.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;   
+}
+
 
 /*about.html----------------------------------Background story owner*/
 .owner-info-heading{
-    color: #f5b745;
+    color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -112,7 +122,7 @@ body{
 }
    
 .owner-info{
-    color: #f5b745;
+    color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 160px;
@@ -141,7 +151,7 @@ body{
 
 /*about.html----------------------------------Reservation information*/
 .reservation-info-heading{
-    color: #f5b745;
+    color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 0px;
@@ -169,11 +179,13 @@ body{
 
 
 #reservation-menu-button{
-    color: #bd8d32;
+    color: #fde3a7;
     background-color: #202020;
     border-color: #bd8d32;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 16px;    
+    text-transform: uppercase;
+    margin-top: 20px;
     padding:3px 25px 3px 25px;
 }
 
@@ -213,12 +225,6 @@ body{
     padding-bottom: 10px; 
     margin-bottom: 100px;
  }
-
-
-
-
-
-
 
 /*----------------------------------Contact form*/
 .contact-info-image{
@@ -299,7 +305,7 @@ body{
 }
 
 .send-button:hover{
-    color: #fde3a7;
+    color: #bd8d32;
     background-color: #191919;    
 }
 
