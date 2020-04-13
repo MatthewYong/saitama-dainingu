@@ -110,7 +110,7 @@ body{
 
 
 /*about.html----------------------------------Background story owner*/
-#owner-info-heading{
+.owner-info-heading{
     color: #fde3a7;
     background-color: rgba(25, 25, 25, 0.8);
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -119,10 +119,11 @@ body{
     padding-bottom: 50px;
     text-align: center;
     text-transform: uppercase; 
-    margin-top: 100px;  
+    margin-top: 100px;
+    width: 100%
 }
 
-#owner-info-heading h1{
+.owner-info-heading h1{
     border-bottom: 3px solid;
     display: inline-block;
     padding-bottom: 10px; 
