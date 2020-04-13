@@ -195,6 +195,11 @@ body{
     margin-bottom: 10px;
 }
 
+#gallery-images img:hover{
+    opacity: 0.5;
+}
+
+
 .gallery-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -301,7 +306,6 @@ body{
 }
 
 /*----------------------------------Map*/
-
 .map-size{
     width: 100%;
     height:400px;
@@ -570,7 +574,6 @@ section{
     }   
 }
 
-
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 576px){
@@ -581,7 +584,6 @@ section{
     column-fill: balance;
     padding: 0px 10px 25px 10px;
     }
-
 }
 
 
