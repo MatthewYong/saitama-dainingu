@@ -191,6 +191,18 @@ body{
 /*gallery.html----------------------------------Gallery*/
 
 
+#gallery-images img{
+    width: 100%;
+}*/
+
+.gallery-heading{
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;    
+}
 
 
 
