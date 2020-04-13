@@ -29,6 +29,12 @@ body{
     top: 0;
 }
 
+.navbar-toggler{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
 #main-menu a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -299,8 +305,28 @@ footer a{
 
 /*----------------------------------Media screen max-width 992px*/
 
-/*----------------------------------footer-section*/
 @media only screen and (max-width: 992px){
+/*----------------------------------Media screen navbar-section*/
+#main-menu{
+    position: absolute;
+    width: 100%;
+    top: 65px;
+    left: 0;    
+    }
+
+#main-menu li{
+    text-align: center;
+    }
+
+#main-menu{
+    background-color: rgba(25, 25, 25, 0.8);
+    }
+
+#main-menu:hover{
+    color: #f5b745;
+}
+
+/*----------------------------------Media screen footer-section*/
 .copyright{   
     text-align: center;
     }
@@ -312,8 +338,8 @@ footer a{
 
 /*----------------------------------Media screen min-width 769px*/
 
-/*----------------------------------hero-section*/
 @media only screen and (min-width: 769px){
+/*----------------------------------Media screen hero-section*/
 .hero-slogan{
     text-transform: uppercase;
     padding: 75px 0px 25px 0px;
@@ -429,16 +455,7 @@ section{
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 768px){
-/*----------------------------------navbar-section*/
-#main-menu li{
-    text-align: center;
-    }
-
-#main-menu{
-    background-color: #2a2a2a;
-    }
-
-/*----------------------------------hero-section*/
+/*----------------------------------Media screen hero-section*/
  .hero-slogan{
     text-transform: uppercase;
     padding: 25px 0px 10px 0px;
