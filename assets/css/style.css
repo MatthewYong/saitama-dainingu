@@ -29,6 +29,10 @@ body{
     top: 0;
 }
 
+#logo:hover{
+    color: #f5b745;
+}
+
 .navbar-toggler{
     position: absolute;
     top: 15px;
@@ -78,24 +82,22 @@ body{
 .restaurant-info-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
     text-align: center;
 }
 
-.restaurant-info-heading h2{
+.restaurant-info-heading h3{
     text-transform: uppercase;
     display: inline-block;
     border-bottom: 3px solid;
-    padding-bottom: 25px;
-    margin-bottom: 25px;
+    padding-bottom: 10px;   
  }
 
-#restaurant-info-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase; 
-    color: #fde3a7;  
-    }
+.restaurant-info-cover-text{  
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
 
 /*about.html----------------------------------Background story owner*/
 .owner-info-heading{
@@ -135,8 +137,6 @@ body{
     padding-left: 0px;
     padding-right: 0px;
 }
-
-
 
 
 /*about.html----------------------------------Reservation information*/
@@ -186,6 +186,18 @@ body{
 #menu-button{
     text-align: center;
 }
+
+
+/*gallery.html----------------------------------Gallery*/
+
+
+
+
+
+
+
+
+
 
 
 /*----------------------------------Contact form*/
