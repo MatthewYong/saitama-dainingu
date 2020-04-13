@@ -187,7 +187,6 @@ body{
     text-align: center;
 }
 
-
 /*gallery.html----------------------------------Gallery*/
 #gallery-images img{
     width: 100%;
@@ -198,7 +197,6 @@ body{
 #gallery-images img:hover{
     opacity: 0.5;
 }
-
 
 .gallery-heading{
     color: #fde3a7;
