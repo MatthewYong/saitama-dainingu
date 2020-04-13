@@ -110,16 +110,24 @@ body{
 
 
 /*about.html----------------------------------Background story owner*/
-.owner-info-heading{
+#owner-info-heading{
     color: #fde3a7;
+    background-color: rgba(25, 25, 25, 0.8);
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
+    font-size: 20px;   
+    padding-top: 50px;
     text-align: center;
+    text-transform: uppercase;
+    width: 500px; 
+    margin: auto;  
 }
 
-.owner-info-heading p{
-    padding-top: 50px;
-}
+#owner-info-heading h1{
+    border-bottom: 3px solid;
+    display: inline-block;
+    padding-bottom: 10px; 
+    margin-bottom: 100px;
+ }
    
 .owner-info{
     color: #fde3a7;
@@ -143,12 +151,11 @@ body{
 }*/
 
 .owner-info-story p{
-    padding-top: 25px;
+    padding-top: 50px;
 }
 
 #owner-image{
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 50px;
 }
 
 /*about.html----------------------------------Reservation information*/
@@ -168,7 +175,6 @@ body{
     padding-bottom: 25px;
     border-bottom: 3px solid;
 }
-
 
 #setmenu-image{
     padding-left: 0px;
@@ -210,7 +216,6 @@ body{
 
 .gallery-heading{
     color: #fde3a7;
-    background-color: rgba(25, 25, 25, 0.8);
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     padding-top: 50px;
@@ -223,8 +228,8 @@ body{
     display: inline-block;
     padding-bottom: 10px; 
     margin-bottom: 100px;
-    text-align: center;
  }
+
 
 /*----------------------------------Contact form*/
 .contact-info-image{
