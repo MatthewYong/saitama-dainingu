@@ -218,6 +218,37 @@ body{
     margin-bottom: 100px;
  }
 
+/*menu.html----------------------------------Menu*/
+.menu{
+    height: 700px;
+    width: 500px;
+    padding: 50px 25px 50px 25px;
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fde3a7;
+    background-color: rgba(25, 25, 25, 0.5);
+    font-family:'Noto Serif JP', serif, sans-serif;
+    text-align: center;
+    text-transform: uppercase;    
+    
+   
+}
+
+.menu h2{    
+    display: inline-block;
+    border-bottom: 3px solid;
+    padding-bottom: 10px;   
+ }
+
+.menu-cover-text{  
+    font-size: 12px;
+}
+
+
+
+
 
 /*----------------------------------Contact form*/
 .contact-info-image{
