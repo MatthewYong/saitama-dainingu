@@ -171,10 +171,14 @@
 											<script>
 												var map;
                                                  function initMap() {
-                                                 map = new google.maps.Map(document.getElementById('map'), {
-                                                    center: {lat: 51.507537, lng: -0.139120},
-                                                        zoom: 14
+                                                 map = new google.maps.Map(document.getElementById('map'), {center: {lat: 51.507537, lng: -0.139120},
+                                                        zoom: 13
                                                         });
+                                                        var marker = new google.maps.Marker({
+                                                        position: {lat: 51.507537, lng: -0.139120},
+                                                        map:map,
+                                                        title:"Saitama Dainingu"
+                                                    });     
                                                      }
 											</script>
 										</div>
