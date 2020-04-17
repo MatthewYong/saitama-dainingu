@@ -51,104 +51,6 @@
     margin-bottom: 35px;
 }
 
-/*----------------------------------Contact form*/
-.contact-info-image{
-    background: url("../images/image-nigiri.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;
-}
-
-.contact-heading{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;    
-}
-
-.contact-heading h2{
-    border-bottom: 3px solid;
-    display: inline-block;
-    padding: 50px 0px 10px 0px; 
- }
-
-.contact-info{
-    color: #fde3a7;
-    font-size: 16px;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    letter-spacing: 2px;    
-    padding-top: 50px;
-}
-
-.contact-cover{
-    text-transform: uppercase;
-    text-align: center;
-    position: relative;
-    background-color: rgba(25, 25, 25, 0.5); 
-    padding: 0px 25px 25px 25px;
-    margin: auto;
-    margin-top: 35px;   
-}
-
-.text-input{
-    color: #f5b745;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
-    background-color: rgba(25, 25, 25, 0.5);
-    height: 10px;
-    width: 100%;
-    padding: 12px 20px;
-    margin-bottom: 20px;
-    display: inline-block;  
-    text-align: center;
-    border: 1px solid;
-}
-
-.text-input:hover{
-    background-color: rgba(25, 25, 25, 0.8);  
-}
-
-#message{
-    height: 100px;
-    text-align: left;   
-}
-
-.send-button{
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    color: #fde3a7;
-    background-color: #2a2a2a;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
-    border-radius: 4px;
-    border-color: #bd8d32;
-    margin-top: 10px;    
-}
-
-.send-button:hover{
-    color: #bd8d32;
-    background-color: #191919;    
-}
-
-/*----------------------------------Map*/
-.map-size{
-    width: 100%;
-    height:400px;
-    border: 3px solid;
-    border-color: #bd8d32;
-}
-
-#map-padding{
-    padding-top: 50px;
-    padding-left: 15px;
-
-}
-
-
 
 /*----------------------------------Media screen min-width 769px*/
 
@@ -209,6 +111,7 @@ section{
     scroll-snap-align: start;
     position: relative;
     }
+
 /*----------------------------------Media screen restaurant-info-section*/
 
 
@@ -257,11 +160,6 @@ section{
     left: 0px;
     right: 0px;
     bottom: 250px;
-    }
-
-.contact-info-image{    
-    height: 90vh;
-    width: 100%;
     }
 
 /*----------------------------------Media screen max-width 768px*/
@@ -332,12 +230,6 @@ section{
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     }   
-
-/*----------------------------------Media screen contact-section*/
-.contact-info-image{    
-    height: 100%;
-    width: 100%;
-    }
 
 
 
