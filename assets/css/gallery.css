@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+
+/*gallery.html----------------------------------Gallery*/
+#gallery-images img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#gallery-images img:hover{
+    opacity: 0.5;
+}
+
+.gallery-heading{
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    text-transform: uppercase;    
+}
+
+.gallery-heading h1{
+    border-bottom: 3px solid;
+    display: inline-block;
+    padding-bottom: 10px; 
+    margin-bottom: 100px;
+ }
+
+
+/*----------------------------------Media screen min-width 769px*/
+
+@media only screen and (min-width: 769px){
+/*----------------------------------Media screen gallery*/
+#gallery-images{
+    column-count: 3;
+    column-gap: 10px;
+    column-fill: balance;
+    padding: 0px 50px 50px 50px;
+    }
+}
+
+/*----------------------------------Media screen max-width 768px*/
+
+@media only screen and (max-width: 768px){
+/*----------------------------------Media screen gallery*/
+#gallery-images{
+    column-count: 3;
+    column-gap: 10px;
+    column-fill: balance;
+    padding: 0px 25px 25px 25px;
+    }   
+}
+
+/*----------------------------------Media screen max-width 768px*/
+
+@media only screen and (max-width: 576px){
+/*----------------------------------Media screen gallery*/
+#gallery-images{
+    column-count: 1;
+    column-gap: 10px;
+    column-fill: balance;
+    padding: 0px 10px 25px 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
