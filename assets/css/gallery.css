@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
-
 /*gallery.html----------------------------------Gallery*/
 #gallery-images img{
     width: 100%;
@@ -43,6 +40,7 @@
     }
 }
 
+
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 768px){
@@ -54,6 +52,7 @@
     padding: 0px 25px 25px 25px;
     }   
 }
+
 
 /*----------------------------------Media screen max-width 768px*/
 

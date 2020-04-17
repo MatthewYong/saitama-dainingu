@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
 
 /*index.html----------------------------------Heading*/
 .image-hero1{
@@ -111,7 +109,6 @@ section{
     scroll-snap-align: start;
     position: relative;
     }
-
 /*----------------------------------Media screen restaurant-info-section*/
 
 
@@ -161,6 +158,7 @@ section{
     right: 0px;
     bottom: 250px;
     }
+}
 
 /*----------------------------------Media screen max-width 768px*/
 
@@ -230,6 +228,15 @@ section{
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     }   
+}
+
+
+
+
+
+
+
+
 
 
 

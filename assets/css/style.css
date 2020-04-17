@@ -50,174 +50,6 @@ body{
     color: #f5b745;
 }
 
-/*index.html----------------------------------Heading*/
-.image-hero1{
-    background: url("../images/image-hero-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-}
-
-.image-hero2{
-    background: url("../images/image-hero-2.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-}
-
-.image-hero3{
-    background: url("../images/image-hero-3.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-}
-
-/*index.html----------------------------------Location and opening times*/
-.restaurant-info-heading{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    text-align: center;
-}
-
-.restaurant-info-heading h3{
-    text-transform: uppercase;
-    display: inline-block;
-    border-bottom: 3px solid;
-    padding-bottom: 10px;   
- }
-
-.restaurant-info-cover-text{  
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 35px;
-}
-
-/*about.html----------------------------------Background*/
-.bg-about-image{
-    background: url("../images/image-japan-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    width: 100%;   
-}
-
-
-/*about.html----------------------------------Background story owner*/
-.owner-info-heading{
-    color: #fde3a7;
-    background-color: rgba(25, 25, 25, 0.8);
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;   
-    padding-top: 100px;
-    padding-bottom: 50px;
-    text-align: center;
-    text-transform: uppercase; 
-    margin-top: 100px;
-    width: 100%
-}
-
-.owner-info-heading h1{
-    border-bottom: 3px solid;
-    display: inline-block;
-    padding-bottom: 10px; 
- }
-   
-.owner-info{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    width: 100%;    
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.8);    
-}
-
-.owner-info-story{
-    padding: 50px;
-}
-
-#owner-image{
-    padding: 50px;
-}
-
-/*about.html----------------------------------Reservation information*/
-.reservation-info{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding: 10% 10% 35px 10%;
-    width: 100%;  
-    background-color: rgba(25, 25, 25, 0.8); 
-    margin-bottom: 100px;
-}
-
-.reservation-info h2{
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    border-bottom: 3px solid;
-}
-
-#setmenu-image{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-#reservation-menu-button{
-    color: #fde3a7;
-    background-color: #202020;
-    border-color: #bd8d32;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;    
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding:3px 25px 3px 25px;
-}
-
-#reservation-menu-button:hover{
-    background-color: #191919;
-    border-color: #f5b745;
-    color: #f5b745;
-}
-
-#menu-button{
-    margin-top: 50px;
-    text-align: center;
-}
-
-/*gallery.html----------------------------------Gallery*/
-#gallery-images img{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-#gallery-images img:hover{
-    opacity: 0.5;
-}
-
-.gallery-heading{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;    
-}
-
-.gallery-heading h1{
-    border-bottom: 3px solid;
-    display: inline-block;
-    padding-bottom: 10px; 
-    margin-bottom: 100px;
- }
-
 
 /*----------------------------------Contact form*/
 .contact-info-image{
@@ -316,7 +148,6 @@ body{
 
 }
 
-
 /*----------------------------------Footer*/
 footer{
     text-transform: uppercase;
@@ -366,126 +197,14 @@ button:focus{
     }
 }
 
+
 /*----------------------------------Media screen min-width 769px*/
 
 @media only screen and (min-width: 769px){
-/*----------------------------------Media screen hero-section*/
-.hero-slogan{
-    text-transform: uppercase;
-    padding: 75px 0px 25px 0px;
-    border-bottom: 5px solid;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 36px;
-    color: #fde3a7;    
-    }
-
- .hero-slogan:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
-
-.hero-cover{
-    width: 750px;    
-    height: 300px;    
-    padding: 25px 25px 25px 25px;
-    margin: auto;
-    margin-top: 35vh;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    position: relative;
-    }
-
-.hero-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;    
-    color: #fde3a7;    
-    }
-
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
-
-/*Landing page: Scroll snap type code used from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
-.parent{
-    overflow: scroll;
-    height: 100vh;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-    }
-
-section{
-    scroll-snap-align: start;
-    position: relative;
-    }
-/*----------------------------------Media screen restaurant-info-section*/
-
-
-/*----------------------------------CSS code 'zoom-image' used from stackoverflow.com/questions/44690752/zoom-background-image-only*/
-.restaurant-info-image{
-    height: 100vh;
-    width: 100%;
-    position: relative;    
-    }
-
-.restaurant-info-image:before{
-    content: '';
-    background: url("../images/image-japan.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    left:0px;
-    position: absolute;
-    transition: all 5s ease-out;
-    -webkit-transition: all 5s ease-out;
-    -moz-transition: all 5s ease-out;
-    -o-transition: all 5s ease-out;
-    -ms-transition: all 5s ease-out;
-    }
-
-.restaurant-info-image:hover:before{
-    transform: scale(1.2);
-    transition: all 5s ease-in;
-    -webkit-transition: all 5s ease-in;
-    -moz-transition: all 5s ease-in;
-    -o-transition: all 5s ease-in;
-    -ms-transition: all 5s ease-in;
-    }
-
-#restaurant-info-cover{
-    width: 500px;
-    padding: 50px 25px 50px 25px;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    position: absolute;
-    margin: auto;
-    top: 300px;
-    left: 0px;
-    right: 0px;
-    bottom: 250px;
-    }
-
+/*----------------------------------Media screen contact-form*/
 .contact-info-image{    
     height: 90vh;
     width: 100%;
-    }
-
-/*----------------------------------Media screen gallery*/
-#gallery-images{
-    column-count: 3;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 0px 50px 50px 50px;
     }
 }
 
@@ -493,98 +212,14 @@ section{
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 768px){
-/*----------------------------------Media screen hero-section*/
- .hero-slogan{
-    text-transform: uppercase;
-    padding: 25px 0px 10px 0px;
-    border-bottom: 3px solid;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 24px;
-    color: #fde3a7;    
-    }
-
- .hero-slogan:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
-
- .hero-cover{
-    width: 80%;      
-    padding: 0px 10px 10px 10px;
-    margin: auto;
-    margin-top: 40vh;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    position: relative;
-    }
-
-.hero-cover-text{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;    
-    color: #fde3a7;    
-    }
-
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
-
-/*----------------------------------Media screen restaurant-info-section*/
-.restaurant-info-image{
-    background: url("../images/image-japan.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    }
-
-#restauraunt-info-container{
-    margin-top: 10px;
-    }
-
-#restaurant-info-cover{
-    padding: 50px 0px 50px 0px;
-    margin: auto;
-    margin-top: 25vh;
-    text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
-    }   
-
 /*----------------------------------Media screen contact-section*/
 .contact-info-image{    
     height: 100%;
     width: 100%;
-    }
-
-/*----------------------------------Media screen gallery*/
-#gallery-images{
-    column-count: 3;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 0px 25px 25px 25px;
-    }   
+    } 
 }
 
-/*----------------------------------Media screen max-width 768px*/
 
-@media only screen and (max-width: 576px){
-/*----------------------------------Media screen gallery*/
-#gallery-images{
-    column-count: 1;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 0px 10px 25px 10px;
-    }
-}
 
 
 
