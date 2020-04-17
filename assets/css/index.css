@@ -97,7 +97,7 @@
     text-decoration: none;    
     }
 
-/*Landing page: Scroll snap type code used from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
+/*Scroll snap type code used from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
 .parent{
     overflow: scroll;
     height: 100vh;
@@ -112,7 +112,7 @@ section{
 /*----------------------------------Media screen restaurant-info-section*/
 
 
-/*----------------------------------CSS code 'zoom-image' used from stackoverflow.com/questions/44690752/zoom-background-image-only*/
+/*----------------------------------Zoom-image code used from stackoverflow.com/questions/44690752/zoom-background-image-only*/
 .restaurant-info-image{
     height: 100vh;
     width: 100%;
