@@ -8,6 +8,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
+    height: 100%;
     width: 100%;   
 }
 
@@ -75,7 +76,6 @@
 }
 
 
-
 /*----------------------------------Media screen min-width 769px*/
 
 @media only screen and (min-width: 769px){
@@ -96,17 +96,13 @@
     padding: 50px;
     }
 
-
 /*about.html-------------------------Media screen Reservation information*/
 .reservation-info{    
     padding: 10% 10% 150px 10%;
     width: 100%;   
     margin-bottom: 0px;
     }
-
 }
-
-
 
 
 /*----------------------------------Media screen max-width 768px*/
