@@ -171,7 +171,7 @@ footer a{
 
 /*----------------------------------Media screen max-width 992px*/
 
-@media only screen and (max-width: 992px){
+@media only screen and (max-width: 991px){
 /*----------------------------------Media screen navbar-section*/
 #main-menu{
     background-color: rgba(25, 25, 25, 0.8);
