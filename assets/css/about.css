@@ -12,16 +12,21 @@
 }
 
 /*about.html----------------------------------Background story owner*/
+.owner-info{
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgba(25, 25, 25, 0.8);    
+}
+
 .owner-info-heading{
     color: #fde3a7;
     background-color: rgba(25, 25, 25, 0.8);
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;   
-    padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
     text-transform: uppercase; 
-    margin-top: 100px;
     width: 100%
 }
 
@@ -30,35 +35,8 @@
     display: inline-block;
     padding-bottom: 10px; 
  }
-   
-.owner-info{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    width: 100%;    
-    text-align: left;
-    background-color: rgba(25, 25, 25, 0.8);    
-}
-
-.owner-info-story{
-    padding: 50px;
-}
-
-#owner-image{
-    padding: 50px;
-}
 
 /*about.html----------------------------------Reservation information*/
-.reservation-info{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding: 10% 10% 35px 10%;
-    width: 100%;  
-    background-color: rgba(25, 25, 25, 0.8); 
-    margin-bottom: 100px;
-}
-
 .reservation-info h2{
     text-align: center;
     text-transform: uppercase;
@@ -66,9 +44,12 @@
     border-bottom: 3px solid;
 }
 
-#setmenu-image{
-    padding-left: 0px;
-    padding-right: 0px;
+.reservation-info{
+    color: #fde3a7;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;
+    text-align: left;
+    background-color: rgba(25, 25, 25, 0.8);    
 }
 
 #reservation-menu-button{
@@ -95,6 +76,70 @@
 
 
 
+/*----------------------------------Media screen min-width 769px*/
+
+@media only screen and (min-width: 769px){
+/*about.html------------------------Media screen Background story owner*/
+.owner-info-heading{
+    padding-top: 100px;
+    }
+
+.owner-info{
+    width: 100%;            
+    }
+
+.owner-info-story{
+    padding: 50px;
+    }
+
+#owner-image{
+    padding: 50px;
+    }
+
+
+/*about.html-------------------------Media screen Reservation information*/
+.reservation-info{    
+    padding: 10% 10% 150px 10%;
+    width: 100%;   
+    margin-bottom: 0px;
+    }
+
+}
+
+
+
+
+/*----------------------------------Media screen max-width 768px*/
+
+@media only screen and (max-width: 768px){
+/*about.html------------------------Media screen Background story owner*/
+.owner-info-heading{
+    padding-top: 75px;
+    }
+
+.owner-info{    
+    width: 100%;    
+    }
+
+.owner-info-story{
+    padding: 10% 10% 20px 10%;
+    }
+
+#owner-image{
+    padding: 10% 10% 20px 10%;
+    }
+
+
+/*about.html-------------------------Media screen Reservation information*/
+.reservation-info{    
+
+    padding: 10% 10% 120px 10%;
+    width: 100%;        
+    }
+
+
+
+}
 
 
 
