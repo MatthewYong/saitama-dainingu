@@ -50,9 +50,16 @@
 }
 
 
+
+
+
+
+
+
+
 /*----------------------------------Media screen min-width 769px*/
 
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 992px){
 /*Scroll snap type code used from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)*/
 .parent{
     overflow: scroll;
@@ -159,7 +166,7 @@ section{
 
 /*----------------------------------Media screen max-width 768px*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
 /*----------------------------------Media screen hero-section*/
  .hero-slogan{
     text-transform: uppercase;
