@@ -46,7 +46,7 @@
 .restaurant-info-cover-text{  
     font-size: 16px;
     text-transform: uppercase;
-    margin-bottom: 35px;
+    margin-bottom: 50px;
 }
 
 
@@ -147,13 +147,16 @@ section{
     width: 500px;
     padding: 50px 25px 50px 25px;
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
+    background-color: rgba(25, 25, 25, 0.8);
     position: absolute;
-    margin: auto;
-    top: 300px;
-    left: 0px;
-    right: 0px;
-    bottom: 250px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin:auto;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+    border-radius: 5px;    
     }
 }
 
@@ -216,9 +219,9 @@ section{
 #restaurant-info-cover{
     padding: 50px 0px 50px 0px;
     margin: auto;
-    margin-top: 25vh;
+    margin-top: 20vh;
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.5);
+    background-color: rgba(25, 25, 25, 0.8);
     }   
 }
 
