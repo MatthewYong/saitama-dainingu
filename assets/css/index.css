@@ -54,21 +54,14 @@
 
 @media only screen and (min-width: 769px){
 /*----------------------------------Media screen hero-section*/
-.hero-slogan{
+#hero-slogan{
     text-transform: uppercase;
-    padding: 75px 0px 25px 0px;
+    padding: 60px 0px 25px 0px;
     border-bottom: 5px solid;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 36px;
-    color: #fde3a7;    
-    }
-
- .hero-slogan:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
+    color: #fde3a7;
+    margin-bottom: 50px;    
     }
 
 .hero-cover{
@@ -80,20 +73,24 @@
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
-    }
-
-.hero-cover-text{   
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-transform: uppercase;    
     color: #fde3a7;    
     }
 
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
+#reservation-button{   
+    color: #fde3a7; 
+    background-color: rgba(25, 25, 25, 0.8);
+    border-color: #f5b745;
+    border: solid 2px;
+    border-radius: 4px;
+    font-size: 16px;    
+    padding:5px 25px 5px 25px;
+    }
+
+#reservation-button:hover{   
+    color: #f5b745;
     text-decoration: none;    
     }
 
@@ -164,21 +161,13 @@ section{
 
 @media only screen and (max-width: 768px){
 /*----------------------------------Media screen hero-section*/
- .hero-slogan{
+ #hero-slogan{
     text-transform: uppercase;
     padding: 25px 0px 10px 0px;
     border-bottom: 3px solid;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 24px;
     color: #fde3a7;    
-    }
-
- .hero-slogan:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 24px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
     }
 
  .hero-cover{
@@ -189,22 +178,12 @@ section{
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
-    }
-
-.hero-cover-text{   
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 12px;
     text-transform: uppercase;    
-    color: #fde3a7;    
+    color: #fde3a7;   
     }
 
-.hero-cover-text:hover{   
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 12px;
-    text-transform: uppercase;    
-    color: #f5b745a7;
-    text-decoration: none;    
-    }
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info-image{
