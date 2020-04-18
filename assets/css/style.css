@@ -50,7 +50,7 @@ body{
     color: #f5b745;
 }
 
-.active a{
+.active{
     border-bottom: solid 2px #fde3a7;
 }
 
