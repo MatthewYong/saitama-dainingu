@@ -33,7 +33,7 @@
 @media only screen and (min-width: 769px){
 /*----------------------------------Media screen gallery code used/learned from Code Institute Project Love Running*/
 #gallery-images{
-    column-count: 3;
+    column-count: 4;
     column-gap: 10px;
     column-fill: balance;
     padding: 0px 50px 50px 50px;
