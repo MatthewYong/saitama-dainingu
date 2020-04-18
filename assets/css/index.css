@@ -92,18 +92,18 @@ section{
     color: #fde3a7;    
     }
 
-.reservation-button{   
+.reservation-button a{   
     color: #fde3a7; 
-    background-color: #191919;
-    border-color: #f5b745;
-    border: solid 1px;
+    background-color: #202020;    
+    border: solid 1px #f5b745;
     border-radius: 4px;
     font-size: 16px;    
-    padding:5px 25px 5px 25px;
+    padding:10px 25px 10px 25px;
     }
 
-.reservation-button:hover{   
+.reservation-button a:hover{   
     color: #f5b745;
+    background-color: #191919;
     text-decoration: none;    
     }
 
@@ -170,11 +170,11 @@ section{
     color: #fde3a7;    
     }
 
- .hero-cover{
-    width: 80%;      
-    padding: 0px 10px 10px 10px;
+ .hero-cover{       
+    padding: 0px 10px 20px 10px;
     margin: auto;
     margin-top: 40vh;
+    width: 80%;   
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
@@ -184,17 +184,17 @@ section{
     color: #fde3a7;   
     }
 
-.reservation-button{   
+.reservation-button a{   
     color: #fde3a7; 
     background-color: #191919;
-    border-color: #f5b745;
     border: solid 1px;
     border-radius: 4px;
-    font-size: 16px;    
-    padding:5px 25px 5px 25px;
+    border-color: #f5b745;    
+    font-size: 10px;    
+    padding:5px 10px 5px 10px;
     }
 
-.reservation-button:hover{   
+.reservation-button a:hover{   
     color: #f5b745;
     text-decoration: none;    
     }
