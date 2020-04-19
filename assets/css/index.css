@@ -65,7 +65,6 @@
 }
 
 #bg-info{
-    padding-top: 50px;
     background-color: rgba(25, 25, 25, 0.9);
 }
 
@@ -135,11 +134,9 @@
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info{    
     width: 900px;
-    padding: 50px 25px 50px 25px;
+    padding: 150px 25px 50px 25px;
     text-align: center;
-    margin:auto;
-    margin-top: 50px;
-    margin-bottom: 50px;        
+    margin:auto;       
     }
 }
 
@@ -186,9 +183,8 @@
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info{
-    padding: 50px 0px 50px 0px;
+    padding: 75px 5px 50px 5px;
     margin: auto;
-    margin-top: 20vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.9);
     }   
@@ -196,10 +192,13 @@
 
 
 
+/*----------------------------------Media screen max-width 576px*/
 
-
-
-
+@media only screen and (max-width: 767px){
+/*----------------------------------Media screen restaurant-info-section*/
+.no-image-sm{
+    display: none;
+}
 
 
 
