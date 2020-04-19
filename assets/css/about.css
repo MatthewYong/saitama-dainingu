@@ -13,49 +13,44 @@
 }
 
 .owner-info{
-    color: #fde3a7;
-    background-color: rgba(25, 25, 25, 0.9);
+    color: #fde3a7;      
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-align: left;
-    position: relative;
-    margin-top: 5vh;
-    margin-left: 60%;
-    padding: 25px;
+    position: relative;   
 }
 
 .owner-info h1{
-    border-bottom: 3px solid;
-    display: inline-block;
-    padding-bottom: 10px; 
+    text-transform: uppercase;
     margin-bottom: 25px;
  }
 
 
-/*----------------------------------Media screen min-width 769px*/
+/*----------------------------------Media screen min-width 992px*/
 
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 992px){
 /*about.html------------------------Media screen Background story owner*/
-
 .owner-info{
-    height: 500px;
-    width: 500px;
-    padding-top: 50px;            
+    background: linear-gradient(to left, rgb(255, 255, 255, 0)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0) 100%); 
+    margin-right: 100px;
+    padding: 25px 50px 25px 50px;
+    padding-top: 50px;
+    margin-top: 10vh;
+    margin-left: 45%;                 
     }
 }
 
 
-
 /*----------------------------------Media screen max-width 768px*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
 /*about.html------------------------Media screen Background story owner*/
-.owner-info{
-    height: 500px;
+.owner-info{  
+    background-color: rgba(25, 25, 25, 0.9);
     width: 100%;
-    padding-top: 100px;   
+    margin-top: 15vh;
+    padding: 50px 25px 50px 25px;   
     }
-
 
 }
 
