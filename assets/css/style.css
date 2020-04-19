@@ -173,12 +173,12 @@ footer a{
     }
 
 .contact-info{  
-    padding: 50px 5% 0px 5%;
+    padding: 50px 0px 0px 2%;
     }
 
 /*----------------------------------Map*/
 #map-padding{
-    padding: 50px 5% 0px 5%;
+    padding: 50px 2% 0px 0px;
     }
 }
 
