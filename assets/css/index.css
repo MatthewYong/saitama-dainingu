@@ -30,19 +30,42 @@
 }
 
 /*index.html----------------------------------restaurant information*/
+.bg-info-image{
+    background: url("../images/image-japan-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;    
+}
+
 .restaurant-info-image{       
-    margin-top: 100px;
+    margin-top: 0px;
+    margin-bottom: 100px;
     padding: 50px;    
     position: relative;    
 }
 
 .restaurant-info-image img{
     border-radius: 50%;
+    box-shadow: 15px 15px 10px grey;  
 }
 
 .restaurant-info{
+    font-family: 'Noto Serif JP', serif, sans-serif;
+    font-size: 20px;    
     color: #fde3a7;
 }
+
+.restaurant-info h2{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+#bg-info{
+    padding-top: 50px;
+    background-color: rgb(243, 243, 243);
+}
+
 
 #menu-button{
     color: #fde3a7;
@@ -110,16 +133,15 @@
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info{
-    width: 500px;
+    
+    width: 900px;
     padding: 50px 25px 50px 25px;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.8);
-    position: relative;
-   
-    z-index: 9999;    
+    position: relative; 
     margin:auto;
-    margin-top: 25vh;
-    margin-bottom: 25vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
     border-radius: 5px;    
     }
 }
@@ -166,17 +188,7 @@
     }
 
 /*----------------------------------Media screen restaurant-info-section*/
-.restaurant-info-image{
-    background: url("../images/image-japan.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    }
-
-#restaurant-info{
+.restaurant-info{
     padding: 50px 0px 50px 0px;
     margin: auto;
     margin-top: 20vh;
