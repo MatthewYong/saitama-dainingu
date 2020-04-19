@@ -29,43 +29,44 @@
     height: 100vh;
 }
 
-/*index.html----------------------------------Location and opening times*/
-.restaurant-info-heading{
+/*index.html----------------------------------restaurant information*/
+.restaurant-info-image{       
+    margin-top: 100px;
+    padding: 50px;    
+    position: relative;    
+}
+
+.restaurant-info-image img{
+    border-radius: 50%;
+}
+
+.restaurant-info{
     color: #fde3a7;
+}
+
+#menu-button{
+    color: #fde3a7;
+    background-color: #202020;
+    border-color: #bd8d32;
     font-family:'Noto Serif JP', serif, sans-serif;
-    text-align: center;
+    font-size: 16px;    
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding:3px 25px 3px 25px;
+    
 }
 
-.restaurant-info-heading h3{
-    text-transform: uppercase;
-    display: inline-block;
-    border-bottom: 3px solid;
-    padding-bottom: 10px;   
- }
-
-.restaurant-info-cover-text{  
-    font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 50px;
+#menu-button:hover{
+    background-color: #191919;
+    border-color: #f5b745;
+    color: #f5b745;
 }
+
 
 
 /*----------------------------------Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
-/*Scroll snap type code used from StackOverflow (https://stackoverflow.com/questions/53416348/css-scroll-snapping-vertical-not-working/53417516)
-.parent{
-    overflow: scroll;
-    height: 100vh;
-    scroll-snap-points-y: repeat(100vh);
-    scroll-snap-type: y mandatory;
-    }
-
-section{
-    scroll-snap-align: start;
-    position: relative;
-    }
-*/
 /*----------------------------------Media screen hero-section*/
 .hero-slogan{
     text-transform: uppercase;
@@ -108,51 +109,14 @@ section{
     }
 
 /*----------------------------------Media screen restaurant-info-section*/
-
-/*----------------------------------Zoom-image code used from stackoverflow.com/questions/44690752/zoom-background-image-only*/
-.restaurant-info-image{
-    height: 100vh;
-    width: 100%;
-    position: relative;    
-    }
-
-.restaurant-info-image:before{
-    content: '';
-    background: url("../images/image-japan.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
-    width: 100%;
-    left:0px;
-    position: absolute;
-    transition: all 5s ease-out;
-    -webkit-transition: all 5s ease-out;
-    -moz-transition: all 5s ease-out;
-    -o-transition: all 5s ease-out;
-    -ms-transition: all 5s ease-out;
-    }
-
-.restaurant-info-image:hover:before{
-    transform: scale(1.2);
-    transition: all 5s ease-in;
-    -webkit-transition: all 5s ease-in;
-    -moz-transition: all 5s ease-in;
-    -o-transition: all 5s ease-in;
-    -ms-transition: all 5s ease-in;
-    }
-
-#restaurant-info-cover{
+.restaurant-info{
     width: 500px;
     padding: 50px 25px 50px 25px;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.8);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
+    position: relative;
+   
+    z-index: 9999;    
     margin:auto;
     margin-top: 25vh;
     margin-bottom: 25vh;
@@ -212,11 +176,7 @@ section{
     width: 100%;
     }
 
-#restauraunt-info-container{
-    margin-top: 10px;
-    }
-
-#restaurant-info-cover{
+#restaurant-info{
     padding: 50px 0px 50px 0px;
     margin: auto;
     margin-top: 20vh;

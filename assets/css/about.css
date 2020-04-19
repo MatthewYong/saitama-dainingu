@@ -37,43 +37,6 @@
     padding-bottom: 10px; 
  }
 
-/*about.html----------------------------------Reservation information*/
-.reservation-info h2{
-    text-align: center;
-    text-transform: uppercase;
-    padding-bottom: 25px;
-    border-bottom: 3px solid;
-}
-
-.reservation-info{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    text-align: left;
-    background-color: rgba(25, 25, 25, 0.8);    
-}
-
-#reservation-menu-button{
-    color: #fde3a7;
-    background-color: #202020;
-    border-color: #bd8d32;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;    
-    text-transform: uppercase;
-    margin-top: 20px;
-    padding:3px 25px 3px 25px;
-}
-
-#reservation-menu-button:hover{
-    background-color: #191919;
-    border-color: #f5b745;
-    color: #f5b745;
-}
-
-#menu-button{
-    margin-top: 50px;
-    text-align: center;
-}
 
 
 /*----------------------------------Media screen min-width 769px*/
