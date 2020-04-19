@@ -86,7 +86,6 @@
 }
 
 
-
 /*----------------------------------Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
@@ -183,7 +182,7 @@
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info{
-    padding: 75px 5px 50px 5px;
+    padding: 75px 15px 50px 15px;
     margin: auto;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.9);
@@ -191,8 +190,7 @@
 }
 
 
-
-/*----------------------------------Media screen max-width 576px*/
+/*----------------------------------Media screen max-width 767px*/
 
 @media only screen and (max-width: 767px){
 /*----------------------------------Media screen restaurant-info-section*/

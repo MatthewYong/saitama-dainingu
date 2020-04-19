@@ -16,7 +16,7 @@
 .gallery-images{
     column-count: 4;
     column-gap: 0px;
-    padding: 150px 50px 150px 50px;
+    padding: 150px 100px 150px 100px;
     }
 
 .gallery-images img:hover{
