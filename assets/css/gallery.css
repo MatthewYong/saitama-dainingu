@@ -1,55 +1,51 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
 /*gallery.html----------------------------------Gallery*/
-
 .gallery-images img{
     width: 100%;
     height: auto;
-    margin-bottom: 10px;
-}
-
-.gallery-images img:hover{
-    opacity: 0.5;
+    margin-bottom: 0px;
+    border: solid 1px #191919;
 }
 
 
+/*----------------------------------Media screen min-width 992px*/
 
-/*----------------------------------Media screen min-width 769px*/
-
-@media only screen and (min-width: 769px){
+@media only screen and (min-width: 992px){
 /*----------------------------------Media screen gallery code used/learned from Code Institute Project Love Running*/
 .gallery-images{
-    column-count: 5;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 50px 50px 50px 50px;
-    margin-top: 50px;
+    column-count: 4;
+    column-gap: 0px;
+    padding: 150px 50px 150px 50px;
+    }
+
+.gallery-images img:hover{
+    opacity: 0.8;
+    border: solid 2px #f5b745;
     }
 }
 
 
-/*----------------------------------Media screen max-width 768px*/
+/*----------------------------------Media screen max-width 991px*/
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 991px){
 /*----------------------------------Media screen gallery*/
 .gallery-images{
     column-count: 3;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 0px 25px 25px 25px;
+    column-gap: 0px;
+    padding: 75px 25px 75px 25px;
     }   
 }
 
 
-/*----------------------------------Media screen max-width 768px*/
+/*----------------------------------Media screen max-width 576px*/
 
 @media only screen and (max-width: 576px){
 /*----------------------------------Media screen gallery*/
-#gallery-images{
+.gallery-images{
     column-count: 1;
-    column-gap: 10px;
-    column-fill: balance;
-    padding: 0px 10px 25px 10px;
+    column-gap: 0px;
+    padding: 50px 10px 50px 10px;
     }
 }
 
