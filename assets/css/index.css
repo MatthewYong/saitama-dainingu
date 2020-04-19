@@ -47,7 +47,7 @@
 
 .restaurant-info-image img{
     border-radius: 50%;
-    box-shadow: 15px 15px 10px grey;  
+    box-shadow: 5px 5px 10px rgb(184, 184, 184)
 }
 
 .restaurant-info{
@@ -58,14 +58,16 @@
 
 .restaurant-info h2{
     text-transform: uppercase;
+    border-bottom: 3px solid;
+    display: inline-block;
     padding-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #bg-info{
     padding-top: 50px;
-    background-color: rgb(243, 243, 243);
+    background-color: rgba(25, 25, 25, 0.9);
 }
-
 
 #restaurant-menu-button{
     color: #fde3a7;
@@ -75,8 +77,7 @@
     font-size: 16px;    
     text-transform: uppercase;
     margin-top: 50px;
-    padding:3px 25px 3px 25px;
-    
+    padding:3px 25px 3px 25px;    
 }
 
 #restaurant-menu-button:hover{
@@ -132,17 +133,13 @@
     }
 
 /*----------------------------------Media screen restaurant-info-section*/
-.restaurant-info{
-    
+.restaurant-info{    
     width: 900px;
     padding: 50px 25px 50px 25px;
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.8);
-    position: relative; 
     margin:auto;
     margin-top: 50px;
-    margin-bottom: 50px;
-    border-radius: 5px;    
+    margin-bottom: 50px;        
     }
 }
 
@@ -193,7 +190,7 @@
     margin: auto;
     margin-top: 20vh;
     text-align: center;
-    background-color: rgba(25, 25, 25, 0.8);
+    background-color: rgba(25, 25, 25, 0.9);
     }   
 }
 
