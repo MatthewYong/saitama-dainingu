@@ -1,40 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
 
-/*about.html----------------------------------Background*/
+/*about.html----------------------------------Owner information*/
 .bg-about-image{
-    background: url("../images/image-japan-1.jpg");
+    background: url("../images/image-saitama.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    height: 100%;
+    height: 100vh;
     width: 100%;   
 }
 
-/*about.html----------------------------------Background story owner*/
 .owner-info{
     color: #fde3a7;
+    background-color: rgba(25, 25, 25, 0.9);
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 20px;
     text-align: left;
-    background-color: rgba(25, 25, 25, 0.8);    
+    position: relative;
+    margin-top: 5vh;
+    margin-left: 60%;
+    padding: 25px;
 }
 
-.owner-info-heading{
-    color: #fde3a7;
-    background-color: rgba(25, 25, 25, 0.8);
-    font-family:'Noto Serif JP', serif, sans-serif;
-    padding-bottom: 50px;
-    text-align: center;
-    text-transform: uppercase; 
-    width: 100%
-}
-
-.owner-info-heading h1{
+.owner-info h1{
     border-bottom: 3px solid;
     display: inline-block;
     padding-bottom: 10px; 
+    margin-bottom: 25px;
  }
 
 
@@ -42,59 +36,25 @@
 
 @media only screen and (min-width: 769px){
 /*about.html------------------------Media screen Background story owner*/
-.owner-info-heading{
-    padding-top: 100px;
-    }
 
 .owner-info{
-    width: 100%;            
-    }
-
-.owner-info-story{
-    padding: 50px;
-    }
-
-#owner-image{
-    padding: 50px;
-    }
-
-/*about.html-------------------------Media screen Reservation information*/
-.reservation-info{    
-    padding: 10% 10% 150px 10%;
-    width: 100%;   
-    margin-bottom: 0px;
+    height: 500px;
+    width: 500px;
+    padding-top: 50px;            
     }
 }
+
 
 
 /*----------------------------------Media screen max-width 768px*/
 
 @media only screen and (max-width: 768px){
 /*about.html------------------------Media screen Background story owner*/
-.owner-info-heading{
-    padding-top: 75px;
+.owner-info{
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;   
     }
-
-.owner-info{    
-    width: 100%;    
-    }
-
-.owner-info-story{
-    padding: 10% 10% 20px 10%;
-    }
-
-#owner-image{
-    padding: 10% 10% 20px 10%;
-    }
-
-
-/*about.html-------------------------Media screen Reservation information*/
-.reservation-info{    
-
-    padding: 10% 10% 120px 10%;
-    width: 100%;        
-    }
-
 
 
 }
