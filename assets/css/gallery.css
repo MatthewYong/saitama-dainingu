@@ -1,42 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
 /*gallery.html----------------------------------Gallery*/
-#gallery-images img{
+
+.gallery-images img{
     width: 100%;
     height: auto;
     margin-bottom: 10px;
 }
 
-#gallery-images img:hover{
+.gallery-images img:hover{
     opacity: 0.5;
 }
 
-.gallery-heading{
-    color: #fde3a7;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
-    text-align: center;
-    text-transform: uppercase;    
-}
-
-.gallery-heading h1{
-    border-bottom: 3px solid;
-    display: inline-block;
-    padding-bottom: 10px; 
-    margin-bottom: 100px;
- }
 
 
 /*----------------------------------Media screen min-width 769px*/
 
 @media only screen and (min-width: 769px){
 /*----------------------------------Media screen gallery code used/learned from Code Institute Project Love Running*/
-#gallery-images{
-    column-count: 4;
+.gallery-images{
+    column-count: 5;
     column-gap: 10px;
     column-fill: balance;
-    padding: 0px 50px 50px 50px;
+    padding: 50px 50px 50px 50px;
+    margin-top: 50px;
     }
 }
 
@@ -45,7 +32,7 @@
 
 @media only screen and (max-width: 768px){
 /*----------------------------------Media screen gallery*/
-#gallery-images{
+.gallery-images{
     column-count: 3;
     column-gap: 10px;
     column-fill: balance;
