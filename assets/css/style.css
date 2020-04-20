@@ -154,6 +154,13 @@ body{
     padding-left: 5px;
 }
 
+.dinner-info a{ 
+    color: #fde3a7;    
+    font-size: 16px;
+    font-family:'Noto Serif JP', serif, sans-serif;
+    letter-spacing: 2px; 
+}
+
 .dinner-info p{ 
 padding-bottom: 50px;
 }
