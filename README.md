@@ -1,9 +1,9 @@
 # Saitama Dainingu | A Private Dining Experience
 Code Institute Milestone Project 1 - Static Front End Website
 
-The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a location map, as well as images and a background story to meet the expectation of new customers.
+This project is a website with three pages.The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
 
-
+(Place image)
 
 ## UX
 
