@@ -252,9 +252,14 @@ button:focus{
 }
 
 
+/*----------------------------------Media screen max-width 376px*/
 
-
-
+@media only screen and (max-width: 376px){
+/*----------------------------------Media screen navbar-section*/
+#logo{    
+    font-size: 28px;
+    }
+}
 
 
 
