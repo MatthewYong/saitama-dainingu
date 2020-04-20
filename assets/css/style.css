@@ -3,9 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 /*----------------------------------General spacing, padding, margins & colors*/
+html {
+  scroll-behavior: smooth;
+}
+
 body{
     background-color: #2A2A2A;
 }
+
 
 /*----------------------------------Navigation menu*/
 .bg-nav-color{
