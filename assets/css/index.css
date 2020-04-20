@@ -3,7 +3,7 @@
 
 /*index.html----------------------------------Heading*/
 .image-hero1{
-    background: url("../images/image-hero-1.jpg");
+    background: url("../images/index/image-hero-1.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -13,7 +13,7 @@
 }
 
 .image-hero2{
-    background: url("../images/image-hero-2.jpg");
+    background: url("../images/index/image-hero-2.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 }
 
 .image-hero3{
-    background: url("../images/image-hero-3.jpg");
+    background: url("../images/index/image-hero-3.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -33,14 +33,6 @@
 }
 
 /*index.html----------------------------------restaurant information*/
-.bg-info-image{
-    background: url("../images/image-japan-1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;    
-}
-
 .restaurant-info-image{       
     margin-top: 0px;
     margin-bottom: 100px;

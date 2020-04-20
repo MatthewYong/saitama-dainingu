@@ -56,7 +56,7 @@ body{
 
 /*----------------------------------Contact form*/
 .contact-info-image{
-    background: url("../images/image-nigiri.jpg");
+    background: url("../images/general/image-nigiri.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
