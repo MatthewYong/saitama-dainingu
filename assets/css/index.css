@@ -4,6 +4,7 @@
 /*index.html----------------------------------Heading*/
 .image-hero1{
     background: url("../images/image-hero-1.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +14,7 @@
 
 .image-hero2{
     background: url("../images/image-hero-2.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -22,6 +24,7 @@
 
 .image-hero3{
     background: url("../images/image-hero-3.jpg");
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,13 +137,15 @@
 .restaurant-info{
     background: linear-gradient(to left, rgb(255, 255, 255, 0.2)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0.2) 100%); 
     width: 900px;
-    padding: 150px 25px 50px 25px;
+    padding: 50px 25px 50px 25px;
     text-align: center;
     margin:auto;     
+    margin-bottom: 50px;
+    border-radius: 5px;
     }      
 
  #bg-info{
-     padding: 50px 0px 50px 0px;
+     padding: 100px 0px 50px 0px;
      }   
 
 }
