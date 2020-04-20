@@ -16,6 +16,7 @@ body{
 .bg-nav-color{
     background-color: #191919;
 }
+
 #main-menu-box{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -242,6 +243,7 @@ button:focus{
 .copyright{   
     text-align: center;
     }
+    
 .social-media{
     padding: 0px;
     text-align: center;
