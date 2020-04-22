@@ -56,6 +56,7 @@ The skeleton plane defines a basic visual design of the website through, for exa
 - [Wireframe - Mobile version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Mobile%20Version.pdf)
 
 Below you can find an example of a wireframe of the landing page
+
 ![alt text][wireframe]
 
 [wireframe]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-example-wireframe.png
