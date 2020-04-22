@@ -1,17 +1,17 @@
 # Saitama Dainingu | A Private Dining Experience
 Code Institute Milestone Project 1 - Static Front End Website
 
-This project is a website with three pages.The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
+This project is a website with three pages. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
 
 ![alt text][logo]
 
 [logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
 
 ## UX
-To understand what kind of website we need to deliver for the client, we need to define the development process of each stage. This can be done by analysing and breaking down the problem into five planes:
+To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analysing and breaking down the problem into five planes:
 
 ### 1. Strategy Plane
-The strategy plane defines the business objective and the user needs (goals).
+The strategy plane defines the business objective and the user needs (goals). The goals for this project are defined as:
 
 | Business Goal | Customer Goals |
 | :------------- | :---------- |
@@ -29,22 +29,23 @@ The scope plane defines the features that are and are not possible to include in
 | Features (included) | Future features (not included)|
 | :------------- | :---------- |
 1.	Navigation menu bar: Home, About, Gallery, Contact | 1. Subscribe to newsletter for latest updates
-2.	Hero images (carousel) | 2. Make a reservation through an agenda
-3.	Restaurant information including a downloadable PDF menu| 3. Accept payment for a reservation through the website
+2.	Hero images | 2. Make a reservation through an agenda
+3.	Reseservation information and a downloadable PDF menu| 3. Accept payment for a reservation through the website
 4.	Location of the restaurant through Google maps | 
 5.	Footer with copyright and social media links|  
-6.	Photo gallery (page includes same footer, contact form and map from landing page) | 
-7.	About page (page includes same footer, contact form and map from landing page) | 
+6.	Photo gallery | 
+7.  About page | 
 
 
 ### 3. Structure Plane
 The structure plane defines the information architecture and interaction design with the user. The following definitions will be used for this website:
 - First impression of the website needs to be simple and clear as possible
 - No more than three clicks are required for the user to reach a page
-- Using content hinting to encourage the customer to scroll down 
 - The type of information architecture that will be used is the ‘Hierarchical Tree’, see image below
 
-(Place image)
+![alt text][logo]
+
+[logo]: 
 
 
 ### 4. Skeleton Plane
