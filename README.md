@@ -49,18 +49,16 @@ The structure plane defines the information architecture and interaction design 
 
 
 ### 4. Skeleton Plane
-The skeleton plane defines a basic visual design of the website through, for example a wireframe. The wireframes for this project can be downloaded from the link below:
+The skeleton plane defines a basic visual design of the website through, for example a wireframe. The wireframes for this project can be downloaded from the link:
 
-
+- [Wireframe - Desktop version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
+- [Wireframe - Tablet version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Tablet%20Version.pdf)
+- [Wireframe - Mobile version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Mobile%20Version.pdf)
 
 Below you can find an example of a wireframe of the landing page
 ![alt text][wireframe]
 
-[wireframe]:
-
-
-
-
+[wireframe]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-example-wireframe.png
 
 
 ### 5. Surface Plane
