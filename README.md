@@ -5,7 +5,7 @@ This project is a website with three pages.The purpose of this website is to att
 
 ![alt text][logo]
 
-[logo]:https://b4e6e706-e809-4500-bd2b-e85b5391281e.ws-eu01.gitpod.io/files/download/?id=16b5a431-6ab5-45dd-adca-64a52a18d81e
+[logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
 
 ## UX
 To understand what kind of website we need to deliver for the client, we need to define the development process of each stage. This can be done by analysing and breaking down the problem into five planes:
