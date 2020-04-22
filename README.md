@@ -18,13 +18,13 @@ The strategy plane defines the business objective and the user needs (goals). Th
 |  As an owner of the restaurant I want the website to: | As a customer I want to:  |       
 | 1. Be eye-catching and attract customers by using a simple and unique design  | 1. Contact the restaurant for a reservation or more information | 
 | 2. Have the ability to contact the owner or make a reservation through a form | 2. To be more familiar with the chef’s cooking and history of this restaurant 
-| 3. Increase marketing by having social media links on the website | 3. See photos of special dishes | 
+| 3. Increase marketing by having social media links on the website | 3. See photos of chef's dishes | 
 | 4. Send newsletters for latest update | 4. See the price of the menu and download a PDF version of the menu  | 
 | 5. To have the ability to accept a payment for a reservation  | 5. Make a reservation through an agenda | 
 
 
 ### 2. Scope Plane
-The scope plane defines the features that are and are not possible to include in the website.
+The scope plane defines the features that are and are not possible to include in the website. This will be further in detail explained in the next chapter. A summary of the included and not included features are:
 
 | Features (included) | Future features (not included)|
 | :------------- | :---------- |
@@ -38,7 +38,7 @@ The scope plane defines the features that are and are not possible to include in
 
 
 ### 3. Structure Plane
-The structure plane defines the information architecture and interaction design with the user. The following definitions will be used for this website:
+The structure plane defines the information architecture and interaction design with the user. The following definitions has been used for this website:
 - First impression of the website needs to be simple and clear as possible
 - No more than three clicks are required for the user to reach a page
 - The type of information architecture that will be used is the ‘Hierarchical Tree’, see image below
@@ -49,14 +49,22 @@ The structure plane defines the information architecture and interaction design 
 
 
 ### 4. Skeleton Plane
-The skeleton plane defines a basic visual design of the website through, for example, a mock-up, sketch or wireframe. 
+The skeleton plane defines a basic visual design of the website through, for example a wireframe. The wireframes for this project can be downloaded from the link below:
+
+
+
+Below you can find an example of a wireframe of the landing page
+![alt text][wireframe]
+
+[wireframe]:
+
 
 
 
 
 
 ### 5. Surface Plane
-The surface plane is the final plane in the design process and defines the appearance of the website. This website needs to attract customers, but also needs to reflect the calmness during the dining experience. The following design style will be used:
+The surface plane is the final plane in the design process and defines the appearance of the website. This website needs to attract customers, but also needs to reflect the calmness during the dining experience. The following design style has been used:
 
 | Design Style | Design Choice|
 | :------------- | :---------- |
@@ -64,12 +72,6 @@ Font: Noto Serif JP | A Japanese Google font that reflects the theme of the busi
 Text color: #fde3a7 | A bright yellow color that represents wealth and success in Japan 
 Background color: 2A2A2A | A calm background that represent the dining experience
 Contrast ratio: 11.42 | A high ratio to express the visibility of the text (source: contrast-ratio.com)
-
-
-
-
-
-
 
 
 
