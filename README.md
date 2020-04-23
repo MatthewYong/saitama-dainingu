@@ -1,7 +1,7 @@
 # Saitama Dainingu | A Private Dining Experience
-Code Institute Milestone Project 1 - Static Front End Website
+Static Front End Website - Code Institute Milestone Project 1
 
-This project is a website with three pages. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
+This project is a website that contains three pages: a landing, about and galery page. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
 
 ![alt text][logo]
 
@@ -28,13 +28,14 @@ The scope plane defines the features that are and are not possible to include in
 
 | Features (included) | Future features (not included)|
 | :------------- | :---------- |
-|1. Navigation menu bar: Home, About, Gallery, Contact | 1. Subscribe to newsletter for latest updates
-|2. Hero images | 2. Make a reservation through an agenda
-|3. Reseservation information and a downloadable PDF menu| 3. Accept payment for a reservation through the website
+|1. Navigation menu bar: Home, About, Gallery, Contact | 1. Make a reservation through an agenda|
+|2. Hero images | 2. Accept a payment for a reservation|
+|3. Reseservation information and a downloadable PDF menu|
 |4. Location of the restaurant through Google maps | 
 |5. Footer with copyright and social media links|  
 |6. Photo gallery | 
 |7. About page | 
+|8. Contact section | 
 
 
 ### 3. Structure Plane
@@ -49,7 +50,7 @@ The structure plane defines the information architecture and interaction design 
 
 
 ### 4. Skeleton Plane
-The skeleton plane defines a basic visual design of the website through, for example a wireframe. The wireframes for this project can be downloaded from the link:
+The skeleton plane defines a basic visual design of the website through, for example, a wireframe. The wireframes for this project can be downloaded from the following link:
 
 - [Wireframe - Desktop version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
 - [Wireframe - Tablet version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Tablet%20Version.pdf)
@@ -67,29 +68,32 @@ The surface plane is the final plane in the design process and defines the appea
 
 | Design Style | Design Choice|
 | :------------- | :---------- |
-Font: Noto Serif JP | A Japanese Google font that reflects the theme of the business
-Text color: #fde3a7 | A bright yellow color that represents wealth and success in Japan 
-Background color: 2A2A2A | A calm background that represent the dining experience
-Contrast ratio: 11.42 | A high ratio to express the visibility of the text (source: contrast-ratio.com)
-
-
-
-
-
-
-
+Font: Noto Serif JP | A Japanese Google font that reflects the theme of the business|
+Text color: #fde3a7 | A bright yellow color that represents wealth and success in Japan|
+Background color: 2A2A2A | A calm background that represent the dining experience|
+Contrast ratio: 11.42 | A high ratio to express the visibility of the text (source: contrast-ratio.com)|
 
 
 ## Features
-
+A summary of the features were described in the scope plane. This chapter will explain what the purpose is of each feature and what will left to implement for the future.
 
 ### Existing Features
-
+| Features (included) |Explanation|
+| :------------- | :---------- |
+|1. Navigation menu bar: Home, About, Gallery, Contact | 1. The menu bar allows users to swiftly navigate through the entire website and indicates which page they are currently on|
+|2. Hero images | 2. The hero image attracts users to stay on the website and allows users to make reservation with a direct link to the contact form
+|3. Reseservation information and a downloadable PDF menu| The information section let users know what to expect and allows users to open a link to menu which can be downloaded as well.|
+|4. Location of the restaurant through Google maps | The location of the restaurant allows users to plan their visit using the familiarity of Google Maps|
+|5. Footer with copyright and social media links| The footer allows users to receive the latest updates by subscribing to the restaurant's pages|
+|6. Photo gallery | The photo gallery allows users to be more familiar with the chef's dishes|
+|7. About page | The about section allows users to be more familiar with the history of the owner |
+|8. Contact section | The contact section allows users to make a reservation or to send a message to the owner by filling out the form or calling the restaurant using a direct dial|
 
 ### Features Left to Implement
-
-
-
+| Features (not included) | Explanation|
+| :------------- | :---------- |
+|1. Make a reservation through an agenda | This feature allows users to instantly make a reservation. To implement this feature it requires more knowledge on JavaScript |
+|2. Accept a payment for a reservation | This feature allows to make a payment for a private event up to ten people. To implement this feature it requires more knowledge on JavaScript |
 
 
 ## Technologies Used
