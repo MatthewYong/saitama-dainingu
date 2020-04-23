@@ -8,7 +8,7 @@ This project is a website that contains three pages: a landing, about and galery
 [logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
 
 ## UX
-To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analysing and breaking down the problem into five planes:
+To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analysing and breaking down the development process of the project into five planes:
 
 ### 1. Strategy Plane
 The strategy plane defines the business objective and the user needs (goals). The goals for this project are defined as:
@@ -50,7 +50,7 @@ The structure plane defines the information architecture and interaction design 
 
 
 ### 4. Skeleton Plane
-The skeleton plane defines a basic visual design of the website through, for example, a wireframe. The wireframes for this project can be downloaded from the following link:
+The skeleton plane defines a basic visual design of the website through, for example, a wireframe. The wireframes for this project are made with Balsamiq can be downloaded from the following link:
 
 - [Wireframe - Desktop version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
 - [Wireframe - Tablet version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Tablet%20Version.pdf)
@@ -97,11 +97,33 @@ A summary of the features were described in the scope plane. This chapter will e
 
 
 ## Technologies Used
+To following technologies has been used to achieve this project:
+- [HTML](https://www.w3.org/TR/html52/)
+    - The main language of every modern website
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
+    - Used for styling the HTML text
+- [Bootstrap](https://getbootstrap.com/)
+    - JavaScript
+    - JQuery
+- [FontAwesome](https://fontawesome.com/)
+    -  FontAwesome improves the visual design of the website
+- [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
+    - [Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
+    - [Markers](https://developers.google.com/maps/documentation/javascript/markers)
+
+- [Balsamic](https://balsamiq.com/)
+    - Wireframes
+
+
+
+
 
 
 ## Testing
 
 
+
+## Key Issues
 
 
 ## Deployment
@@ -113,21 +135,42 @@ A summary of the features were described in the scope plane. This chapter will e
 ## Credits
 
 
-
 ### Content
-
+- The text for the entire website is written by myself
 
 
 ### Media
-
-
+- The photos for this website are used from:
+    - Unsplash.com
+    - Pixabay.com
 
 
 ### Acknowlegdements
+- The inspiration for this project comes from a Netflix documentary called Jiro's Sushi
+- Mentor
+- Slack community 
+- Code Institute
+- Tutors
+- Stackoverflow
+
+
+### Source of codes
+- Navbar Bootstrap
+- Carousel Bootstrap
+- Google maps
+    - Simple maps
+    - Marker
+- Gallery Project Love Running Code Institute
+- Zoom image Stackoverflow
+- Snap scroll type  Stackoverflow
 
 
 
 
 
+
+
+## Disclaimer
+This website is for educational purposes only. All content and images are illustrative.
 
 
