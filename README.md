@@ -156,10 +156,15 @@ Testing
 
 ### Source of codes
 
+All pages
+- 
+
 index.html
+- 
 
-gallery.html
 
+gallery
+- gallery.css line 16 code used from Code Institute Project Love Runningc
 
 - Navbar Bootstrap
 - Carousel Bootstrap
@@ -172,12 +177,12 @@ gallery.html
 
 
 ### Acknowlegdements
-The completion of this project could not have been possible without the support and extensive knowledge of:
+The completion of this project could not have been possible without support and the extensive knowledge of other people. My appreciation goes to:
 - Gerard (Gerry) McBride, my mentor, for giving me guidance throughout the project and giving me useful tips to finish a good project
 - Tutor Scott from Code Institute, for giving me tips on what needs to be included in this project
 - Code institute, for the valuable lessons through videos and excercises
 - Stackoverflow, for giving me code support 
-- Slack community, for reviewing my project, giving me new ideas and code support
+- Slack community, for reviewing my project, giving me new ideas and code support. In particular Richard Wells for arranging a project call to give us tips and tricks for milestone project 1
 
 ## Disclaimer
 This website is for educational purposes only. All content and images are illustrative.
