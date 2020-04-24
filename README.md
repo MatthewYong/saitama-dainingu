@@ -146,7 +146,7 @@ Testing
 
 
 ### Content
-- The text for the entire website is written by myself
+- The text for the website is entirely written by myself. However, the inspiration for this project comes from a Netflix documentary called Jiro's Sushi
 
 
 ### Media
@@ -156,12 +156,12 @@ Testing
 
 
 ### Acknowlegdements
-- The inspiration for this project comes from a Netflix documentary called Jiro's Sushi
-- Mentor
-- Slack community 
-- Code Institute
-- Tutors
-- Stackoverflow
+The completion of this project could not have been possible without the support and extensive knowledge of the following people and community:
+- Gerard (Gerry) McBride, my mentor, for giving me guidance throughout the project and useful tips to deliver a complete project
+- Tutor Scott from Code Institute, for giving me tips on what needs to be included in this project
+- Code institute, for the valuable lessons through videos and excercises
+- Stackoverflow, for giving me code support 
+- Slack community, last but not least, for checking my work and giving me new ideas and code support
 
 
 ### Source of codes
