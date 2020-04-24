@@ -98,24 +98,34 @@ A summary of the features were described in the scope plane. This chapter will e
 
 ## Technologies Used
 To following technologies has been used to achieve this project:
-- [HTML](https://www.w3.org/TR/html52/)
-    - The main language of every modern website
-- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) 
-    - Used for styling the HTML text
-- [Bootstrap](https://getbootstrap.com/)
-    - JavaScript
-    - JQuery
-- [FontAwesome](https://fontawesome.com/)
-    -  FontAwesome improves the visual design of the website
-- [Google Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
-    - [Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial)
-    - [Markers](https://developers.google.com/maps/documentation/javascript/markers)
 
-- [Balsamic](https://balsamiq.com/)
-    - Wireframes
+Resources
+- [HTML](https://www.w3.org/TR/html52/) is used as the main writing language of this project
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html) is used for styling the HTML text
+- [JavaScript](https://www.javascript.com/) is indirectly used by Bootstrap and Google Simple Maps and Markers
 
+Styling
+- [FontAwesome](https://fontawesome.com/) is used to improve the visual design of the website 
+- [contrast-ratio.com](https://contrast-ratio.com/) is used to test the visibility of the text with the background color
+- [Google fonts](https://fonts.google.com/) is used for the style the font
 
+Framework & API
+- [Bootstrap](https://getbootstrap.com/) is used for its framework, specifically for this project the navigation menu, grid system and carousel
+- [Google Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial) is used to place the map in this project
+- [Google Markers](https://developers.google.com/maps/documentation/javascript/markers) is used to place a location marker on the map
 
+Images
+- [Adobe Photoshop CC 2019](https://www.adobe.com/uk/products/photoshop) is used to crop the images 
+- [tinyjpg.com](https://tinyjpg.com/) is used to reduce the size of the images
+
+Wireframe
+- [Balsamic](https://balsamiq.com/) is used to draw wireframes for the skeleton plane
+
+Testing
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) is used to test the responsiveness of the website and to debug any problems
+- [Unicorn revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is used to determine any overflow on the website
+- [validator.w3.org](https://validator.w3.org/) is used to validate the HTML code
+- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator.html.en) is used to validate the CSS code
 
 
 
