@@ -7,6 +7,18 @@ This project is a website that contains three pages: a Landing, About and Galler
 
 [logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
 
+## Table of Contents
+- [UX](#ux)
+  * [Sub-heading](#sub-heading-2)
+- [Features](#features)
+- [Technologies Used](#technologies'-'used)
+- [Testing](#testing)
+- [Key Issues](#keyissues)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Disclaimer](#disclaimer)
+
+
 ## UX
 To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analyzing and breaking down the development process of the project into five planes:
 
