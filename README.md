@@ -1,7 +1,7 @@
 # Saitama Dainingu | A Private Dining Experience
-Static Front End Website - Code Institute Milestone Project 1
+Code Institute Milestone Project 1 - Static Front End Website
 
-This project is a website that contains three pages: a landing, about and galery page. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
+This project is a website that contains three pages: a Landing, About and Gallery page. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
 
 ![alt text][logo]
 
@@ -138,12 +138,13 @@ Testing
 
 
 ## Deployment
-### Github pages
+### GitHub Pages
 To publish the website, the following steps needs to be taken:
-1. Open Github and go to your site's **'Repositories'**
+
+1. Open GitHub and go to your site's **'Repositories'**
 2. Go to **'Settings'**
-3. Scroll down until you see **'Github pages'**
-4. Under Github pages, click on the dropdown under **'Source'** and select the **'Master Branch'** option
+3. Scroll down until you see **'GitHub Pages'**
+4. Under GitHub pages, click on the dropdown under **'Source'** and select the **'Master Branch'** option
 5. A green box should appear with the following message **'Your site is published at.../'**
 
 ![alt text][deploy]
@@ -152,11 +153,14 @@ To publish the website, the following steps needs to be taken:
 
 For more information on how to deploy a website on GitHub, please visit [here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
-
 ### Cloning a Repository 
+To make a clone of the website and work locally, the following steps needs to be taken:
+1. Go to the main page of the GitHub repository and click on the dropdown menu **'Clone or download'**
+2. Copy the URL and go to your local IDE (Integrated Development Environment)
+3. In the terminal of your IDE type in **'git clone** and the paste the URL copied from step 2 
+4. Press **Enter** and the clone will be created
 
-
-
+For more information on cloning repositories through a command line or cloning to a GitHub Desktop, please visit [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
 
 ## Credits
 ### Content
