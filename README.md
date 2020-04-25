@@ -130,13 +130,15 @@ Testing
 
 
 ## Testing
-The testing of the website has been carry out through [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) and test scenarios. The results and issues from W3C Markup Validator and W3C CSS Validator will be discussed in the next chapter 'Key Issues'.
+The testing of the website has been carry out through [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) and test scenarios. The results and issues from W3C Markup Validator and W3C CSS Validator will be discussed in the next chapter 'Key Issues'. 
 
-The following test scenarios has been carried out:
+### Test Scenarios
+The following test scenarios have been carried out:
 
 - Navigation menu
     1. Go to the navigation menu on the landing page
-    2. Select each one of the option on the menu and verify that:
+    2. Click on one of the titles on the navigation bar and verify that:
+        - The logo **'Saitama Dainingu'** will redirect to the landing page
         - **'Home'** will redirect to the landing page
         - **'About'** will redirect to the about page
         - **'Gallery'** will redirect to the gallery page
@@ -188,8 +190,28 @@ The following test scenarios has been carried out:
     4. Verify that step 2 and 3 will work on the about and the gallery page
 
 
+### Browser and Mobile Devices
+All of test scenarios have been carried out in the following browsers and mobile device:
+#### Browser Testing
+- Chrome - version 81.0.4044.122 (64-bit)
+- Mozilla Firefox - version 75.0 (64-bit)
+- Microsoft Edge - version 81.0.416.64 (64-bit)
+- Internet Explorer - version 11.719.18362.0
+
+#### Mobile Device Testing
+- Moto G4 
+- Galaxy S5
+- iPhone 5/SE/6/7/8/Plus
+- iPad (Pro)
+
 
 ## Key Issues
+
+
+
+
+
+
 
 
 ## Deployment
