@@ -103,15 +103,15 @@ To following technologies has been used to achieve this project:
 Resources
 - [HTML](https://www.w3.org/TR/html52/) is used as the main writing language of this project
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html) is used for styling the HTML text
-- [JavaScript](https://www.javascript.com/) is indirectly used by Bootstrap and Google Simple Maps and Markers
+- [JavaScript](https://www.javascript.com/) is indirectly used by Bootstrap and Google Simple Maps and Google Markers
 
 Styling
 - [FontAwesome](https://fontawesome.com/) is used to improve the visual design of the website 
-- [contrast-ratio.com](https://contrast-ratio.com/) is used to test the visibility of the text with the background color
+- [Contrast-ratio.com](https://contrast-ratio.com/) is used to test the visibility of the text with the background color
 - [Google fonts](https://fonts.google.com/) is used for the style the font
 
 Framework & API
-- [Bootstrap](https://getbootstrap.com/) is used for its framework. Specifically, for this project: the navigation menu, grid system and carousel
+- [Bootstrap](https://getbootstrap.com/) is used for its framework. Specifically, for this project: the navigation menu, the grid system and the carousel
 - [Google Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial) is used to place the map in this project
 - [Google Markers](https://developers.google.com/maps/documentation/javascript/markers) is used to place a location marker on the map
 
@@ -192,13 +192,14 @@ The following test scenarios have been carried out:
 
 ### Browser and Mobile Devices
 All of test scenarios have been carried out in the following browsers and mobile device:
+
 #### Browser Testing
-- Chrome - version 81.0.4044.122 (64-bit)
+- Google Chrome - version 81.0.4044.122 (64-bit)
 - Mozilla Firefox - version 75.0 (64-bit)
 - Microsoft Edge - version 81.0.416.64 (64-bit)
 - Internet Explorer - version 11.719.18362.0
 
-#### Mobile Device Testing
+#### Mobile Device Testing through Chrome DevTools
 - Moto G4 
 - Galaxy S5
 - iPhone 5/SE/6/7/8/Plus
@@ -206,8 +207,21 @@ All of test scenarios have been carried out in the following browsers and mobile
 
 
 ## Key Issues
+### W3C Markup validator
+### W3C CSS Validator
 
 
+
+
+### Browser and mobile testing
+- Issues were found on Internet Explorer:
+    - Inputted text on contact form is not visible
+    - Smooth scrolling does not function 
+
+- No issues were found on Google Chrome, Mozilla Firefox and Microsoft Edge
+
+
+- No issues were found on any mobile devices
 
 
 
