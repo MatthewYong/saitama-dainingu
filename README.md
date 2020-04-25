@@ -140,18 +140,17 @@ Testing
 ## Deployment
 ### Github pages
 To publish the website, the following steps needs to be taken:
-1. Open Github and go to the site's 'Repositories'
-2. Go to 'Settings'
-3. Scroll down until you see 'Github pages'
-4. Under Github pages, click on the dropdown under 'Source' and select the 'Master Branch' option
-5. A green box should appear with the following message ' Your site is published at https://matthewyong.github.io/milestone-project-1/'
+1. Open Github and go to your site's **'Repositories'**
+2. Go to **'Settings'**
+3. Scroll down until you see **'Github pages'**
+4. Under Github pages, click on the dropdown under **'Source'** and select the **'Master Branch'** option
+5. A green box should appear with the following message **'Your site is published at.../'**
 
 ![alt text][deploy]
 
-[deploy]:
+[deploy]:https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-github-deployment.JPG
 
-
-Fpr more information on how to deploy a website on GitHub, please visit the site [here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+For more information on how to deploy a website on GitHub, please visit [here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 
 ### Cloning a Repository 
