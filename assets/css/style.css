@@ -61,6 +61,11 @@ body{
 }
 
 /*----------------------------------Contact form*/
+.contact-info-image{    
+    height: 100%;
+    width: 100%;
+}
+
 .contact-info-image{
     background: url("../images/general/image-nigiri.jpg");
     background-position: center;
@@ -200,12 +205,6 @@ footer a{
 /*----------------------------------Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
-/*----------------------------------Media screen contact-form*/
-.contact-info-image{    
-    height: 90vh;
-    width: 100%;
-    }
-
 .contact-info{  
     padding-top: 50px;
     padding-right: 2%;
@@ -250,11 +249,6 @@ button:focus{
     }
 
 /*----------------------------------Media screen contact-form*/
-.contact-info-image{    
-    height: 100%;
-    width: 100%;
-    } 
-
 .contact-info{  
     padding: 50px 5% 0px 5%;
     }

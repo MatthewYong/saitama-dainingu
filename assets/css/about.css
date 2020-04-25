@@ -3,7 +3,6 @@
 /*about.html----------------------------------Owner information*/
 .bg-about-image{
     background: url("../images/about/image-saitama.jpg");
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
