@@ -111,7 +111,7 @@ Styling
 - [Google fonts](https://fonts.google.com/) is used for the style the font
 
 Framework & API
-- [Bootstrap](https://getbootstrap.com/) is used for its framework, specifically for this project the navigation menu, grid system and carousel
+- [Bootstrap](https://getbootstrap.com/) is used for its framework. Specifically for this project: the navigation menu, grid system and carousel
 - [Google Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial) is used to place the map in this project
 - [Google Markers](https://developers.google.com/maps/documentation/javascript/markers) is used to place a location marker on the map
 
@@ -156,24 +156,17 @@ Testing
 
 ### Source of codes
 
-All pages
-- 
+The following codes were inspired or taken from:
+- [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/): Used in index.html code line 25 for fading hero images
+- [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/components/navbar/): Used in the navigation menu on all pages from the website 
+- [Bootstrap Grid](https://getbootstrap.com/docs/4.0/layout/grid/): Used in the contact section on all pages of the website
+- [Google Maps and Markers](https://developers.google.com/maps/documentation/javascript/examples/map-simple): Used in the contact section on all pages of the website
+- [Code Insistitute - Project Love Running](https://courses.codeinstitute.net/program/FullstackWebDeveloper): Used in gallery.css code line 16 for creating a photo gallery
 
-index.html
-- 
 
-
-gallery
-- gallery.css line 16 code used from Code Institute Project Love Runningc
-
-- Navbar Bootstrap
-- Carousel Bootstrap
-- Google maps
-    - Simple maps
-    - Marker
-- Gallery Project Love Running Code Institute
-- Zoom image Stackoverflow
-- Snap scroll type  Stackoverflow
+Previous versions of the website:
+- [Stackoverflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): for zooming in on background image in index.html
+- [CSS-Tricks](https://css-tricks.com/practical-css-scroll-snapping/): for scrolling one section at a time in index.html
 
 
 ### Acknowlegdements
