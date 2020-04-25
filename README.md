@@ -134,26 +134,58 @@ The testing of the website has been carry out through [W3C Markup Validator](htt
 
 The following test scenarios has been carried out:
 
-1. Navigation menu
+- Navigation menu
+    1. Go to the navigation menu on the landing page
+    2. Select each one of the option on the menu and verify that:
+        - **'Home'** will redirect to the landing page
+        - **'About'** will redirect to the about page
+        - **'Gallery'** will redirect to the gallery page
+        - **'Contact'** will scroll the page down to the contact section
+    3. Verify that step 2 will work on the about and the gallery page
 
+- Hero Image
+    1. Go to the landing page
+    2. Click on left or right arrow and verify that the next or previous image will be shown
+    3. Refresh the page and wait 10 second and verify that the next image will be shown
+    4. Click on the 'Make a Reservation' button and verify that the page will scroll down to the contact section
 
-2. Carousel
+- Download PDF menu
+    1. Go to the landing page
+    2. Scroll down and click on the 'Menu' button and verify that a new tab will be opened
+    3. Go the opened tab and verify that the menu can be downloaded as PDF
 
+- Photo gallery
+    1. Go to the gallery page
+    2. Select one image at a time and verify that a new tab will be opened
+    3. Go the opened tab and verify that the same selected image is shown
 
-3. Download PDF menu
+- Contact form
+    1. Go to the landing page
+    2. Click on the 'Send' button and verify that empty fields needs to be filled
+    3. Fill in the form and click on the 'Send' button
+    4. Verify that a new page will be opened and that the page will scroll down to the contact section
+    5. Verify that step 2-4 will work on the about and the gallery page
 
+- Location
+    1. Go to the landing page
+    2. Under the contact section click on the address and verify that a new page with Google Maps will open and that the same address will be shown on Google maps
+    3. Verify that step 2 will work on the about and the gallery page
 
-4. Photo gallery
+- Phone
+    1. Go to the landing page
+    2. Under the contact section click on the phone number and verify that a you can direct dial the number
+    3. Verify that step 2 will work on the about and the gallery page
 
+- Location map
+    1. Go to the landing page
+    2. Under the contact section view the map, hover over the marker on the map and verify that the marker will show 'Saitama Dainingu'
+    3. Verify that step 2 will work on the about and the gallery page
 
-5. Contact form
-
-
-6. Location map
-
-
-7. Social media links
-
+- Social media links
+    1. Go to the landing page
+    2. Scroll down to the footer and click on every social media link
+    3. Verify that every link open a new page and redirect the page to the regarded link
+    4. Verify that step 2 and 3 will work on the about and the gallery page
 
 
 
@@ -180,7 +212,7 @@ For more information on how to deploy a website on GitHub, please visit [here](h
 To make a clone of the website and work locally, the following steps needs to be taken:
 1. Go to the main page of the GitHub repository and click on the dropdown menu **'Clone or download'**
 2. Copy the URL and go to your local IDE (Integrated Development Environment)
-3. In the terminal of your IDE type in **'git clone** and the paste the URL copied from step 2 
+3. In the terminal of your IDE type in **'git clone'** and the paste the URL copied from step 2 
 4. Press **Enter** and the clone will be created
 
 For more information on cloning repositories through a command line or cloning to a GitHub Desktop, please visit [here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).
