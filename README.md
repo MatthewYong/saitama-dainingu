@@ -8,7 +8,7 @@ This project is a website that contains three pages: a Landing, About and Galler
 [logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
 
 ## UX
-To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analysing and breaking down the development process of the project into five planes:
+To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analyzing and breaking down the development process of the project into five planes:
 
 ### 1. Strategy Plane
 The strategy plane defines the business objective and the user needs (goals). The goals for this project are defined as:
@@ -18,7 +18,7 @@ The strategy plane defines the business objective and the user needs (goals). Th
 |  As an owner of the restaurant I want the website to: | As a customer I want to:  |       
 | 1. Be eye-catching and attract customers by using a simple and unique design  | 1. Contact the restaurant for a reservation or more information | 
 | 2. Have the ability to contact the owner or make a reservation through a form | 2. To be more familiar with the chef’s cooking and history of this restaurant 
-| 3. Increase marketing by having social media links on the website | 3. See photos of chef's dishes | 
+| 3. Increase marketing by having social media links on the website | 3. See photos of the chef's dishes | 
 | 4. Send newsletters for latest update | 4. See the price of the menu and download a PDF version of the menu  | 
 | 5. To have the ability to accept a payment for a reservation  | 5. Make a reservation through an agenda | 
 
@@ -30,7 +30,7 @@ The scope plane defines the features that are and are not possible to include in
 | :------------- | :---------- |
 |1. Navigation menu bar: Home, About, Gallery, Contact | 1. Make a reservation through an agenda|
 |2. Hero images | 2. Accept a payment for a reservation|
-|3. Reseservation information and a downloadable PDF menu| 3. Form API reference|
+|3. Reservation information and a downloadable PDF menu| 3. Form API reference|
 |4. Location of the restaurant through Google maps | 
 |5. Footer with copyright and social media links|  
 |6. Photo gallery | 
@@ -82,7 +82,7 @@ A summary of the features were described in the scope plane. This chapter will e
 | :------------- | :---------- |
 |1. Navigation menu bar: Home, About, Gallery, Contact | 1. The menu bar allows users to swiftly navigate through the entire website and indicates which page they are currently on|
 |2. Hero images | 2. The hero image attracts users to stay on the website and allows users to make reservation with a direct link to the contact form
-|3. Reseservation information and a downloadable PDF menu| The information section let users know what to expect and allows users to open a link to menu which can be downloaded as well.|
+|3. Reservation information and a downloadable PDF menu| The information section let users know what to expect and allows users to open a link to menu which can be downloaded as well.|
 |4. Location of the restaurant through Google maps | The location of the restaurant allows users to plan their visit using the familiarity of Google Maps|
 |5. Footer with copyright and social media links| The footer allows users to receive the latest updates by subscribing to the restaurant's pages|
 |6. Photo gallery | The photo gallery allows users to be more familiar with the chef's dishes|
@@ -111,7 +111,7 @@ Styling
 - [Google fonts](https://fonts.google.com/) is used for the style the font
 
 Framework & API
-- [Bootstrap](https://getbootstrap.com/) is used for its framework. Specifically for this project: the navigation menu, grid system and carousel
+- [Bootstrap](https://getbootstrap.com/) is used for its framework. Specifically, for this project: the navigation menu, grid system and carousel
 - [Google Simple Maps](https://developers.google.com/maps/documentation/javascript/tutorial) is used to place the map in this project
 - [Google Markers](https://developers.google.com/maps/documentation/javascript/markers) is used to place a location marker on the map
 
@@ -129,8 +129,31 @@ Testing
 - [Jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator.html.en) is used to validate the CSS code
 
 
-
 ## Testing
+The testing of the website has been carry out through [W3C Markup Validator](https://validator.w3.org/), [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator.html.en) and test scenarios. The results and issues from W3C Markup Validator and W3C CSS Validator will be discussed in the next chapter 'Key Issues'.
+
+The following test scenarios has been carried out:
+
+1. Navigation menu
+
+
+2. Carousel
+
+
+3. Download PDF menu
+
+
+4. Photo gallery
+
+
+5. Contact form
+
+
+6. Location map
+
+
+7. Social media links
+
 
 
 
@@ -164,7 +187,7 @@ For more information on cloning repositories through a command line or cloning t
 
 ## Credits
 ### Content
-- The text for the website is entirely written by myself. However, the inspiration for this project comes from a Netflix documentary called Jiro's Sushi
+- The text for the website is entirely written by myself. However, the inspiration for this project comes from a Netflix documentary called [Jiro Dreams of Sushi](https://en.wikipedia.org/wiki/Jiro_Dreams_of_Sushi)
 
 ### Media
 - All photos for this project are used from:
@@ -174,23 +197,23 @@ For more information on cloning repositories through a command line or cloning t
 ### Source of codes
 
 The following codes were inspired or taken from:
-- [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/): Used in index.html code line 25 for fading hero images
+- [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/): Used in index.html code line 25 for sliding/fading hero images
 - [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/components/navbar/): Used in the navigation menu on all pages from the website 
 - [Bootstrap Grid](https://getbootstrap.com/docs/4.0/layout/grid/): Used in the contact section on all pages of the website
 - [Google Maps and Markers](https://developers.google.com/maps/documentation/javascript/examples/map-simple): Used in the contact section on all pages of the website
-- [Code Insistitute - Project Love Running](https://courses.codeinstitute.net/program/FullstackWebDeveloper): Used in gallery.css code line 16 for creating a photo gallery
+- [Code Institute- Project Love Running](https://courses.codeinstitute.net/): Used in gallery.css code line 16 for creating a photo gallery
 
-Code were used in the previous versions of the website:
-- [Stackoverflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): for zooming in on background image in index.html
-- [CSS-Tricks](https://css-tricks.com/practical-css-scroll-snapping/): for scrolling one section at a time in index.html
+Code used in the previous versions of the website:
+- [StackOverflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): Used for zooming in on background image in index.html
+- [CSS-Tricks](https://css-tricks.com/practical-css-scroll-snapping/): Used for auto-scrolling one section at a time in index.html
 
 
-### Acknowlegdements
+### Acknowledgement
 The completion of this project could not have been possible without support and the extensive knowledge of other people. My appreciation goes to:
 - Gerard (Gerry) McBride, my mentor, for giving me guidance throughout the project and giving me useful tips to finish a good project
 - Tutor Scott from Code Institute, for giving me tips on what needs to be included in this project
-- Code institute, for the valuable lessons through videos and excercises
-- Stackoverflow, for giving me code support 
+- Code Institute, for the valuable lessons through videos and exercises
+- StackOverflow, for giving me code support 
 - Slack community, for reviewing my project, giving me new ideas and code support. In particular Richard Wells for arranging a project call to give us tips and tricks for milestone project 1 and anna_ci for her tips on how to deploy the website.
 
 ## Disclaimer
