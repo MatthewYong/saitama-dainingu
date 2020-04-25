@@ -117,7 +117,7 @@ Framework & API
 
 Images
 - [Adobe Photoshop CC 2019](https://www.adobe.com/uk/products/photoshop) is used to crop the images 
-- [tinyjpg.com](https://tinyjpg.com/) is used to reduce the size of the images
+- [Tinyjpg.com](https://tinyjpg.com/) is used to reduce the size of the images
 
 Wireframe
 - [Balsamic](https://balsamiq.com/) is used to draw wireframes for the skeleton plane
@@ -125,8 +125,8 @@ Wireframe
 Testing
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) is used to test the responsiveness of the website and to debug any problems
 - [Unicorn revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is used to determine any overflow on the website
-- [validator.w3.org](https://validator.w3.org/) is used to validate the HTML code
-- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator.html.en) is used to validate the CSS code
+- [Validator.w3.org](https://validator.w3.org/) is used to validate the HTML code
+- [Jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator.html.en) is used to validate the CSS code
 
 
 
@@ -138,19 +138,33 @@ Testing
 
 
 ## Deployment
+### Github pages
+To publish the website, the following steps needs to be taken:
+1. Open Github and go to the site's 'Repositories'
+2. Go to 'Settings'
+3. Scroll down until you see 'Github pages'
+4. Under Github pages, click on the dropdown under 'Source' and select the 'Master Branch' option
+5. A green box should appear with the following message ' Your site is published at https://matthewyong.github.io/milestone-project-1/'
 
+![alt text][deploy]
+
+[deploy]:
+
+
+Fpr more information on how to deploy a website on GitHub, please visit the site [here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
+
+
+### Cloning a Repository 
 
 
 
 
 ## Credits
-
-
 ### Content
 - The text for the website is entirely written by myself. However, the inspiration for this project comes from a Netflix documentary called Jiro's Sushi
 
 ### Media
-- The photos for this website are used from:
+- All photos for this project are used from:
     - Unsplash.com
     - Pixabay.com
 
@@ -163,8 +177,7 @@ The following codes were inspired or taken from:
 - [Google Maps and Markers](https://developers.google.com/maps/documentation/javascript/examples/map-simple): Used in the contact section on all pages of the website
 - [Code Insistitute - Project Love Running](https://courses.codeinstitute.net/program/FullstackWebDeveloper): Used in gallery.css code line 16 for creating a photo gallery
 
-
-Previous versions of the website:
+Code were used in the previous versions of the website:
 - [Stackoverflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): for zooming in on background image in index.html
 - [CSS-Tricks](https://css-tricks.com/practical-css-scroll-snapping/): for scrolling one section at a time in index.html
 
@@ -175,7 +188,7 @@ The completion of this project could not have been possible without support and 
 - Tutor Scott from Code Institute, for giving me tips on what needs to be included in this project
 - Code institute, for the valuable lessons through videos and excercises
 - Stackoverflow, for giving me code support 
-- Slack community, for reviewing my project, giving me new ideas and code support. In particular Richard Wells for arranging a project call to give us tips and tricks for milestone project 1
+- Slack community, for reviewing my project, giving me new ideas and code support. In particular Richard Wells for arranging a project call to give us tips and tricks for milestone project 1 and anna_ci for her tips on how to deploy the website.
 
 ## Disclaimer
 This website is for educational purposes only. All content and images are illustrative.
