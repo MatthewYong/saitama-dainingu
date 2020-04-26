@@ -63,19 +63,24 @@
     box-shadow: 5px 5px 10px rgb(184, 184, 184)
 }
 
-#restaurant-menu-button{
+.restaurant-menu-button{
+    margin-top: 50px;
+}
+
+.restaurant-menu-button a{
     color: #fde3a7;
     background-color: #202020;
+    border-radius: 4px;
     border: solid 2px #bd8d32;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 16px;    
-    text-transform: uppercase;
-    margin-top: 50px;
-    padding:3px 20px 3px 20px;    
+    text-transform: uppercase;   
+    padding:5px 20px 5px 20px;    
 }
 
-#restaurant-menu-button:hover{
+.restaurant-menu-button a:hover{
     background-color: #191919;
+    text-decoration: none;  
     color: #f5b745;
 }
 
