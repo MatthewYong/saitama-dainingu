@@ -55,12 +55,14 @@
     margin-top: 0px;
     margin-bottom: 100px;
     padding: 50px;    
-    position: relative;    
+    position: relative;   
 }
 
 .restaurant-info-image img{
     border-radius: 50%;
-    box-shadow: 5px 5px 10px rgb(184, 184, 184)
+    box-shadow: 5px 5px 10px rgb(184, 184, 184);
+    height: 100%;
+    width: 100%;
 }
 
 .restaurant-menu-button{
