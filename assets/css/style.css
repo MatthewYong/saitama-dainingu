@@ -13,10 +13,6 @@ body{
 
 
 /*----------------------------------Navigation menu*/
-.bg-nav-color{
-    background-color: #191919;
-}
-
 #main-menu-box{
     padding-top: 0px;
     padding-bottom: 0px;
@@ -39,12 +35,6 @@ body{
     color: #f5b745;
 }
 
-.navbar-toggler{
-    position: absolute;
-    top: 15px;
-    right: 10px;
-}
-
 #main-menu a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -56,11 +46,26 @@ body{
     color: #f5b745;
 }
 
+.bg-nav-color{
+    background-color: #191919;
+}
+
+.navbar-toggler{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+}
+
 .active-nav{
     border-bottom: solid 2px #fde3a7;
 }
 
 /*----------------------------------Contact form*/
+#message{
+    height: 100px;
+    text-align: left;   
+}
+
 .contact-info-image{    
     height: 100%;
     width: 100%;
@@ -123,11 +128,6 @@ body{
 
 .text-input:hover{
     background-color: rgba(25, 25, 25, 0.8);  
-}
-
-#message{
-    height: 100px;
-    text-align: left;   
 }
 
 .send-button{
@@ -209,6 +209,7 @@ footer a{
 /*----------------------------------Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
+/*----------------------------------Media screen contact-form*/
 .contact-info{  
     padding-top: 50px;
     padding-right: 2%;
