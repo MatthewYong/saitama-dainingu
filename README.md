@@ -225,12 +225,11 @@ All of the test scenarios have been carried out in the browsers and mobile devic
 
 ## Key Issues
 ### W3C Markup Validator
-- No errors were found on W3C Markup Validator
+- No errors or warnings were found on index.html, about.html and gallery.html
 
 ### W3C CSS Validator
-
-
-
+- No errors or warnings were found on index.html, about.html and gallery.html
+- Errors and warnings were related to Bootstrap and can be ignored
 
 ### Browser and mobile testing
 - Issues were found on Internet Explorer:
@@ -238,7 +237,6 @@ All of the test scenarios have been carried out in the browsers and mobile devic
     - Smooth scrolling does not function 
 
 - No issues were found on Google Chrome, Mozilla Firefox and Microsoft Edge
-
 
 - No issues were found on any mobile devices
 
