@@ -208,7 +208,7 @@ The following test scenarios have been carried out:
 
 
 ### Browser and Mobile Devices
-All of the test scenarios have been carried out in the browsers and mobile devices listed below. No problems were found in regard to the responsiveness and the functionality:
+All of the test scenarios have been carried out in the browsers and mobile devices listed below. No problems were found in regard to the responsiveness and the functionality.
 
 #### Browser Testing
 - Google Chrome - version 81.0.4044.122 (64-bit)
