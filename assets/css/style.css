@@ -197,9 +197,12 @@ footer a{
     color: #fde3a7;
 }
 
+.social-media{
+    font-size: 28px;
+}
+
 .social-media a:hover{
     color: #f5b745;
-    font-size: 40px;
 }
 
 
