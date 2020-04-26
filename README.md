@@ -9,11 +9,11 @@ This project is a website that contains three pages: a Landing, About and Galler
 
 ## Table of Contents
 - [UX](#ux)
-  * 1.[Strategy Plane](#1.strategy-plan)
-  * 2.[Scope Plane](#2.scope-plane)
-  * 3.[Structure Plane](#3.structure-plane)
-  * 4.[Skeleton Plane](#4.skeleton-plane)
-  * 5.[Surface Plane](#5.surface-plane)
+  * [Strategy Plane](#strategy-plan)
+  * [Scope Plane](#scope-plane)
+  * [Structure Plane](#structure-plane)
+  * [Skeleton Plane](#skeleton-plane)
+  * [Surface Plane](#5.surface-plane)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
