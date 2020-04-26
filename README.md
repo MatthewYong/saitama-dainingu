@@ -180,7 +180,7 @@ The following test scenarios have been carried out:
 
 - Contact form
     1. Go to the landing page
-    2. Click on the 'Send' button and verify that empty fields needs to be filled
+    2. Click on the 'Send' button and verify that empty fields need to be filled
     3. Fill in the form and click on the 'Send' button
     4. Verify that a new page will be opened and that the page will scroll down to the contact section
     5. Verify that step 2-4 will work on the about and the gallery page
@@ -237,9 +237,9 @@ All of the test scenarios have been carried out in the browsers and mobile devic
 - No issues were found on any mobile devices
 
 - Issues were found on Internet Explorer:
-    - Inputted text on contact form is not visible
-    - Smooth scrolling does not work in the browser. This is caused by the property 'scroll-behaviour:smooth' on index.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp).
-    - Sticky navigation menu does not work in the browser. This is caused by the property 'position:sticky' on style.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
+    - Inputted text on contact form were not visible - Fixed by changing the textbox property 'height' to 28px in style.css.
+    - Smooth scrolling does not work in the browser. This is caused by the property 'scroll-behaviour: smooth' on index.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp).
+    - Sticky navigation menu does not work in the browser. This is caused by the property 'position: sticky' on style.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
 
 
 ## Deployment
@@ -295,7 +295,7 @@ The completion of this project could not have been possible without support and 
 - Gerard (Gerry) McBride, my mentor, for giving me guidance throughout the project and giving me useful tips to finish a good project
 - Tutor Scott from Code Institute, for giving me tips on what needs to be included in this project
 - Code Institute, for the valuable lessons through videos and exercises
-- StackOverflow, for giving me code support 
+- Stack Overflow, for giving me code support 
 - Slack community, for reviewing my project, giving me new ideas and code support. In particular Richard Wells for arranging a project call to give us tips and tricks for milestone project 1 and anna_ci for her tips on how to deploy the website.
 
 ## Disclaimer
