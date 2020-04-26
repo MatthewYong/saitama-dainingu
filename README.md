@@ -228,17 +228,18 @@ All of the test scenarios have been carried out in the browsers and mobile devic
 - No errors or warnings were found on index.html, about.html and gallery.html
 
 ### W3C CSS Validator
-- No errors or warnings were found on index.html, about.html and gallery.html
-- Errors and warnings were related to Bootstrap and can be ignored
+- No errors or warnings were found on index.css, about.css and gallery.css
+- Errors and warnings that were found are related to Bootstrap and can be ignored
 
 ### Browser and mobile testing
-- Issues were found on Internet Explorer:
-    - Inputted text on contact form is not visible
-    - Smooth scrolling does not function 
-
 - No issues were found on Google Chrome, Mozilla Firefox and Microsoft Edge
 
 - No issues were found on any mobile devices
+
+- Issues were found on Internet Explorer:
+    - Inputted text on contact form is not visible
+    - Smooth scrolling does not work in the browser. This is caused by the property 'scroll-behaviour:smooth' on index.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_smooth_scroll.asp).
+    - Sticky navigation menu does not work in the browser. This is caused by the property 'position:sticky' on style.css. This property is not supported in Internet Explorer. For more information, please visit [here](https://www.w3schools.com/howto/howto_css_sticky_element.asp).
 
 
 ## Deployment
