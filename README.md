@@ -9,11 +9,11 @@ This project is a website that contains three pages: a Landing, About and Galler
 
 ## Table of Contents
 - [UX](#ux)
-  * 1. [Strategy Plane](#1.-strategy-plan)
-  * 2. [Scope Plane](#2.-scope-plane)
-  * 3. [Structure Plane](#3.-structure-plane)
-  * 4. [Skeleton Plane](#4.-skeleton-plane)
-  * 5. [Surface Plane](#5.-surface-plane)
+  * 1. [Strategy Plane](#1.strategy-plan)
+  * 2. [Scope Plane](#2.scope-plane)
+  * 3. [Structure Plane](#3.structure-plane)
+  * 4. [Skeleton Plane](#4.skeleton-plane)
+  * 5. [Surface Plane](#5.surface-plane)
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
@@ -27,7 +27,7 @@ This project is a website that contains three pages: a Landing, About and Galler
 To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analyzing and breaking down the development process of the project into five planes:
 
 
-### 1. Strategy Plan
+### 1.Strategy Plan
 The strategy plane defines the business objective and the user needs (goals). The goals for this project are defined as:
 
 | Business Goal | Customer Goals |
@@ -40,7 +40,7 @@ The strategy plane defines the business objective and the user needs (goals). Th
 | 5. To have the ability to accept a payment for a reservation  | 5. Make a reservation through an agenda | 
 
 
-### 2. Scope Plane
+### 2.Scope Plane
 The scope plane defines the features that are and are not possible to include in the website. This will be further in detail explained in the next chapter. A summary of the included and not included features are:
 
 | Features (included) | Future features (not included)|
@@ -55,7 +55,7 @@ The scope plane defines the features that are and are not possible to include in
 |8. Contact section | 
 
 
-### 3. Structure Plane
+### 3.Structure Plane
 The structure plane defines the information architecture and interaction design with the user. The following definitions has been used for this website:
 - First impression of the website needs to be simple and clear as possible
 - No more than three clicks are required for the user to reach a page
@@ -66,7 +66,7 @@ The structure plane defines the information architecture and interaction design 
 [hierarchy]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-structure-plane-hierarchy.png
 
 
-### 4. Skeleton Plane
+### 4.Skeleton Plane
 The skeleton plane defines a basic visual design of the website through, for example, a wireframe. The wireframes for this project are made with Balsamiq can be downloaded from the following link:
 
 - [Wireframe - Desktop version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
@@ -80,7 +80,7 @@ Below you can find an example of a wireframe of the landing page
 [wireframe]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-example-wireframe.png
 
 
-### 5. Surface Plane
+### 5.Surface Plane
 The surface plane is the final plane in the design process and defines the appearance of the website. This website needs to attract customers, but also needs to reflect the calmness during the dining experience. The following design style has been used:
 
 | Design Style | Design Choice|
