@@ -9,11 +9,15 @@ This project is a website that contains three pages: a Landing, About and Galler
 
 ## Table of Contents
 - [UX](#ux)
-  * [Sub-heading](#sub-heading-2)
+  * 1. [Strategy Plane](#1.-strategy-plan)
+  * 2. [Scope Plane](#2.-scope-plane)
+  * 3. [Structure Plane](#3.-structure-plane)
+  * 4. [Skeleton Plane](#4.-skeleton-plane)
+  * 5. [Surface Plane](#5.-surface-plane)
 - [Features](#features)
-- [Technologies Used](#technologies'-'used)
+- [Technologies Used](#technologies-used)
 - [Testing](#testing)
-- [Key Issues](#keyissues)
+- [Key Issues](#key-issues)
 - [Deployment](#deployment)
 - [Credits](#credits)
 - [Disclaimer](#disclaimer)
@@ -22,7 +26,8 @@ This project is a website that contains three pages: a Landing, About and Galler
 ## UX
 To understand what kind of website we need to deliver to the client, we need to define the development process of each stage. This can be done by analyzing and breaking down the development process of the project into five planes:
 
-### 1. Strategy Plane
+
+### 1. Strategy Plan
 The strategy plane defines the business objective and the user needs (goals). The goals for this project are defined as:
 
 | Business Goal | Customer Goals |
