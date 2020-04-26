@@ -224,7 +224,9 @@ All of the test scenarios have been carried out in the browsers and mobile devic
 
 
 ## Key Issues
-### W3C Markup validator
+### W3C Markup Validator
+- No errors were found on W3C Markup Validator
+
 ### W3C CSS Validator
 
 
@@ -239,10 +241,6 @@ All of the test scenarios have been carried out in the browsers and mobile devic
 
 
 - No issues were found on any mobile devices
-
-
-
-
 
 
 ## Deployment
