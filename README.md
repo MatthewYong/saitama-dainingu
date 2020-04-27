@@ -207,11 +207,11 @@ The following test scenarios have been carried out:
     4. Verify that step 2 and 3 will work on the about and the gallery page
 
 - Overflow
-    1. Go to the Chrome webstore and find [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+    1. Go to the Chrome webstore and find the extension [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
     2. Install and add the extension
     3. Go to the landing page
     4. Right-click and add 'Unicorn Sparkles' to reveal the overflow
-    5. All content will be placed in a pink border, that represents the element, and the website will have a black background. Verify that none of the content is overlapping the pink border
+    5. All content will be placed in a pink border, that represents the elements, and the website will have a black background. Verify that none of the content is overlapping the pink border
     6. Verify that steps 3-5 will work on the about and the gallery page
 
 ### Browser and Mobile Devices
@@ -293,7 +293,7 @@ The following codes were inspired or taken from:
 - [Code Institute- Project Love Running](https://courses.codeinstitute.net/): Used in gallery.css code line 16 for creating a photo gallery
 
 Code used in the previous versions of the website:
-- [StackOverflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): Used for zooming in on background image in index.html
+- [Stack Overflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): Used for zooming in on background image in index.html
 - [CSS-Tricks](https://css-tricks.com/practical-css-scroll-snapping/): Used for auto-scrolling one section at a time in index.html
 
 

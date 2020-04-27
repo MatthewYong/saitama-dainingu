@@ -14,11 +14,11 @@ body{
 
 /*----------------------------------Navigation menu*/
 #main-menu-box{
-    padding-top: 0px;
-    padding-bottom: 0px;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     position: sticky;
-    top: 0;
-    height: 65px;
+    top: 0rem;
+    height: 4rem;
     width: 100%;
     z-index: 9;
 }
@@ -26,9 +26,10 @@ body{
 #logo{
     color: #fde3a7;
     font-family: 'Kaushan Script', cursive, sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     position: absolute;
-    top: 0;
+    top: 0rem;
+    padding-right: 0.3125rem;
 }
 
 #logo:hover{
@@ -38,7 +39,7 @@ body{
 #main-menu a{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: #fde3a7;
 }
 
@@ -52,17 +53,17 @@ body{
 
 .navbar-toggler{
     position: absolute;
-    top: 15px;
-    right: 10px;
+    top: 1rem;
+    right: 0.625rem;
 }
 
 .active-nav{
-    border-bottom: solid 2px #fde3a7;
+    border-bottom: solid 0.125rem #fde3a7;
 }
 
 /*----------------------------------Contact form*/
 #message{
-    height: 100px;
+    height: 6.25rem;
     text-align: left;   
 }
 
@@ -83,23 +84,23 @@ body{
 .contact-heading{
     color: #fde3a7;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
-    padding-top: 50px;
+    font-size: 1.25rem;
+    padding-top: 3.125rem;
     text-align: center;
     text-transform: uppercase;    
 }
 
 .contact-heading h2{
-    border-bottom: 3px solid;
+    border-bottom: 0.1875rem solid;
     display: inline-block;
-    padding: 50px 0px 10px 0px; 
+    padding: 3.125rem 0 0.625rem 0; 
  }
 
 .contact-info{
     color: #fde3a7;
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
-    letter-spacing: 2px; 
+    letter-spacing: 0.125rem; 
 }
 
 .contact-cover{
@@ -107,23 +108,23 @@ body{
     text-align: center;
     position: relative;
     background-color: rgba(25, 25, 25, 0.5); 
-    padding: 0px 25px 25px 25px;
+    padding: 0 1.625rem 1.625rem 1.625rem;
     margin: auto;
-    margin-top: 35px;   
+    margin-top: 2.25rem;   
 }
 
 .text-input{
     color: #f5b745;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgba(25, 25, 25, 0.5);
-    height: 28px;
+    height: 1.75rem;
     width: 100%;
-    padding: 12px 20px;
-    margin-bottom: 20px;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1.25rem;
     display: inline-block;  
     text-align: center;
-    border: 1px solid;
+    border: 0.0625rem solid;
 }
 
 .text-input:hover{
@@ -132,14 +133,14 @@ body{
 
 .send-button{
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     color: #fde3a7;
     background-color: #2a2a2a;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
-    border-radius: 4px;
+    font-size: 1rem;
+    border-radius: 0.25rem;
     border-color: #bd8d32;
-    margin-top: 10px;    
+    margin-top: 0.625rem;    
 }
 
 .send-button:hover{
@@ -150,36 +151,36 @@ body{
 .dinner-info{    
     color: #fde3a7;
     background-color: rgba(25, 25, 25, 0.8); 
-    border-radius: 5px;
-    font-size: 16px;
+    border-radius: 0.3125rem;
+    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
-    letter-spacing: 2px; 
-    padding-top: 60px;
-    margin-top: 50px;
-    padding-right: 5px;
-    padding-left: 5px;
+    letter-spacing: 0.125rem; 
+    padding-top: 3.75rem;
+    margin-top: 3.125rem;
+    padding-right: 0.3125rem;
+    padding-left: 0.3125rem;
 }
 
 .dinner-info a{ 
     color: #fde3a7;    
-    font-size: 16px;
+    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
-    letter-spacing: 2px; 
+    letter-spacing: 0.125rem; 
 }
 
 .dinner-info p{ 
-padding-bottom: 50px;
+padding-bottom: 3.125rem;
 }
 
 .dinner-info h3{ 
-padding-bottom: 10px;
+padding-bottom: 0.625rem;
 }
 
 /*----------------------------------Map*/
 .map-size{
     width: 100%;
-    height:400px;
-    border: 3px solid;
+    height: 25rem;
+    border: 0.1875rem solid;
     border-color: #bd8d32;
 }
 
@@ -187,10 +188,10 @@ padding-bottom: 10px;
 footer{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;
+    font-size: 1rem;
     color: #fde3a7;
     background-color: #191919;
-    padding-top: 12px;
+    padding-top: 0.75rem;
 }
     
 footer a{
@@ -198,7 +199,7 @@ footer a{
 }
 
 .social-media{
-    font-size: 28px;
+    font-size: 1.75rem;
 }
 
 .social-media a:hover{
@@ -211,13 +212,13 @@ footer a{
 @media only screen and (min-width: 992px){
 /*----------------------------------Media screen contact-form*/
 .contact-info{  
-    padding-top: 50px;
+    padding-top: 3.125rem;
     padding-right: 2%;
     }
 
 /*----------------------------------Map*/
 #map-padding{
-    padding-top: 50px;
+    padding-top: 3.125rem;
     padding-left: 2%;
     }
 }
@@ -231,8 +232,8 @@ footer a{
     background-color: rgba(25, 25, 25, 0.8);
     position: absolute;
     width: 100%;
-    top: 65px;
-    left: 0;    
+    top: 4rem;
+    left: 0rem;    
     }
 
 #main-menu li{
@@ -249,18 +250,18 @@ button:focus{
     }
     
 .social-media{
-    padding: 0px;
+    padding: 0rem;
     text-align: center;
     }
 
 /*----------------------------------Media screen contact-form*/
 .contact-info{  
-    padding: 50px 5% 0px 5%;
+    padding: 3.125rem 5% 0rem 5%;
     }
     
 /*----------------------------------Map*/
 #map-padding{
-    padding: 50px 5% 0px 5%;
+    padding: 3.125rem 5% 0rem 5%;
     }
 }
 
@@ -270,7 +271,7 @@ button:focus{
 @media only screen and (max-width: 376px){
 /*----------------------------------Media screen navbar-section*/
 #logo{    
-    font-size: 28px;
+    font-size: 1.75rem;
     }
 }
 
