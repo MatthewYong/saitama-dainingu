@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
 
-/*index.html----------------------------------Heading*/
+/*Heading*/
 .image-hero1{
     background: url("../images/index/image-hero-1.jpg");
     background-attachment: fixed;
@@ -32,7 +32,7 @@
     height: 100vh;
 }
 
-/*index.html----------------------------------restaurant information*/
+/*Restaurant information*/
 #bg-info{
     background-color: rgba(25, 25, 25, 0.9);
 }
@@ -52,7 +52,7 @@
 }
 
 .restaurant-info-image{       
-    margin-top: 0rem;
+    margin-top: 0;
     margin-bottom: 6.25rem;
     padding: 3.125rem;    
     position: relative;   
@@ -87,13 +87,13 @@
 }
 
 
-/*----------------------------------Media screen min-width 992px*/
+/*Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
-/*----------------------------------Media screen hero-section*/
+/*Media screen hero-section*/
 .hero-slogan{
     text-transform: uppercase;
-    padding: 3.125rem 0rem 1.625rem 0rem;
+    padding: 3.125rem 0 1.625rem 0;
     border-bottom: 0.3125rem solid;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 2.25rem;
@@ -131,7 +131,7 @@
     text-decoration: none;    
     }
 
-/*----------------------------------Media screen restaurant-info-section*/
+/*Media screen restaurant-info-section*/
  #bg-info{
      padding-top: 6.25rem;
      }   
@@ -148,13 +148,13 @@
 }
 
 
-/*----------------------------------Media screen max-width 991px*/
+/*Media screen max-width 991px*/
 
 @media only screen and (max-width: 991px){
-/*----------------------------------Media screen hero-section*/
+/*Media screen hero-section*/
  .hero-slogan{
     text-transform: uppercase;
-    padding: 1.5rem 0rem 0.625rem 0rem;
+    padding: 1.5rem 0 0.625rem 0;
     border-bottom: 0.1875rem solid;
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 1.5rem;
@@ -189,7 +189,7 @@
     text-decoration: none;    
     }
 
-/*----------------------------------Media screen restaurant-info-section*/
+/*Media screen restaurant-info-section*/
 .restaurant-info{
     padding: 4.75rem 1rem 3.125rem 1rem;
     margin: auto;
@@ -199,10 +199,10 @@
 }
 
 
-/*----------------------------------Media screen max-width 767px*/
+/*Media screen max-width 767px*/
 
 @media only screen and (max-width: 767px){
-/*----------------------------------Media screen restaurant-info-section*/
+/*Media screen restaurant-info-section*/
 .no-image-sm{
     display: none;
     }

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap:100,200,300,400,500,600,700');
 
-/*about.html----------------------------------Owner information*/
+/*Owner information*/
 .bg-about-image{
     background: url("../images/about/image-saitama.jpg");
     background-position: center;
@@ -24,10 +24,8 @@
  }
 
 
-/*----------------------------------Media screen min-width 992px*/
-
+/*Media screen min-width 992px*/
 @media only screen and (min-width: 992px){
-/*about.html------------------------Media screen Owner information*/
 .owner-info{
     font-size: 1.25rem;
     background: linear-gradient(to left, rgb(255, 255, 255, 0)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0) 100%); 
@@ -39,10 +37,8 @@
 }
 
 
-/*----------------------------------Media screen max-width 991px*/
-
+/*Media screen max-width 991px*/
 @media only screen and (max-width: 991px){
-/*about.html------------------------Media screen Owner information*/
 .owner-info{
     font-size: 16px;
     background: linear-gradient(to left, rgb(255, 255, 255, 0)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0) 100%); 
@@ -54,19 +50,16 @@
 }
 
 
-/*----------------------------------Media screen max-width 576px*/
-
+/*Media screen max-width 576px*/
 @media only screen and (max-width: 576px){
-/*about.html------------------------Media screen Owner information*/
 .owner-info{  
     font-size: 1rem;
     background-color: rgba(25, 25, 25, 0.8);
     width: 100%;
     padding: 0.625rem 1.5rem 3.125rem 1.5rem; 
-    margin-top: 0rem;  
-    margin-left: 0rem; 
+    margin-top: 0;  
+    margin-left: 0; 
     }
-
 }
 
 

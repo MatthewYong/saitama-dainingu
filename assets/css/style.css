@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/*----------------------------------General*/
+/*General*/
 html {
   scroll-behavior: smooth;
 }
@@ -11,13 +11,17 @@ body{
     background-color: #2A2A2A;
 }
 
+/*Standard text font size*/
+.small-font{
+    font-size: 1rem;
+}
 
-/*----------------------------------Navigation menu*/
+/*Navigation menu*/
 #main-menu-box{
-    padding-top: 0rem;
-    padding-bottom: 0rem;
+    padding-top: 0;
+    padding-bottom: 0;
     position: sticky;
-    top: 0rem;
+    top: 0;
     height: 4rem;
     width: 100%;
     z-index: 9;
@@ -28,7 +32,7 @@ body{
     font-family: 'Kaushan Script', cursive, sans-serif;
     font-size: 2.25rem;
     position: absolute;
-    top: 0rem;
+    top: 0;
     padding-right: 0.3125rem;
 }
 
@@ -61,7 +65,7 @@ body{
     border-bottom: solid 0.125rem #fde3a7;
 }
 
-/*----------------------------------Contact form*/
+/*Contact form*/
 #message{
     height: 6.25rem;
     text-align: left;   
@@ -98,7 +102,6 @@ body{
 
 .contact-info{
     color: #fde3a7;
-    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
@@ -116,7 +119,6 @@ body{
 .text-input{
     color: #f5b745;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 1rem;
     background-color: rgba(25, 25, 25, 0.5);
     height: 1.75rem;
     width: 100%;
@@ -137,7 +139,6 @@ body{
     color: #fde3a7;
     background-color: #2a2a2a;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 1rem;
     border-radius: 0.25rem;
     border-color: #bd8d32;
     margin-top: 0.625rem;    
@@ -152,7 +153,6 @@ body{
     color: #fde3a7;
     background-color: rgba(25, 25, 25, 0.8); 
     border-radius: 0.3125rem;
-    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
     padding-top: 3.75rem;
@@ -163,7 +163,6 @@ body{
 
 .dinner-info a{ 
     color: #fde3a7;    
-    font-size: 1rem;
     font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
@@ -176,7 +175,7 @@ padding-bottom: 3.125rem;
 padding-bottom: 0.625rem;
 }
 
-/*----------------------------------Map*/
+/*Map*/
 .map-size{
     width: 100%;
     height: 25rem;
@@ -184,11 +183,10 @@ padding-bottom: 0.625rem;
     border-color: #bd8d32;
 }
 
-/*----------------------------------Footer*/
+/*Footer*/
 footer{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 1rem;
     color: #fde3a7;
     background-color: #191919;
     padding-top: 0.75rem;
@@ -207,16 +205,16 @@ footer a{
 }
 
 
-/*----------------------------------Media screen min-width 992px*/
+/*Media screen min-width 992px*/
 
 @media only screen and (min-width: 992px){
-/*----------------------------------Media screen contact-form*/
+/*Media screen contact-form*/
 .contact-info{  
     padding-top: 3.125rem;
     padding-right: 2%;
     }
 
-/*----------------------------------Map*/
+/*Map*/
 #map-padding{
     padding-top: 3.125rem;
     padding-left: 2%;
@@ -224,16 +222,16 @@ footer a{
 }
 
 
-/*----------------------------------Media screen max-width 992px*/
+/*Media screen max-width 992px*/
 
 @media only screen and (max-width: 991px){
-/*----------------------------------Media screen navbar-section*/
+/*Media screen navbar-section*/
 #main-menu{
     background-color: rgba(25, 25, 25, 0.8);
     position: absolute;
     width: 100%;
     top: 4rem;
-    left: 0rem;    
+    left: 0;    
     }
 
 #main-menu li{
@@ -244,32 +242,32 @@ button:focus{
     outline-color: #f5b745;
     }
 
-/*----------------------------------Media screen footer-section*/
+/*Media screen footer-section*/
 .copyright{   
     text-align: center;
     }
     
 .social-media{
-    padding: 0rem;
+    padding: 0;
     text-align: center;
     }
 
-/*----------------------------------Media screen contact-form*/
+/*Media screen contact-form*/
 .contact-info{  
-    padding: 3.125rem 5% 0rem 5%;
+    padding: 3.125rem 5% 0 5%;
     }
     
-/*----------------------------------Map*/
+/*Map*/
 #map-padding{
-    padding: 3.125rem 5% 0rem 5%;
+    padding: 3.125rem 5% 0 5%;
     }
 }
 
 
-/*----------------------------------Media screen max-width 376px*/
+/*Media screen max-width 376px*/
 
 @media only screen and (max-width: 376px){
-/*----------------------------------Media screen navbar-section*/
+/*Media screen navbar-section*/
 #logo{    
     font-size: 1.75rem;
     }
