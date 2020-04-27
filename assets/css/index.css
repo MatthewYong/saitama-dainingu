@@ -39,45 +39,45 @@
 
 .restaurant-info{
     font-family: 'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;    
+    font-size: 1.25rem;    
     color: #fde3a7;
 }
 
 .restaurant-info h2{
     text-transform: uppercase;
-    border-bottom: 3px solid;
+    border-bottom: 0.1875rem solid;
     display: inline-block;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+    padding-bottom: 0.625rem;
+    margin-bottom: 1.25rem;
 }
 
 .restaurant-info-image{       
-    margin-top: 0px;
-    margin-bottom: 100px;
-    padding: 50px;    
+    margin-top: 0rem;
+    margin-bottom: 6.25rem;
+    padding: 3.125rem;    
     position: relative;   
 }
 
 .restaurant-info-image img{
     border-radius: 50%;
-    box-shadow: 5px 5px 10px rgb(184, 184, 184);
+    box-shadow: 0.3125rem 0.3125rem 0.625rem rgb(184, 184, 184);
     height: 100%;
     width: 100%;
 }
 
 .restaurant-menu-button{
-    margin-top: 50px;
+    margin-top: 3.125rem;
 }
 
 .restaurant-menu-button a{
     color: #fde3a7;
     background-color: #202020;
-    border-radius: 4px;
-    border: solid 2px #bd8d32;
+    border-radius: 0.25rem;
+    border: solid 0.125rem #bd8d32;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 16px;    
+    font-size: 1rem;    
     text-transform: uppercase;   
-    padding:5px 20px 5px 20px;    
+    padding:0.3125rem 1.25rem 0.3125rem 1.25rem;    
 }
 
 .restaurant-menu-button a:hover{
@@ -93,25 +93,25 @@
 /*----------------------------------Media screen hero-section*/
 .hero-slogan{
     text-transform: uppercase;
-    padding: 50px 0px 25px 0px;
-    border-bottom: 5px solid;
+    padding: 3.125rem 0rem 1.625rem 0rem;
+    border-bottom: 0.3125rem solid;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 36px;
+    font-size: 2.25rem;
     color: #fde3a7;
-    margin-bottom: 50px;    
+    margin-bottom: 3.125rem;    
     }
 
 .hero-cover{
-    width: 750px;    
-    height: 300px;    
-    padding: 25px 25px 25px 25px;
+    width: 46rem;    
+    height: 18rem;    
+    padding: 1.5rem;
     margin: auto;
     margin-top: 35vh;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;    
     color: #fde3a7;    
     }
@@ -119,10 +119,10 @@
 .reservation-button a{   
     color: #fde3a7; 
     background-color: #202020;    
-    border: solid 2px #bd8d32;
-    border-radius: 4px;
-    font-size: 16px;    
-    padding:10px 25px 10px 25px;
+    border: solid 0.125rem #bd8d32;
+    border-radius: 0.25rem;
+    font-size: 1rem;    
+    padding:0.625rem 1.5rem 0.625rem 1.5rem;
     }
 
 .reservation-button a:hover{   
@@ -133,17 +133,17 @@
 
 /*----------------------------------Media screen restaurant-info-section*/
  #bg-info{
-     padding-top: 100px;
+     padding-top: 6.25rem;
      }   
 
 .restaurant-info{
     background: linear-gradient(to left, rgb(255, 255, 255, 0.2)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0.2) 100%); 
-    width: 900px;
-    padding: 50px 25px 50px 25px;
+    width: 56.25rem;
+    padding: 3.125rem 1.5rem 3.125rem 1.5rem;
     text-align: center;
     margin:auto;     
-    margin-bottom: 50px;
-    border-radius: 5px;
+    margin-bottom: 3.125rem;
+    border-radius: 0.3125rem;
     }      
 }
 
@@ -154,15 +154,15 @@
 /*----------------------------------Media screen hero-section*/
  .hero-slogan{
     text-transform: uppercase;
-    padding: 25px 0px 10px 0px;
-    border-bottom: 3px solid;
+    padding: 1.5rem 0rem 0.625rem 0rem;
+    border-bottom: 0.1875rem solid;
     font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #fde3a7;    
     }
 
  .hero-cover{       
-    padding: 40px 10px 50px 10px;
+    padding: 2.5rem 0.625rem 3.125rem 0.625rem;
     margin: auto;
     margin-top: 30vh;
     width: 80%;   
@@ -177,10 +177,10 @@
 .reservation-button a{   
     color: #fde3a7; 
     background-color: #202020;
-    border: solid 2px #bd8d32;
-    border-radius: 4px;   
-    font-size: 12px;    
-    padding:5px 10px 5px 10px;
+    border: solid 0.125rem #bd8d32;
+    border-radius: 0.25rem;   
+    font-size: 0.75rem;    
+    padding:0.3125rem 0.625rem 0.3125rem 0.625rem;
     }
 
 .reservation-button a:hover{   
@@ -191,7 +191,7 @@
 
 /*----------------------------------Media screen restaurant-info-section*/
 .restaurant-info{
-    padding: 75px 15px 50px 15px;
+    padding: 4.75rem 1rem 3.125rem 1rem;
     margin: auto;
     text-align: center;
     background-color: rgba(25, 25, 25, 0.9);
