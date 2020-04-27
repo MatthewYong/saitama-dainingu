@@ -20,7 +20,7 @@
 
 .owner-info h1{
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
  }
 
 
@@ -29,10 +29,10 @@
 @media only screen and (min-width: 992px){
 /*about.html------------------------Media screen Owner information*/
 .owner-info{
-    font-size: 20px;
+    font-size: 1.25rem;
     background: linear-gradient(to left, rgb(255, 255, 255, 0)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0) 100%); 
-    margin-right: 100px;
-    padding: 25px 50px 25px 50px;
+    margin-right: 6.25rem;
+    padding: 1.5rem 3.125rem 1.5rem 3.125rem;
     margin-top: 15vh;
     margin-left: 45%;                 
     }
@@ -46,8 +46,8 @@
 .owner-info{
     font-size: 16px;
     background: linear-gradient(to left, rgb(255, 255, 255, 0)0%, rgba(25, 25, 25, 0.8) 5%, rgba(25, 25, 25, 0.8) 95%, rgb(255, 255, 255, 0) 100%); 
-    padding: 25px 50px 25px 50px;
-    margin-top: 100px;
+    padding: 1.5rem 3.125rem 1.5rem 3.125rem;
+    margin-top: 6.25rem;
     margin-left: 5vh;
     margin-right: 5vh;       
     }
@@ -59,12 +59,12 @@
 @media only screen and (max-width: 576px){
 /*about.html------------------------Media screen Owner information*/
 .owner-info{  
-    font-size: 16px;
+    font-size: 1rem;
     background-color: rgba(25, 25, 25, 0.8);
     width: 100%;
-    padding: 10px 25px 50px 25px; 
-    margin-top: 0;  
-    margin-left: 0px; 
+    padding: 0.625rem 1.5rem 3.125rem 1.5rem; 
+    margin-top: 0rem;  
+    margin-left: 0rem; 
     }
 
 }
