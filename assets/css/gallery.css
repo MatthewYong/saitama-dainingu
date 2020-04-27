@@ -4,8 +4,8 @@
 .gallery-images img{
     width: 100%;
     height: auto;
-    margin-bottom: 0px;
-    border: solid 1px #191919;
+    margin-bottom: 0rem;
+    border: solid 0.0625rem #191919;
 }
 
 
@@ -15,13 +15,13 @@
 /*----------------------------------Media screen gallery code used/learned from Code Institute Project Love Running*/
 .gallery-images{
     column-count: 4;
-    column-gap: 0px;
-    padding: 150px 100px 150px 100px;
+    column-gap: 0rem;
+    padding: 9.375rem 6.25rem 9.375rem 6.25rem;
     }
 
 .gallery-images img:hover{
     opacity: 0.8;
-    border: solid 2px #f5b745;
+    border: solid 0.125rem #f5b745;
     }
 }
 
@@ -32,8 +32,8 @@
 /*----------------------------------Media screen gallery*/
 .gallery-images{
     column-count: 3;
-    column-gap: 0px;
-    padding: 75px 25px 75px 25px;
+    column-gap: 0rem;
+    padding: 4.75rem 1.5rem 4.75rem 1.5rem;
     }   
 }
 
@@ -44,8 +44,8 @@
 /*----------------------------------Media screen gallery*/
 .gallery-images{
     column-count: 1;
-    column-gap: 0px;
-    padding: 50px 10px 50px 10px;
+    column-gap: 0rem;
+    padding: 3.125rem 0.625rem 3.125rem 0.625rem;
     }
 }
 
