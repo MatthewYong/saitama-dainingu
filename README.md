@@ -141,7 +141,7 @@ Wireframe
 
 Testing
 - [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools) is used to test the responsiveness of the website and to debug any problems
-- [Unicorn revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is used to determine any overflow on the website
+- [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB) is used to determine any overflow on the website
 - [Validator.w3.org](https://validator.w3.org/) is used to validate the HTML code
 - [Jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/validator.html.en) is used to validate the CSS code
 
@@ -206,9 +206,16 @@ The following test scenarios have been carried out:
     3. Verify that every link open a new page and redirect the page to the regarded link
     4. Verify that step 2 and 3 will work on the about and the gallery page
 
+- Overflow
+    1. Go to the Chrome webstore and find [Unicorn Revealer](https://chrome.google.com/webstore/detail/unicorn-revealer/lmlkphhdlngaicolpmaakfmhplagoaln?hl=en-GB)
+    2. Install and add the extension
+    3. Go to the landing page
+    4. Right-click and add 'Unicorn Sparkles' to reveal the overflow
+    5. All content will be placed in a pink border, that represents the element, and the website will have a black background. Verify that none of the content is overlapping the pink border
+    6. Verify that steps 3-5 will work on the about and the gallery page
 
 ### Browser and Mobile Devices
-All of the test scenarios have been carried out in the browsers and mobile devices listed below. No problems were found in regard to the responsiveness and the functionality.
+All of the test scenarios have been carried out in the browsers and mobile devices as listed below. No problems were found in regard to the responsiveness, overflow and the functionality.
 
 #### Browser Testing
 - Google Chrome - version 81.0.4044.122 (64-bit)
