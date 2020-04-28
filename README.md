@@ -1,11 +1,11 @@
 # Saitama Dainingu | A Private Dining Experience
-Code Institute Milestone Project 1 - Static Front End Website
+Milestone Project 1 - Code Institute 
 
 This project is a website that contains three pages: a Landing, About and Gallery page. The purpose of this website is to attract and inform new customers by a simple, but strong, visual design. The website contains functional information, such as a contact form and a downloadable menu, as well as an image gallery and a background story to balance the purpose of the website.
 
 ![alt text][logo]
 
-[logo]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-landingpage-device.png
+[logo]: https://raw.githubusercontent.com/MatthewYong/saitama-dainingu/master/readme/images/image-landingpage-device.png
 
 ## Table of Contents
 - [UX](#ux)
@@ -63,21 +63,21 @@ The structure plane defines the information architecture and interaction design 
 
 ![alt text][hierarchy]
 
-[hierarchy]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-structure-plane-hierarchy.png
+[hierarchy]: https://raw.githubusercontent.com/MatthewYong/saitama-dainingu/master/readme/images/image-structure-plane-hierarchy.png
 
 
 ### Skeleton Plane
 The skeleton plane defines a basic visual design of the website through, for example, a wireframe. The wireframes for this project are made with Balsamiq can be downloaded from the following link:
 
-- [Wireframe - Desktop version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
-- [Wireframe - Tablet version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Tablet%20Version.pdf)
-- [Wireframe - Mobile version](https://github.com/MatthewYong/milestone-project-1/raw/master/readme/wireframes/Wireframe%20-%20Mobile%20Version.pdf)
+- [Wireframe - Desktop version](https://github.com/MatthewYong/saitama-dainingu/raw/master/readme/wireframes/Wireframe%20-%20Desktop%20Version.pdf)
+- [Wireframe - Tablet version](https://github.com/MatthewYong/saitama-dainingu/raw/master/readme/wireframes/Wireframe%20-%20Tablet%20Version.pdf)
+- [Wireframe - Mobile version](https://github.com/MatthewYong/saitama-dainingu/raw/master/readme/wireframes/Wireframe%20-%20Mobile%20Version.pdf)
 
 Below you can find an example of a wireframe of the landing page
 
 ![alt text][wireframe]
 
-[wireframe]: https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-example-wireframe.png
+[wireframe]: https://raw.githubusercontent.com/MatthewYong/saitama-dainingu/master/readme/images/image-example-wireframe.png
 
 
 ### Surface Plane
@@ -257,11 +257,11 @@ To publish the website, the following steps needs to be taken:
 2. Go to **'Settings'**
 3. Scroll down until you see **'GitHub Pages'**
 4. Under GitHub pages, click on the dropdown under **'Source'** and select the **'Master Branch'** option
-5. A green box should appear with the following message **'Your site is published at.../'**
+5. A green box should appear with the following message **'Your site is published at https://matthewyong.github.io/saitama-dainingu/'**
 
 ![alt text][deploy]
 
-[deploy]:https://raw.githubusercontent.com/MatthewYong/milestone-project-1/master/readme/images/image-github-deployment.JPG
+[deploy]:https://raw.githubusercontent.com/MatthewYong/saitama-dainingu/master/readme/images/image-github-deployment.JPG
 
 For more information on how to deploy a website on GitHub, please visit [here](https://help.github.com/en/github/working-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
