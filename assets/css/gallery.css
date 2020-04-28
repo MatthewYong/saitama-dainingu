@@ -10,7 +10,6 @@
 
 
 /*Media screen min-width 992px*/
-
 @media only screen and (min-width: 992px){
 /*Gallery code used/learned from Code Institute Project Love Running*/
 .gallery-images{
@@ -40,7 +39,6 @@
 @media only screen and (max-width: 576px){
 .gallery-images{
     column-count: 1;
-    column-gap: 0;
     padding: 3.125rem 0.625rem 3.125rem 0.625rem;
     }
 }

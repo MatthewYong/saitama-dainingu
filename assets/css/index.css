@@ -4,26 +4,17 @@
 /*Heading*/
 .image-hero1{
     background: url("../images/index/image-hero-1.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
 }
 
 .image-hero2{
     background: url("../images/index/image-hero-2.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
 }
 
 .image-hero3{
     background: url("../images/index/image-hero-3.jpg");
+}
+
+.image-hero{
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -38,13 +29,10 @@
 }
 
 .restaurant-info{
-    font-family: 'Noto Serif JP', serif, sans-serif;
     font-size: 1.25rem;    
-    color: #fde3a7;
 }
 
 .restaurant-info h2{
-    text-transform: uppercase;
     border-bottom: 0.1875rem solid;
     display: inline-block;
     padding-bottom: 0.625rem;
@@ -69,12 +57,9 @@
     margin-top: 3.125rem;
 }
 
-.restaurant-menu-button a{
-    color: #fde3a7;
-    background-color: #202020;
+.restaurant-menu-button a{    
     border-radius: 0.25rem;
     border: solid 0.125rem #bd8d32;
-    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 1rem;    
     text-transform: uppercase;   
     padding:0.3125rem 1.25rem 0.3125rem 1.25rem;    
@@ -95,9 +80,7 @@
     text-transform: uppercase;
     padding: 3.125rem 0 1.625rem 0;
     border-bottom: 0.3125rem solid;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 2.25rem;
-    color: #fde3a7;
+    font-size: 2.25rem;    
     margin-bottom: 3.125rem;    
     }
 
@@ -110,15 +93,12 @@
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
-    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 1.25rem;
-    text-transform: uppercase;    
-    color: #fde3a7;    
+    text-transform: uppercase;         
     }
 
-.reservation-button a{   
-    color: #fde3a7; 
-    background-color: #202020;    
+.reservation-button a{    
+     
     border: solid 0.125rem #bd8d32;
     border-radius: 0.25rem;
     font-size: 1rem;    
@@ -156,9 +136,7 @@
     text-transform: uppercase;
     padding: 1.5rem 0 0.625rem 0;
     border-bottom: 0.1875rem solid;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    font-size: 1.5rem;
-    color: #fde3a7;    
+    font-size: 1.5rem;   
     }
 
  .hero-cover{       
@@ -169,14 +147,10 @@
     text-align: center;
     background-color: rgba(25, 25, 25, 0.5);
     position: relative;
-    font-family:'Noto Serif JP', serif, sans-serif;
-    text-transform: uppercase;    
-    color: #fde3a7;   
+    text-transform: uppercase;      
     }
 
 .reservation-button a{   
-    color: #fde3a7; 
-    background-color: #202020;
     border: solid 0.125rem #bd8d32;
     border-radius: 0.25rem;   
     font-size: 0.75rem;    

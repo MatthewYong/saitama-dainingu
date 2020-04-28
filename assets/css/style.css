@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
-/*General*/
+/*General text font size, color, heading etc. to prevent repeating*/
 html {
   scroll-behavior: smooth;
 }
@@ -11,10 +11,26 @@ body{
     background-color: #2A2A2A;
 }
 
-/*Standard text font size*/
+.font-general{
+    font-family: 'Noto Serif JP', serif, sans-serif;
+}
+
 .small-font{
     font-size: 1rem;
 }
+
+.text-color{
+    color: #fde3a7;
+}
+
+h1, h2{
+    text-transform: uppercase;
+}
+
+.button-bg-color{
+    background-color: #202020;
+}
+
 
 /*Navigation menu*/
 #main-menu-box{
@@ -85,8 +101,7 @@ body{
     width: 100%;
 }
 
-.contact-heading{
-    color: #fde3a7;
+.contact-heading{    
     font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 1.25rem;
     padding-top: 3.125rem;
@@ -100,8 +115,7 @@ body{
     padding: 3.125rem 0 0.625rem 0; 
  }
 
-.contact-info{
-    color: #fde3a7;
+.contact-info{    
     font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
@@ -136,8 +150,6 @@ body{
 .send-button{
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
-    color: #fde3a7;
-    background-color: #2a2a2a;
     font-family:'Noto Serif JP', serif, sans-serif;
     border-radius: 0.25rem;
     border-color: #bd8d32;
@@ -150,7 +162,6 @@ body{
 }
 
 .dinner-info{    
-    color: #fde3a7;
     background-color: rgba(25, 25, 25, 0.8); 
     border-radius: 0.3125rem;
     font-family:'Noto Serif JP', serif, sans-serif;
@@ -161,8 +172,7 @@ body{
     padding-left: 0.3125rem;
 }
 
-.dinner-info a{ 
-    color: #fde3a7;    
+.dinner-info a{     
     font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
@@ -187,13 +197,8 @@ padding-bottom: 0.625rem;
 footer{
     text-transform: uppercase;
     font-family:'Noto Serif JP', serif, sans-serif;
-    color: #fde3a7;
     background-color: #191919;
     padding-top: 0.75rem;
-}
-    
-footer a{
-    color: #fde3a7;
 }
 
 .social-media{
