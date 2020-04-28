@@ -102,7 +102,6 @@ h1, h2{
 }
 
 .contact-heading{    
-    font-family:'Noto Serif JP', serif, sans-serif;
     font-size: 1.25rem;
     padding-top: 3.125rem;
     text-align: center;
@@ -116,7 +115,6 @@ h1, h2{
  }
 
 .contact-info{    
-    font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
 
@@ -132,7 +130,6 @@ h1, h2{
 
 .text-input{
     color: #f5b745;
-    font-family:'Noto Serif JP', serif, sans-serif;
     background-color: rgba(25, 25, 25, 0.5);
     height: 1.75rem;
     width: 100%;
@@ -150,7 +147,6 @@ h1, h2{
 .send-button{
     text-transform: uppercase;
     letter-spacing: 0.0625rem;
-    font-family:'Noto Serif JP', serif, sans-serif;
     border-radius: 0.25rem;
     border-color: #bd8d32;
     margin-top: 0.625rem;    
@@ -164,7 +160,6 @@ h1, h2{
 .dinner-info{    
     background-color: rgba(25, 25, 25, 0.8); 
     border-radius: 0.3125rem;
-    font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
     padding-top: 3.75rem;
     margin-top: 3.125rem;
@@ -173,7 +168,6 @@ h1, h2{
 }
 
 .dinner-info a{     
-    font-family:'Noto Serif JP', serif, sans-serif;
     letter-spacing: 0.125rem; 
 }
 
@@ -196,7 +190,6 @@ padding-bottom: 0.625rem;
 /*Footer*/
 footer{
     text-transform: uppercase;
-    font-family:'Noto Serif JP', serif, sans-serif;
     background-color: #191919;
     padding-top: 0.75rem;
 }
@@ -276,7 +269,6 @@ button:focus{
     text-align: center;
     }
 }
-
 
 
 /*Media screen max-width 376px*/
