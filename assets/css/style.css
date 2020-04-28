@@ -19,7 +19,7 @@ body{
     font-size: 1rem;
 }
 
-.text-color{
+.text-color, .text-color a{
     color: #fde3a7;
 }
 
@@ -153,7 +153,7 @@ h1, h2{
 }
 
 .send-button:hover{
-    color: #bd8d32;
+    color: #f5b745;
     background-color: #191919;    
 }
 
