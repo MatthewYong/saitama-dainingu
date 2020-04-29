@@ -290,7 +290,7 @@ The following codes were inspired or taken from:
 - [Bootstrap Navbar](https://getbootstrap.com/docs/4.0/components/navbar/): Used in the navigation menu on all pages from the website 
 - [Bootstrap Grid](https://getbootstrap.com/docs/4.0/layout/grid/): Used in the contact section on all pages of the website
 - [Google Maps and Markers](https://developers.google.com/maps/documentation/javascript/examples/map-simple): Used in the contact section on all pages of the website
-- [Code Institute- Project Love Running](https://courses.codeinstitute.net/): Used in gallery.css code line 16 for creating a photo gallery
+- [Code Institute - Project Love Running](https://courses.codeinstitute.net/): Used in gallery.css code line 16 for creating a photo gallery
 
 Code used in the previous versions of the website:
 - [Stack Overflow](https://stackoverflow.com/questions/44690752/zoom-background-image-only): Used for zooming in on background image in index.html
